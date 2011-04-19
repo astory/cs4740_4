@@ -1,0 +1,4133 @@
+Qid: 224	Rank: 1	Score: 15.386568
+<DOC>
+<DOCNO> FBIS4-47304 </DOCNO>
+<HT>    "jpust012___94058" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-012 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   8 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Simulation of High-Energy Physical Processes With Aid of </TI></H3>
+<HT><F P=107><PHRASE>    Simulation of High-Energy Physical Processes With Aid of </PHRASE></F></HT>
+
+
+<TEXT>
+Multitarget   Laser Sets 
+
+<F P=102> 947J0029C St.Peterburg OPTICHESKIY ZHURNAL in Russian No. 1, 
+Jan 94 (manuscript received 17 Sep 93) pp 84-94 </F>
+
+<F P=103> 947J0029C </F>
+<F P=104>  St.Peterburg OPTICHESKIY ZHURNAL </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by Yu.A. Rezunkov, candidate of technical sciences, </F>
+department head, V.S. Sirazetdinov, candidate of technical 
+sciences, manager of test stand for adaptive laser systems, A.V. 
+Charukhchev, candidate of technical sciences, chief of power 
+lasers laboratory, D.L. Starikov, doctor of physical and 
+mathematical sciences, director, Scientific Research Institute 
+of Comprehensive Optoelectronic Devices and Systems Testing, 
+All-Russian Science Center at State Institute of Optics imeni 
+S.I. Vavilov; UDC 621.373.826.038] 
+  [Abstract] Power lasers with widely variable 
+characteristics have been built to serve as high-energy 
+hyperdirectional radiation sources, as sources of luminous 
+energy to be transmitted over long distances with minimum loss 
+and to be received with subdiffractional precision. One of the 
+largest research stands built at the Institute of Optics during 
+the past 15 years is the 6-channel ``Progress,'' intended for 
+the study of intense radiation and spherical target interaction 
+relating to laser-induced thermonuclear fusion. It includes a 
+Nd-glass master laser emitting pulses of up to 1.5 kJ energy and 
+about 1 ns duration or a power of 3.5 TW in pulses of 0.1 ns 
+duration. It also includes a chirp-pulse generator with a 
+regenerative amplifier and a shaping-pulse generator, both 
+feeding a common preamplifier with two inputs and three outputs. 
+Pulses from one output pass through a compressor to the target 
+inside a spherical chamber. Pulses from the other two outputs 
+pass through a separator to a module which contains: a series of 
+bar and disk amplifiers with successively larger (30 mm to 110 
+mm) apertures with vacuum-type spatial filters separating the 
+amplifiers and preventing self-action, electrooptical 
+deflectors, electrooptical (Pockels) shutters and magnetooptical 
+(Faraday) shutters decoupling the laser from targets, and 
+harmonic filters. From here pulses proceed along six channels to 
+six targets. Some pulses are deflected through an amplifier with 
+a 140 mm aperture to two detectors with 150 mm and 250 mm 
+apertures respectively. Some pulses are diverted to another 
+compressor. This stand was used in experiments with pulse 
+compression during stimulated Mandelshtam-Brillouin scattering. 
+For generating and amplifying ultrashort chirp pulses of only 1 
+mJ energy and 0.2-1.0 ns within a 2-4 nm spectral, a very 
+inefficient Nd-glass laser is replaced with a mode-locked 
+YAG:Nd[.sup]+3[/] laser emitting continuous sequences of 
+pulses of 50 ps duration at a repetition rate of 100 MHz within 
+a 0.2 nm wide spectral band. Chirp pulses of 0.15-0.6 ns 
+duration are formed in single-mode fiber optics, where phase 
+modulation and group velocity dispersion broaden the spectrum 
+and elongate a pulse. Additional elongation of a pulse takes 
+place in a lattice-type stretcher. Extraction of a pulse is 
+effected by the electrooptical shutters, which are controlled by 
+photoelectric switches. The regenerative amplifier then puts out 
+a pulse of about 1 mJ energy, sufficient for transmission to the 
+main amplifier channel with a 110 mm exit aperture. A second 
+large research stand is the ``LAS'', which includes an Nd-glass 
+laser with phase conjugation and a 110 mm output aperture. It 
+emits pulses of up to 500 J and 25 ns duration in a beam with a 
+divergence angle of 5 ærad so that the axial radiation 
+intensity reaches 80 aW/cm[.sup]2[/]. A third large research 
+stand is the ``Chibis'', which includes a CO[.sub]2[/]-laser 
+operation in the pulse-repetition mode. Experiments with this 
+apparatus have demonstrated the feasibility of a 
+focusing-deflecting system which uses large compound mirrors and 
+of compensating its aberrations by means of phase conjugation. 
+Figures 6; references 30. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 2	Score: 13.261741
+<DOC>
+<DOCNO> FBIS4-23057 </DOCNO>
+<HT>    "jpust009___94021" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-009 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   18 April 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Problem of Radiation Pulsations in Solid State Lasers </TI></H3>
+<HT><F P=107><PHRASE>    Problem of Radiation Pulsations in Solid State Lasers </PHRASE></F></HT>
+
+<F P=102>   947J0018 St. Petersburg ZHURNAL TEKHNICHESKOY FIZIKI in 
+Russian Vol. 63 No. 8, Aug 93 (manuscript received 23 Jun 92) pp </F>
+
+
+
+<TEXT>
+89-98 
+<F P=103> 947J0018 </F>
+<F P=104>  St. Petersburg ZHURNAL TEKHNICHESKOY FIZIKI </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V. V. Antsiferov, Vekua Physicotechnical </F>
+Institute] 
+  [Abstract] Experimental results are presented from studies 
+of spectral and temporal characteristics of chromium and 
+neodymium ion laser radiation in various media. The author 
+obtained the results in a number of experiments using one 
+experimental setup and identical conditions. This was done to 
+eliminate the effect of technical perturbations of the 
+resonator. The qualitative difference in the behavior of the 
+free generation of chromium and neodymium ions suggests a 
+physical mechanism which causes nonattenuating radiation 
+pulsations in lasers using ions with an external working shell 
+linked with the spallation of the working levels of the ions in 
+their own radiation field. It is unambiguously found that 
+chromium ion lasers, in contrast to neodymium ion lasers, have a 
+distinct physical mechanism which causes nonattenuating 
+pulsation of radiation intensity. Any mechanism associated with 
+spatial interaction of modes in the active medium is ruled out. 
+The difference in the lasers is ascribed to the great difference 
+in the structure of the ions' working levels. The electric field 
+of the laser radiation which arises in the active medium will 
+affect only chromium ions, leading to further spallation of the 
+working levels due to the dynamic Stark effect. When the field 
+in the active medium is spatially inhomogeneous, a standing wave 
+is formed whose spatial structure is altered during generation. 
+The Stark effect leads to modulation of intensity over time and 
+nonattenuating pulsations in intensity. When the spatial 
+inhomogeneity of the field in the active medium is smoothed, 
+this intensity modulation disappears. This conclusion was 
+verified experimentally using titanium lasers. It may also be 
+concluded that free generation of all rare earth ions in various 
+media should occur in quasi-stationary mode without the need to 
+smooth the spatial inhomogeneity of the field in the active 
+medium. Figures 6; references 44, 33 Russian, 11 Western. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 3	Score: 11.804079
+<DOC>
+<DOCNO> AP890121-0161 </DOCNO>
+<FILEID>AP-NR-01-21-89 0607EST</FILEID>
+<FIRST>a f BC-Lasers Adv21-22 1stLd-Writethru 01-21 1050</FIRST>
+<SECOND>BC-Lasers, Adv 21-22, 1st Ld-Writethru,1080</SECOND>
+<HEAD>$adv 21</HEAD>
+<HEAD>$adv 22</HEAD>
+<HEAD>For release weekend editions Jan. 21-22.</HEAD>
+<HEAD>Laser, Superman of Light, Poised For Quantum Leap</HEAD>
+<HEAD>Eds: SUBS grafs 22-23, Spectra Diode ... urinary-tract stones., to
+lower wattage of laser, 55 sted 76, based on revision by company; CORRECT
+name of company; change optical to ophthalmic; picks up 24th graf, Lasers
+are ....</HEAD>
+<HEAD>LaserGraphic NY16 of Jan. 19.</HEAD>
+<BYLINE>By PETER COY</BYLINE>
+<BYLINE>AP Business Writer</BYLINE>
+<DATELINE>NEW YORK (AP) </DATELINE>
+<TEXT>
+   They find things in the dark. They check
+groceries, play concertos and perform eye surgery. They are faster
+than a speeding bullet and could do serious damage to a locomotive.
+   Lasers have been the Superman of the electromagnetic spectrum
+ever since 1960, when 33-year-old Theodore H. Maiman of Hughes
+Aircraft Co. built the first one from a pink ruby.
+   As they near their 30th anniversary, though, lasers have switched
+from comic-book novelties to necessities that preoccupy the
+technology giants of the United States, Europe and Japan.
+   Lasers are not only in compact disc players and bar-code scanners
+at checkout counters, they are in the phone system, carrying
+long-distance calls over hair-thin glass fibers.
+   Now, lasers are poised to take a quantum leap. Tiny devices
+called quantum lasers herald an era in which lasers will be more
+central to the technology underlying daily life.
+   Experts say quantum lasers and their cousins, quantum
+transistors, could make possible supercomputers the size of
+baseballs, and television screens of unparalleled clarity that hang
+on the wall like a painting.
+   ``Quantum devices are the wave of the future. Almost all of the
+research that goes on involves quantum effects in some way or
+another,'' said David V. Lang, director of the solid state
+electronics research lab at AT&amp;T Bell Labs.
+   Lasers are what some scientists call a ``killer'' technology:
+Compact discs are killing vinyl records, for example, and nobody
+uses copper anymore for long-distance phone lines.
+   To repeat a familiar story, the Japanese are putting the
+American-invented killer to use more effectively than Americans
+themselves are.
+   Japan's dominance of mass-market electronics gives its companies
+unmatched expertise in making things small, cheap and reliable. For
+example, Japanese companies dominate the market for CD players,
+which use more lasers than any other product.
+   ``It's a byproduct of the Japanese decision to invest in consumer
+electronics. They'll find an application and find the technology to
+solve it. I wish we did it here,'' said Henry Kressel, a venture
+capitalist at E.M. Warburg Pincus &amp; Co. Inc. in New York.
+   Japan's twin towers of strength in lasers and semiconductors
+could allow it to build the first computers in which chips are
+connected by quantum laser beams instead of electricity. That
+worries companies like International Business Machines Corp., which
+is intensively studying quantum well lasers and quantum well
+transistors.
+   At AT&amp;T Bell Laboratories, one of America's foremost laser
+research centers, Alan Huang is hoping to leapfrog the Japanese. But
+he admits the competition is tough: For an early model of his
+``optical computer'' he had to use a diode laser he took from a
+Japanese-made CD player.
+   A laser is a directed needle of light purified to one particular
+color, or wavelength. In contrast, ordinary light is a jumble of
+many wavelengths flying in all directions.
+   ``Laser'' stands for light amplification by stimulated emission
+of radiation. In a cascading effect, photons of light strike an
+energized material and stimulate the release of more photons in a
+synchronized pattern.
+   The most powerful lasers, big enough for someone to walk inside,
+are being used to attempt to fuse the nuclei of atoms in flashes of
+energy a million times more intense than a nuclear blast. Sustained
+nuclear fusion could be a source of clean, plentiful and cheap
+electricity.
+   At the other end of the scale are semiconductor diode lasers, no
+bigger than a grain of salt _ the kind used in compact disc players
+and the phone system. One exotic subspecies is the quantum laser.
+   Scientists build quantum lasers by ``spray-painting'' atoms in a
+layer cake of incredibly thin layers, some of which have impurities
+added.
+   The impure layers act like walls to trap electrons. Confining so
+many electrons and their receptors (``holes'') to a tiny space makes
+it easier to get a cascade of photons going, creating laser light.
+   If a laser the size of a salt crystal were blown up to the size
+of the World Trade Center in New York, a quantum well would be about
+the thickness of a rug in an office, said Michael Ettenberg,
+director of the optoelectronics research lab at the David Sarnoff
+Research Center in Princeton, N.J.
+   Quantum lasers are more precise and require less current, and
+their efficiency in converting electricity to light is unmatched.
+   Spectra Diode Laboratories of San Jose, Calif., recently produced
+55 watts of continuous wave power from a quantum laser, a record
+power output and power conversion efficiency for a semiconductor
+laser, president and chief executive Donald Scifres told The
+Associated Press this past week.
+   Ophthalmic surgeons have used lasers since 1970 to weld detached
+retinas. Later came other medical uses like excising tumors and
+eliminating cataracts. Today, lasers snaked into the body on optical
+fibers clean arteries and destroy urinary-tract stones.
+   Lasers are used to make pinholes in the nipples of baby bottles,
+study components of car exhaust and form the three-dimensional
+holograms used on credit cards _ and maybe someday dollar bills.
+   The military has ``Star Wars'' designs for free-electron lasers
+and powerful X-ray lasers, which physicist Edward Teller has
+suggested could be triggered by a nuclear blast.
+   Laser weapons would most likely be mounted in space: ``People
+tried to shoot laser beams through the sky and what they discovered
+was fog and rain,'' said William Bridges of California Institute of
+Technology.
+   Quantum well lasers fill only one niche, but an important one.
+Their speed and efficiency makes them ideal for rapid-fire
+communication, initially for long-distance calls, later for links
+between neighboring computers and eventually for the links between
+chips in computers, said Robert Melcher, a laser expert for IBM in
+Zurich, Switzerland.
+   ``I've been in the laser game for 25 years now,'' said one
+researcher, Ross A. McFarlane, of Hughes Research Laboratories in
+Malibu, Calif. ``That (quantum lasers) is where the future lies.''
+</TEXT>
+<NOTE>End adv for weekend editions Jan. 21-22.</NOTE>
+</DOC>
+
+Qid: 224	Rank: 4	Score: 11.247020
+<DOC>
+<DOCNO> WSJ890821-0062 </DOCNO>
+<DD> = 890817 </DD>
+<AN> 890821-0062. </AN>
+<HL> Centennial Journal: 100 Years in Business
+@  ---
+@  An Idea That Wasn't Off the Beam, 1958 </HL>
+<DD> 08/17/89 </DD>
+<SO> WALL STREET JOURNAL (J) </SO>
+<TEXT>
+   (During its centennial year, The Wall Street Journal will report events of the past century that stand as milestones of American business history.) 
+
+   BUCK ROGERS, THE HERO of the 1929-1967 adventure strip, had less trouble with his ray gun than did 1958 inventors of an idea for a beam device later called a laser. 
+
+   Arthur L. Schawlow of Bell Laboratories and Charles H. Townes, a Bell consultant from Columbia University, on Dec. 15, 1958, published their "optical maser" paper and also filed the patent, assigned to Bell. 
+"Maser" is for "microwave amplification by stimulated emission of radiation." 
+
+   But Gordon Gould, also of Columbia, in an over-two-decade battle claimed he recorded his similar "laser" idea in November 1957 with a candy store notary. 
+"Laser" stands for "light amplification by stimulated emission of radiation." 
+
+   Both "masers" and "lasers" are devices containing crystal, gas or other substances that get atoms so excited as they bounce back and forth in step between two mirrors that they finally burst out in one coherent beam. 
+Other light rays are merely incoherent waves. 
+
+   Gould argued that his work was classified so he couldn't make his patent filing before Bell's. 
+After the long dispute, he won his patent on Oct. 11, 1977, by which time the Bell patent had expired. 
+On March 1, 1982, a court upheld his victory, and he became rich. 
+In December 1988 he won still another laser patent. 
+
+   Neither Gould nor the Schawlow-Townes team ever made a working laser. 
+The first one, using a ruby crystal, was built by Theodore H. Maiman of Hughes Aircraft in 1960. 
+
+   Today there are millions of lasers, ranging in size from a grain of salt to a living room. 
+They are used in everything from eye operations to automated supermarket checkouts to compact disc players to phone systems and three-dimensional photos. 
+Future lasers could knock out enemy spacecraft. 
+Welcome back, Buck Rogers. 
+
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 5	Score: 10.349444
+<DOC>
+<DOCNO> FBIS4-22836 </DOCNO>
+<HT>    "jpust008___94038" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   31 March 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Scientific Conference on 30 December 1992 by Department of </TI></H3>
+<HT><F P=107><PHRASE>    Scientific Conference on 30 December 1992 by Department of </PHRASE></F></HT>
+
+
+<TEXT>
+General   Physics and Astronomy of Russian Academy of Sciences 
+
+<F P=102> 947J0011B Moscow USPEKHI FIZICHESKIKH NAUK in Russian Vol. 
+163 No. 6, Nov-Dec 93 pp 85-88 </F>
+
+<F P=103> 947J0011B </F>
+<F P=104>  Moscow USPEKHI FIZICHESKIKH NAUK </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by member of editorial staff] </F>
+  [Abstract] A scientific conference was held on 30 December 
+1992 by the Department of General Physics and Astronomy of the 
+Russian Academy of Sciences at its Institute of Problems in 
+Physics imeni P.L. Kapitsa. Three lectures on the topic of 
+femtosecond pulses and their usefulness in physics were given: 
+  1. ``Current Trends in Research on Femtosecond Pulses and 
+Possibilities of Their Use in Experimental Studies Pertaining to 
+Nonlinear Quantum Electrodynamics'' by P.G. Kryukov; 
+  2. ``Nonlinear Propagation of Femtosecond Pulses Through 
+Fiber-Optic Waveguides'' by Ye.M. Dianov, A.M. Prokhorov, and 
+V.N. Serkin; 
+  3. ``Generation of Ultrahigh-Intensity Optical Fields by 
+Powerful Femtosecond Laser Systems Including Excimer-Laser 
+Amplifiers and Experiments Relating to Emission of Ultrashort 
+X-Ray Pulses'' by V.M. Gordiyenko, N.I. Koroteyev, and V.T. 
+Platonenko. 
+  In this report is summarized the content of the third 
+lecture, which relates to development of ``desktop'' terawatt 
+lasers emitting femtosecond radiation pulses of only 0.01-1 J 
+energy. The mechanism of the process includes ``inertial 
+conservation'' of the laser-induced plasma during its expansion, 
+heat transfer deeper into the target mainly by diffusion being 
+the main factor which limits the plasma temperature. When the 
+radiation intensity exceeds the 
+10[.sup]18-[/]-10[.sup]19[/] W/cm[.sup]2[/], then light 
+pressure exceeds thermodynamic pressure while the plasma 
+temperature climbs to thousands of electron-volts and the 
+electron concentration reaches 10[.sup]23[/]-10[.sup]24[/] 
+cm[.sup]-3[/] under pressures of 10-100 Mbar. Under these 
+conditions the motion of free electrons shifts into the 
+relativistic mode, which imparts unique properties to a 
+femtosecond surface plasma so that it becomes a new object of 
+basic research. This applies particularly to the electrodynamics 
+of interaction of high-intensity radiation and a rapidly 
+expanding steep high-temperature plasma front, also to the 
+emission of x-rays by such a plasma. The laser facility built at 
+the Moscow State University under the late S.A. Akhmanov 
+includes solid-state visible lasers with a 1-10 GW power rating 
+and an molecular XeCl excimer laser with a 10-100 GW power 
+rating which emit 570-630 nm radiation and 308 nm radiation 
+respectively, in pulses of about 40 fs duration. Proper focusing 
+makes attainable a radiation intensity even higher than 
+10[.sup]16[/] W/cm[.sup]2[/] at the target surface. Owing 
+to the low optical density of a surface plasma, most of its 
+x-ray emission energy lines within the resonance lines of its 
+ions. With the aid of multilayer resonance mirrors it therefore 
+becomes possible to extract strong narrow-band x-ray pulses and 
+especially so from plasmas with hydrogen-like or helium-like 
+ions. Theoretical analysis of the x-ray emission mechanism 
+indicates that thin-film targets of about 100 nm thickness form 
+laser-induced plasmas which make effective sources of hard 
+x-rays. In this the heat is retained at the target, because the 
+dissipation mechanism is inactive here, so that a less than 
+usual intensity of the ``heating'' laser beam will be adequate. 
+References 7. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 6	Score: 10.233284
+<DOC>
+<DOCNO> FBIS4-47476 </DOCNO>
+<HT>    "jpust013___94029" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   NH-CO 9-13 æm Lidar </TI></H3>
+<HT><F P=107><PHRASE>    NH-CO 9-13 æm Lidar </PHRASE></F></HT>
+
+
+<TEXT>
+for   Sounding the Atmosphere 
+[.sub]3[/][.sub]2[/] 
+<F P=102> 947J0030F Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA in Russian Vol. 58 No. 2, Feb. 94 pp. 202-206 </F>
+
+<F P=103> 947J0030F </F>
+<F P=104>  Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by B.I. Vasilyev, Institute of Physics imeni P.N. </F>
+Lebedev at Russian Academy of Sciences, and A.B. Yastrebov, 
+Ryazan Institute of Radio Engineering; UDC 
+551.501.7:621.373.826.038.823] 
+  [Abstract] The principle of differential infrared 
+absorption with scattering is considered for sounding the 
+atmosphere and its contaminants, especially CFCl[.sub]3[/] 
+(Freon-11) CF[.sub]2[/]Cl[.sub]2[/] (Freon-12), and 
+CCl[.sub]4[/]. Inasmuch as TEA CO[.sub]2[/]-lasers are 
+inadequate for this purpose owing to the presence of transverse 
+modes and the decorrelating effect of the atmosphere along with 
+instability of the radiation intensity and poor reproducibility, 
+an ammonia-nitrogen 9-13 æm laser with resonant pumping by a 
+pulsed CO[.sub]2[/]-laser is proposed instead. The optics 
+include three diffraction gratings: G[.sub]1[/] (100 
+lines/mm, 30ë glancing angle) on the exit side of the pump 
+laser cavity, G[.sub]2[/] (75 lines/mm, 23ë glancing 
+angle) behind the first, G[.sub]3[/] (100 lines/mm, 30ë 
+glancing angle) on the exit side of the NH[.sub]3[/]-laser. 
+Pump radiation from the CO[.sub]2[/] laser impinges on the 
+first grating, whereupon radiation leaving its zeroth order 
+impinges almost normally on the second grating and then through 
+its first order enters the cell with NH[.sub]3[/]. The 
+optical cavity for this active medium is formed by a spherical 
+opaque mirror with a 10 m radius off the optical axis in front 
+and the third grating on the optical axis behind. The opaque 
+mirror is positioned so that it reflects radiation emitted by 
+the NH[.sub]3[/] laser onto the second grating, which then 
+rereflects this radiation back into the cavity along with the 
+pump radiation. Addition of nitrogen not only boosts the 
+emission efficiency (to 20 %) and the energy of emitted 
+pulses 
+(to 1.5 J) but also appreciably widens the emission spectrum (up 
+to 13.5 æm). Absence of optically weak elements inside the 
+cavity makes possible periodically-pulsed operation of the 
+NH[.sub]3[/]-N[.sub]2[/] laser. The laser is tuned by 
+rotation of that third grating. Emission of 10-1000 ns long 
+radiation pulses is achieved by passive locking of longitudinal 
+modes. For measurement duty the system is modified and includes 
+only two gratings. The first one (64 lines/mm, 31ë glancing 
+angle) tunes the pump radiation from the CO[.sub]2[/]-laser 
+to one of the two absorption lines of the sR(5,k) transition in 
+ammonia and thus, with the aid of a compound cavity formed by 
+that grating and two mirrors, splits that radiation into two 
+beams of unequal intensities. The cavity of the 
+NH[.sub]3[/]-N[.sub]2[/] laser is now formed by this 
+grating, another mirror, and the second grating (100 lines/mm, 
+37ë glancing angle). This grating tunes the radiation from 
+that laser to the absorption line of whichever contaminating 
+impurity in air is being targeted, for use as the probing 
+radiation. The system now also includes a transceiver into which 
+the first grating sends both tuned pump radiation and tuned 
+probing radiation, not together but in separate differently 
+directed beams brought together into the transceiver upon their 
+reflection by another mirror each. Figures 2; tables 1; 
+references 11. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 7	Score: 10.173229
+<DOC>
+<DOCNO> FBIS4-47477 </DOCNO>
+<HT>    "jpust013___94030" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Efficient Operating Mode of Frequency-Tunable Liquid Laser </TI></H3>
+<HT><F P=107><PHRASE>    Efficient Operating Mode of Frequency-Tunable Liquid Laser </PHRASE></F></HT>
+
+<F P=102>   947J0037 St. Peterburg ZHURNAL TEKHNICHESKOY FIZIKI in 
+Russian Vol. 64 No. 1 (manuscript received 23 Jul 92) pp. 201-205 </F>
+
+<F P=103> 947J0037 </F>
+<F P=104>  St. Peterburg ZHURNAL TEKHNICHESKOY FIZIKI </F>
+<F P=105>  Russian </F>
+
+
+<TEXT>
+CSO 
+
+<F P=106> [Article by G.A. Vesnicheva and A.Yu. Ivanov, St. Peterburg </F>
+Institute of Aviation Instrument Engineering; 07;02] 
+  [Abstract] Considering that stable radiation emission by a 
+liquid laser requires a sufficiently large number of molecules 
+in the active medium, a uniform distribution of the liquid over 
+the emission zone, and a precisely aligned high-Q dispersive 
+optical cavity, these conditions are applied to dye lasers 
+featuring the best performance characteristics of all: not only 
+wavelength-tunability over the 0.26-1.3 æm range and up to 10 
+kW power emission pulse but also compactness and cost 
+effectiveness. When dye and solvent are being thoroughly mixed 
+while being pumped by pulse trains of optical radiation, 
+however, both hydrodynamic and photothermodynamic turbulence 
+with attendant heat-induced convection of the solution will 
+inevitably develop as the dye flow rate and the pump radiation 
+intensity exceed the respective critical ones. The result will 
+be randomization of the emission process with attendant lowering 
+of both pump and laser efficiency. In search of a way to avoid 
+this drawback, the dye excitation and lasing dynamics are 
+analyzed for limitations on stable and efficient performance. As 
+the main limiting factors are regarded not only both turbulence 
+modes and thermal convection but also photodecay of dye 
+molecules upon incidence of a pumping radiation pulse, their 
+subsequent restoration, and the stroboscopic effect. As the 
+optimum construction of the active element is selected a 
+cylindrical cell with dye solution and a cylindrical mixing 
+device inside. Thus are established the conditions under which a 
+``window'' will exist in the dependence of emission irregularity 
+on the dye flow characteristics and the pump radiation 
+characteristics within which the emission process is least 
+disordered, allowing a dye flow rate sufficiently high for 
+stable replacement of dye molecules during the interval between 
+pump radiation pulses. The relations established in this 
+analysis indicate the feasibility of a laser with dye molecules 
+in different instantaneous states and thus of wavelength tuning 
+without a resonator. A rhodamine-6G laser pumped by a neodymium 
+laser with second-harmonic 10 kW radiation pulses of 10 ns 
+duration was designed and built. Tests revealed no turbulence 
+throughout the 1.2x10[.sup]-7[/]-1333 l/s range of dye flow 
+through the emission zone. References 8. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 8	Score: 9.766356
+<DOC>
+<DOCNO> FBIS4-23060 </DOCNO>
+<HT>    "jpust009___94024" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-009 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   18 April 1994 </DATE1>
+<F P=100> ELECTRONICS </F>
+<H3> <TI>   Main Results of Scientific Research Done by Institute of </TI></H3>
+<HT><F P=107><PHRASE>    Main Results of Scientific Research Done by Institute of </PHRASE></F></HT>
+
+
+<TEXT>
+Radio   Engineering and Electronics at Russian Academy of Sciences 
+in 1984-92 Period: Lasers and Optical Systems (Including Fiber 
+Optics, Methods and Devices, also Generation of Electromagnetic 
+Signals) 
+
+<F P=102> 974K0066A Moscow RADIOTEKHNIKA I ELEKTRONIKA in Russian Vol. 
+38 No. 10, Oct 93 </F>
+
+<F P=103> 974K0066A </F>
+<F P=104>  Moscow RADIOTEKHNIKA I ELEKTRONIKA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by Ye.N. Bazarov and K.I. Palatov] </F>
+  [Abstract] During the 1984-92 period the Institute of Radio 
+Engineering and Electronics at the Russian Academy of Sciences 
+intensified research in the field of quantum electronics, the 
+three main areas being: 
+1) fiber- optics technology, 
+2) laser materials and devices, 
+3) spectroscopy based on nuclear-magnetic resonance or on 
+luminescence. 
+  In the first area have been for the first time developed: 
+a) a method of extruding single-mode fibers with sheaths made of 
+fluorine-doped quartz glass for 1.3-1.55 æm infrared light 
+b) a new technology for producing anisotropic single-mode fibers 
+which maintain the polarization and the intensity of light with 
+minimal losses 
+c) a laboratory technology for producing single-mode fibers 
+which transmit 1.3 æm light with an only 0.7 dB/km maximum 
+loss 
+d) a method of welding together different fibers with an only 
+0.5 dB loss per joint. In addition to improvement of the 
+extruding apparatus, there have been developed a plasmochemical 
+variant of vertical lateral deposition for glass-forming oxides 
+with use of organometallic compounds as initial reactants, a 
+method of producing large-aperture fibers, a method of producing 
+low-loss multimode fibers. A new method of forming anisotropic 
+``bow tie'' fibers, with the aid of thermal shields, has been 
+proposed and demonstrated. A high magnetic susceptibility of 
+single-mode fibers has been attained by use of using rare-earth 
+elements as dopants. For the first time has been developed a 
+tubeless method of lateral deposition of thin fluorosilicate 
+sheaths on quartz rods in a microwave plasma. Jointly with the 
+Institute of Optical Physics and the Scientific Research 
+Institute of Electrical Systems at the Ministry of Electrical 
+Industry have been produced radiation-resistant power fibers, 
+radiation-resistant and mechanically strong single-mode and 
+multimode fibers, thick fiber strands for optical cables, and 
+large-aperture low-loss fibers doped with various rare-earth 
+elements as well as large-aperture quartz-quartz fibers for 
+transmitting up to 500 W of laser radiation power with 80% 
+efficiency. Other developments include deposition of polymer 
+sheaths, new silicon elastomers for fiber coatings which will 
+ensure at least 99% transmission, and a cryogenic 
+microcable 
+for temperatures from 80ëC down to -60ëC. Theoretical 
+studies have yielded a theory of microflexure and a new model of 
+hydrolytic fracture of quartz fibers. New apparatus with 
+fiber-optic components for measuring physical quantities and 
+methods of doing it have also been developed, the components 
+including fiber thermooptic channel switches, Fourier analyzers, 
+a random-access memory, polarizers, light modulators, two-mode 
+reflectometers, directional couplers, temperature and magnetic 
+field transducers. Work has furthermore been done on several 
+practical applications of fiber-optic technology. In the area of 
+laser materials and devices there have been developed a method 
+of hardening phosphate glass, a new Cr-Y-Er glass for 
+heat-resistant minilasers and high-efficiency low- threshold 
+quatrons, a 1.5 æm Er-minilaser suitable for a record high 7 
+Hz pulse repetition rate, borate glass activated with Yb and Er. 
+There also have for the first time been achieved parametric 
+resonance emission of ultraviolet picosecond pulses and 
+continuous high-efficiency emission by Nd ions. Other new 
+developments include powder lasers (Nd-ion implanted in powders 
+of La oxide or oxysulfide, binary Na, La, Ba, or Gd chromate- 
+molybdate, La-Sr niobate, and Ga-Yb sulfide with Nd impurity), a 
+new kind of mirrors using resonant metal screens for optically 
+pumped lasers, a highly long-time stable 
+CO[.sub]2[/]-OsO[.sub]4[/], and diffusely reflecting 
+coatings (aluminum, fused quartz, phosphate glass) for laser 
+reflectors, also a new method of hardening phosphate glass for 
+active media and a new method of welding together glasses 
+containing chromium. The feasibility of producing fibers for 
+high-efficiency transmission of infrared light has been proposed 
+on the basis of theoretical analysis and then demonstrated 
+experimentally on fibers transmitting 1.5 æm at an average 
+power of 2 W with an up to 30 % efficiency. With 
+low-energy 
+ultraviolet lasers, efficient frequency conversion by stimulated 
+Raman scattering has been achieved in a multipass vessel 
+containing methane under a pressure of 30 atm. Research was done 
+on both electron-magnetic resonance and nuclear- magnetic 
+resonance spectroscopy, studies of the latter having revealed a 
+``cascade'' narrowing of the NMR spectra owing to concurrent 
+action of a strong radio-frequency field and slow molecular 
+movements in solids. As to generators of electromagnetic 
+signals, there have been developed microminiature microwave 
+vacuum devices including solid-state oscillators such as 
+transistors, avalanche diodes, and Gunn-effect diodes. More than 
+80 scientific articles have been published during that period. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 9	Score: 9.716087
+<DOC>
+<DOCNO> FBIS4-47481 </DOCNO>
+<HT>    "jpust013___94034" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Free-Electron X-Ray Laser Operating in Quantum Mode </TI></H3>
+<HT><F P=107><PHRASE>    Free-Electron X-Ray Laser Operating in Quantum Mode </PHRASE></F></HT>
+
+<F P=102>   947J0041A Moscow ZHURNAL EKSPERIMENTALNOY I TEORETICHESKOY 
+FIZIKI in Russian Vol. 105 No. 4, Apr. 94 (manuscript received </F>
+
+
+
+<TEXT>
+24 Aug 93) pp. 808-817 
+<F P=103> 947J0041A </F>
+<F P=104>  Moscow ZHURNAL EKSPERIMENTALNOY I TEORETICHESKOY 
+FIZIKI </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by E.M. Belenov, S.V. Grigoryev, A.V. Nazarkin, and </F>
+I.V. Smetanin, Institute of Physics imeni P.N. Lebedev at 
+Russian Academy of Sciences, Moscow] 
+  [Abstract] A novel emission mode of a free-electron x-ray 
+laser with counterpropagating electron beam and optical pump 
+laser (``optical wiggler'') beam, namely its quantum emission 
+mode where emission of an x-ray quantum changes the electronic 
+state appreciably, is analyzed by comparing it with its 
+classical mode of operation. Interaction of relativistic 
+electrons with both electromagnetic pump and signal fields, for 
+simplicity assuming a collinear geometry. Such a laser with an 
+optical pump differs from one with a conventional magnetostatic 
+one in that its emission and absorption lines are completely 
+separated so that the ratio = h/_D_|e of the distance h_o_ 
+(h- Planck constant, _o_- frequency) between them to their 
+effective width _D__e_ is _ee_ &gt; &gt;  1, while with a 
+magnetic pump 
+this ratio is _ee_ &lt;&lt; 1. Analysis of three-wave 
+interaction 
+confirms the validity of treating the laser as one with a 
+completely inverted two-level active medium and describing its 
+electron dynamics with the Klein-Gordon equation. By virtue of 
+the conservation laws, the problem of transitions in a continuum 
+reduces to the problem of resonance excitation of discrete 
+levels in an anharmonic oscillator. This leads to a 
+self-consistent closed nonlinear system of four partial 
+differential equations completely describing the emission 
+dynamics of such a laser: two equations the evolution of slowly 
+varying amplitudes a[.sub]0[/](z,t) and a[.sub]-1[/](z,t), 
+one equation the propagation of emission pulses, and one 
+equation the evolution of the high-frequency signal. This system 
+is analogous to the system of Maxwell-Bloch equations describing 
+the interaction of a two-level atomic medium with a resonance 
+field. The performance characteristics of this laser are 
+calculated for the case of quasi-steady amplification with the 
+durations of not only the high-frequency pump and signal pulses 
+but also of the electron cluster much longer than the 
+characteristic dimension of the interaction space divided by the 
+speed of light. The laser is shown to be more efficient in the 
+quantum mode than in the classical mode of operation, transition 
+from the latter to the former being achievable by widening the 
+energy range within the electron beam. References 24. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 10	Score: 9.694406
+<DOC>
+<DOCNO>
+WSJ910828-0071
+</DOCNO>
+<DOCID>
+910828-0071.
+</DOCID>
+<HL>
+   Technology:
+   Blue-Green Laser Chip Developed by 3M
+   Increases the Storage Capacity of Discs
+   ----
+   By James P. Miller
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+08/28/91
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B5
+</SO>
+<CO>
+   IBM MMM
+</CO>
+<MS>
+TECHNOLOGY (TEC)
+</MS>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+DIVERSIFIED TECHNOLOGY (DTC)
+SEMICONDUCTORS, INTEGRATED CHIPS (SEM)
+</IN>
+<RE>
+MINNESOTA (MN)
+NORTH AMERICA (NME)
+NEW YORK (NY)
+UNITED STATES (US)
+</RE>
+<LP>
+   Minnesota Mining &amp; Manufacturing Co. said its researchers
+have developed the first blue-green laser diode, calling it a
+"major breakthrough in laser technology."
+   The prototype device has the potential to triple or
+quadruple the amount of data that can be stored on optical
+and compact discs, the St. Paul, Minn., company said. It also
+"opens new opportunities" for laser applications in fields
+such as imaging, printing and communications.
+</LP>
+<TEXT>
+   But 3M cautioned that "we're targeting two years" to
+resolve technical hurdles before the so-called semiconductor
+diode could become commercially viable.
+   Semiconductor diodes, the size of a grain of sand or
+smaller, convert electrical signals into tiny laser beams.
+While best known for their use in recording and playing
+compact discs, the inexpensive laser-producing chips are also
+used in a host of other communication devices. But the chips
+currently produce light only at the infrared -- or sometimes
+visible red -- end of the spectrum.
+   The laser diode developed by 3M produces "the shortest
+wavelength ever generated by a semiconductor laser diode,"
+the scientists said. The smaller the laser beam's wavelength,
+the more densely it can pack optical data into an
+informationstorage device.
+   The 3M scientists' work is to be published shortly in the
+science journal Applied Physics Letters.
+   The 3M researchers used a new combination of materials to
+construct the laser diode. While the chip's surface still
+rests on a conventional base of gallium arsenide, the company
+said its scientists were the first to successfully make use
+of zinc selenide.
+   For decades, the scientists wrote, zinc selenide has been
+"promising" for development of a diode laser that could
+produce visible light, but difficulties in "doping" the
+compounds -- chemically treating them to make them effective
+as semiconductors -- had previously blocked use of the
+unconventional combination. Recent technological developments
+both in doping and alternative treatments have lowered the
+barriers, the scientists said.
+   Other companies, both in the U.S. and Japan, are hard at
+work on diodes that produce visible light. Scientists at
+International Business Machines Corp.'s Almaden Research
+Center last year created a "potentially practical source of
+blue laser light," by passing an infrared laser beam from a
+conventional diode through a special crystal. The crystal
+effectively halves the resulting beam's wavelength, bringing
+it into the visible spectrum.
+   IBM's experimental blue-laser device currently converts
+electricity into light at about 10% efficiency; 3M said its
+prototype is about 20% to 25% efficient.
+   Charles Walker, head of 3M's Photonics Research Lab, said
+the researchers are "absolutely thrilled" with the device.
+But he said "We have to . . . take it from something that
+operates in a pulsed mode at low power at room temperature,
+to something that operates in the continuous mode at room
+temperature." The device currently operates continuously only
+at extremely low temperatures.
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 11	Score: 9.495365
+<DOC>
+<DOCNO> FBIS4-47471 </DOCNO>
+<HT>    "jpust013___94024" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Power Laser with Compound Beam Aperture, Phase Conjugation </TI></H3>
+<HT><F P=107><PHRASE>    Power Laser with Compound Beam Aperture, Phase Conjugation </PHRASE></F></HT>
+
+
+<TEXT>
+Mirrors,   and Pulse Compressors 
+
+<F P=102> 947J0030A Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA in Russian Vol. 58 No. 2, Feb. 94 pp. 9-12 </F>
+
+<F P=103> 947J0030A </F>
+<F P=104>  Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V.N. Belousov, A.M. Mamin, Yu.K. Niziyenko, and </F>
+A.R. Sidorov, ``Kurchatov Institute'' branch of Russian Science 
+Center; UDC 535.375] 
+  [Abstract] A Nd-glass laser set for thermonuclear fusion 
+consisting was built and tested, a set consisting of a master 
+oscillator and two successive amplifier stages with phase 
+conjugation and pulse compression. The oscillator operates in 
+the single longitudinal mode and single transverse mode. The two 
+amplifiers operate in the four-pass mode. The beam emitted by 
+the oscillator in pulses of 3 mJ energy and 25 ns duration 
+passes through a x10 magnifying telescope, a 12x12 
+mm[.sup]2[/] large aperture stop, and then two Faraday 
+isolators before entering the first amplifier stage. The active 
+medium here is a cylinder of neodymium glass 20 mm in diameter 
+and 300 mm long. This preamplifier stage includes a cell filled 
+with Ar + SF[.sub]6[/] mixture, where an SBMS (Stimulated 
+Brillouin-Mandelshtam Scattering) mirror for phase conjugation 
+is formed by a focusing lens with a 50 cm focal length. After 
+four passes in this stage and with the energy of radiation thus 
+having been boosted to 3-4 J, the beam proceeds through a x3.3 
+magnifying telescope, a Faraday isolator with a 60x60 
+mm[.sup]2[/] large aperture, and then a x2.5 magnifying 
+telescope before entering with a 100x100 mm[.sup]2[/] 
+aperture the second amplifier stage. The active medium here is 
+an array of six slabs of neodymium glass 340 mm long with a 
+20x120 mm[.sup]2[/] large cross-section each. They are 
+optically pumped by seven rows of four IFP-5000 flash lamps 
+between each two slabs, distilled water thermally insulating the 
+slabs from these lamps. Each slab is followed sends radiation to 
+a cell filled with Ar + SF[.sub]6[/] mixture, an SBMS mirror 
+for phase conjugation in the pulse compression mode being formed 
+in each by a 17 mm[.sup]2[/] large square lens with a 5 m 
+focal length. Upon entering this second amplifier stage, the 
+beam is thus split into six separate partial beams with a 17x100 
+mm[.sup]2[/] large aperture each. It then leaves this stage 
+with an about 100x100 mm[.sup]2[/] large compound aperture, 
+the duration of radiation pulses having in this stage been 
+shortened 20 ns to 2 ns duration. The energy reflectivity of the 
+mirrors here is estimated at 50 %. Two tests were 
+performed: 1) 
+with direct passage of the beam passage through the second 
+stage, 2) with reflection of the beam first by only one lateral 
+face of each slab and then by their both faces. Direct passage 
+was found to cause breakdown of the active medium near the 
+lateral faces of the slabs, but radiation pulses of 20-25 J 
+energy were nevertheless coming from each slab. Reflection by 
+one lateral face resulted in a more uniform distribution of 
+radiation intensity over the beam cross- section and reflection 
+by both lateral faces resulted its most nearly uniform 
+distribution. In the latter case the divergence of the total 
+radiation beam was smaller than 0.1 mrad, while the energy of 
+radiation pulses from each slab still reached the 25 J level. 
+Such a laser set can be modified for simultaneous radiation 
+emission at two different frequencies. This can be achieved by 
+splitting the beam into two in the preamplifier stage, using a 
+device such as a Fresnel biprism, and directing each half- beam 
+to a different SBMS mirror cell: one containing a compressed gas 
+and one containing a solid substance. Then while the beam is 
+being focused, a traveling interference pattern will form in the 
+focal plane owing to different radiation wavelengths in the two 
+half-apertures. Figures 3; references 3. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 12	Score: 9.471258
+<DOC>
+<DOCNO> FBIS3-21559 </DOCNO>
+<HT>    "jptac003___94062" </HT>
+
+
+<HEADER>
+<AU>   JPRS-TAC-94-003 </AU>
+Document Type:JPRS 
+Document Title:Arms Control 
+
+<DATE1>  7 March 1994 </DATE1>
+
+</HEADER>
+
+<F P=100> INTERNATIONAL </F>
+<F P=101></F>
+<H3> <TI>     Laser Weapon Ban Urged by Red Cross Could Affect Russia </TI></H3>
+<F P=102>  PM2302122794 Moscow IZVESTIYA in Russian 22 Feb 94 p 3 </F>
+<F P=103> PM2302122794 </F>
+<F P=104>  Moscow IZVESTIYA </F>
+
+
+<TEXT>
+Language: <F P=105> Russian </F>
+Article Type:BFN 
+
+<F P=106> [Leonid Mlechin report: "New Generation of Lasers Could </F>
+Soon Enter Various Armies' Arsenals"] 
+  [Text] The International Red Cross Committee in Geneva has 
+appealed to the United States and Britain, urging that the 
+development of laser weapons, which can blind a person, be 
+stopped. 
+  The Red Cross is hoping to obtain a formal UN ban on the 
+development and production of laser weapons. They are silent 
+and invisible weapons. A person does not know that a laser is 
+being aimed at him and has no time to prepare himself and 
+somehow protect himself. 
+  Laser weapons are an object of desire for all armies' 
+generals. Several attempts to provide themselves with the combat 
+lasers featured in science fiction novels have been dashed 
+against the immutable laws of physics. In order to make a laser 
+beam capable of burning through something it must be focused: 
+This is impossible at long distances because of the law of 
+diffraction. But it is also impossible to kill enemy soldiers or 
+destroy his armored vehicles at short distances using modern 
+lasers. So far lasers have found a use in high-precision 
+weapons guidance systems. 
+  According to information available to the Red Cross, a new 
+generation of lasers could soon enter Western armies' arsenals. 
+At a 1km radius such a weapon, Red Cross specialists claim, 
+could permanently blind a person. One of the aims is to blind 
+aircrew. The Geneva committee also fears that portable and 
+easy-to-use combat lasers could fall into the hands of 
+terrorists. 
+  The demand to stop the development of laser weapons will 
+make 
+life difficult not only for the United States but also for 
+Russia, which has overtaken the West in the development of 
+lasers for terrestrial and space use. Millions of what were 
+then noninflationary rubles went on attempts to develop lasers 
+to destroy satellites and ballistic missiles in space. 
+  Tracked laser guns were developed by the "Luch" central 
+design bureau and then the "Astrofizika" science and production 
+association, which was led by Nikolay Ustinov, son of Dmitriy 
+Ustinov, Central Committee secretary for the military industry 
+and later defense minister. In 20 years 200 million rubles were 
+spent and a dozen vulnerable tracked monsters which had no 
+chance on the battlefield were constructed. 
+  Under Gorbachev work to improve the monster was halted. 
+According to IZVESTIYA reports work was recently resumed. 
+Possibly the generals are unable to abandon their long-standing 
+dream. Maybe physics research is not standing still and there 
+will be new opportunities to decrease the dimensions of combat 
+lasers and make them cheaper. Their task is to disable the 
+enemy's optical guidance instruments and blind operators. When 
+enemy positions are illuminated by a laser beam the electronic 
+optical guidance systems (of an aircraft, missile launcher, 
+tank, artillery piece, or firearm) will themselves focus this 
+beam and be disabled. If at this moment the operator is looking 
+through the guidance instrument's eyepiece he will lose his 
+sight. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 13	Score: 9.323875
+<DOC>
+<DOCNO> FBIS4-20531 </DOCNO>
+<HT>      "jpest008___94027" </HT>
+
+
+<HEADER>
+<AU>   JPRS-EST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Europe/International Economic Competitiveness </ABS>
+<DATE1>   19 January 1994 </DATE1>
+<F P=100> WEST EUROPE </F>
+<F P=101> CORPORATE ALLIANCES </F>
+<H3> <TI>   Germany: Bonn Leads Research in High-Efficiency Diode </TI></H3>
+<HT><F P=107><PHRASE>    Germany: Bonn Leads Research in High-Efficiency Diode </PHRASE></F></HT>
+
+
+<TEXT>
+Lasers 
+
+<F P=102>   94WS0213B Frankfurt/Main FRANKFURTER ZEITUNG/BLICK DURCH DIE 
+WIRTSCHAFT in German 19 Jan 94 p 8 </F>
+
+<F P=103> 94WS0213B </F>
+<F P=104>  Frankfurt/Main FRANKFURTER ZEITUNG/BLICK DURCH DIE 
+WIRTSCHAFT </F>
+
+<F P=105>  German </F>
+CSO 
+
+  [TEXT] Hopes for a major advance in technology and 
+development--America's lead to be overtaken. 
+  Thirty-four years after the discovery of the first laser, 
+another generational shift in high-efficiency lasers is again 
+approaching with the transition from tube technology to 
+semi-conductor technology, or from gas laser to diode laser. In 
+the areas of entertainment electronics and communications and 
+information technology, the replacement of tube technology with 
+semiconductor technology has already made possible and produced 
+revolutionary developments. 
+  It is expected that a similar major advance in technology 
+and 
+development in [the area of] high-efficiency lasers will 
+fundamentally shape future laser equipment technology and open 
+up new fields of application. The German government intends to 
+support this development with the joint Laser 2000 program, 
+which Federal Minister of Research and Technology Paul Krueger 
+has now introduced in Bonn. 
+  Preparing the generational shift in technology with 
+high-efficiency lasers is the object and goal of the pilot 
+project, already started at the beginning of the year, on 
+high-efficiency diode lasers and diode-pumped solid-state 
+lasers. It has to do with developing a small, compact, 
+high-efficiency, low- maintenance laser. It is expected that 
+such an generation of lasers will open up broad markets. 
+Materials processing in particular is being considered in this 
+context, as well as using laser technology for television. 
+  Substantial work was already done on the high-efficiency 
+diode laser in the second half of the 1980's in America under 
+the strictest secrecy in the Lawrence Livermore National 
+Laboratory within the framework of the former SDI program. One 
+important field of application which stands in the forefront is 
+automobile manufacturing. The German government is hoping that 
+with the current Laser 2000 program the present lead by the 
+United States will be overtaken. So the project will be oriented 
+toward the needs of industry. A project advisory council was 
+formed representing Siemens, Janoptik, Rofin-Sinar, Haas Laser, 
+Adlas and Baasel [as written] Lasertechnik. The pilot project is 
+currently made up of three joint projects in industry and four 
+joint research [projects]. 
+  Parallel to this, the four joint research projects will deal 
+with basic research themes such as the preliminary research in 
+securing technical scientific alternatives--for example, new 
+technologies for high-efficiency diode lasers and new 
+ytterbium-base solid-state lasers. 
+  The work of the four joint research projects is being 
+financed with about 30 million German marks through the Federal 
+Ministry of Research and Technology. For the three joint 
+industry projects, financing in the amount of 35 million German 
+marks is being projected, to which the Federal Ministry of 
+Research will contribute around 19 million German marks. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 14	Score: 8.949006
+<DOC>
+<DOCNO> FBIS4-47474 </DOCNO>
+<HT>    "jpust013___94027" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Remote Measurement of Thickness of Petroleum-Product Film on </TI></H3>
+<HT><F P=107><PHRASE>    Remote Measurement of Thickness of Petroleum-Product Film on </PHRASE></F></HT>
+
+
+<TEXT>
+Water   With Excimer Laser 
+
+<F P=102> 947J0030D Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA in Russian Vol. 58 No. 2, Feb. 94 pp. 175-179 </F>
+
+<F P=103> 947J0030D </F>
+<F P=104>  Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by A.P. Zhevlakov, D.O. Leshchenko, S.A. Pakkonen, </F>
+and V.M. Sidorenko, State Institute of Optics imeni S.I. 
+Vavilov; UDC 551.501.816+551.508.856] 
+  [Abstract] Use of a fluorescent lidar with an excimer laser 
+for measuring from a distance the thickness of films of 
+petroleum products on water is considered, determination of the 
+film thickness involving as usually two measurements of the 
+fluorescence intensity of water twice: with and without the 
+film. The principle of this method is based on the dependence of 
+the hydrooptical properties, reflectivity and absorptivity, on 
+the film thickness. These relations were studied experimentally 
+with an XeCl-laser exciting the films with 308 nm radiation. 
+Both absorption and emission spectra of various petroleum 
+products, lubricants and fuels in cyclohexane solution, were 
+measured in a spectrophotometer. The fluorescence intensity of 
+such films on water was measured with a laboratory apparatus 
+which included this XeCl laser and an aligning it He-Ne laser, 
+two photomultipliers, a pyroelectric radiation receiver, an 
+MDR-4 monochromator with a spectrally 2 nm wide slit, and four 
+objectives consisting each of a mating biconvex and 
+concavo-plane lens pair. A rotating wedge diverted a part of the 
+excitation beam through either the first objective into the 
+first photomultiplier or through the second objective into the 
+pyroelectric radiation receiver. A right-angle prism reflected 
+the remaining part of the excitation radiation through the third 
+objective into the test cell with a specimen. A rotating plane 
+mirror reflected the radiation from the fluorescing specimen 
+through the fourth objective and then the monochromator into the 
+second photomultiplier. Tests were performed on successively 
+3-9-15-30 æm thick films, with an XeCl-laser emitting 
+radiation in pulses of 30 mJ energy and 30 ns duration at an 
+either 0.1 Hz or 0.25 Hz repetition rate. Fluorescence was 
+recorded within the 320-410 nm band, the maximum fluorescence 
+signal shifting farter into the long-wave region as a light 
+petroleum product was being replaced with successively heavier 
+ones. With increasing film thickness, the fluorescence signal 
+normalized to the Raman scattering signal was found to increase 
+up to the fluorescence saturation level. Therefore, use of an 
+excimer laser is recommended only for thin (d &lt; 15 æm) 
+films 
+of petroleum products on water. Figures 3; references 9. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 15	Score: 8.726029
+<DOC>
+<DOCNO> FBIS4-47299 </DOCNO>
+<HT>    "jpust012___94053" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-012 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   8 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Doppler Radar for Monitoring Motor Vehicle Moving Through </TI></H3>
+<HT><F P=107><PHRASE>    Doppler Radar for Monitoring Motor Vehicle Moving Through </PHRASE></F></HT>
+
+
+<TEXT>
+Dust   Cloud 
+
+<F P=102> 947J0028B St.Peterburg OPTICHESKIY ZHURNAL in 
+Russian No. 2, Feb 94 (manuscript received 7 May 93) pp 33-36 </F>
+
+<F P=103> 947J0028B </F>
+<F P=104>  St.Peterburg OPTICHESKIY ZHURNAL </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by A.P. Narysov, candidate of technical sciences, </F>
+and V.V. Sadchikov, Scientific-Industrial Association ``State 
+Institute of Applied Optics'', Kazan; UDC 621.396.962] 
+  [Abstract] Following a review of basic Doppler radar 
+principles applied to detection of moving objects and 
+determination of their velocities by measurement of Doppler 
+reflection spectra, a Doppler radar with an optical rangefinder 
+is described which has been developed and built for monitoring 
+motor vehicles which move through dust clouds. The light source 
+is an LGN-901 CO[.sub]2[/]-laser with operating at a power 
+level of about 3 W. Its radiation is stabilized by means of a 
+piezoceramic corrector and a diffraction grating, whereupon a 
+primary plane Cu mirror reflects it at a 90ë angle onto a Ge 
+plate for splitting into an object beam and a reference beam. 
+The object beam is twice reflected upon 45ë incidence on two 
+successive plane mirrors, for passage along a parallel path 
+through a diaphragm into a collimating lens which reduces its 
+divergence to one eighth of the original. The collimated beam, 
+40 mm in diameter with a 0.6 mrad divergence angle, is then 
+reflected by a plane scanning mirror onto the road under 
+observation, whereupon a part of the returning beam is reflected 
+by the same scanning mirror into a receiving objective coaxial 
+with the collimator and operating in the Cassagrain mode. The 
+objective lens has a 1000 mm focal length and a 200 mm outside 
+diameter, its 110 mm inside diameter being larger than that of 
+the collimating lens. The objective focuses the incoming 
+radiation on the diffraction spot on the 0.2x0.2 mm[.sup]2[/] 
+large light-sensitive surface of a HgCdTe photodetector, a 
+high-speed photodiode with a 30 MHz wide passband. The reference 
+beam meanwhile passes through two successive acoustooptic 
+modulators operating at close to one another frequencies (40 MHz 
+and 39.6 MHz) and then, after reflection by another plane 
+mirror, through the receiving objective to the photodiode. For 
+automatic frequency control another photodetector, a 
+photoresistor with 1x1 mm[.sup]2[/] large light-sensitive 
+surface and a 1 MHz wide passband, is placed at the entrance to 
+the laser. Such a configuration of the optical system enables 
+the radar set to operate in the energy mode and in the 
+heterodyne mode without additional tuning. Use of two modulators 
+significantly weakens the effect of direct illumination at the 
+carrier frequency in the reference channel. The radar is 
+calibrated against a foam plastic panel set into 50 Hz vibration 
+by a 10GD-30 loudspeaker head. Figures 2; references 2. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 16	Score: 8.714171
+<DOC>
+<DOCNO> FBIS4-47480 </DOCNO>
+<HT>    "jpust013___94033" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Coherent Doppler Wind Lidar With TEA CO-Laser </TI></H3>
+<HT><F P=107><PHRASE>    Coherent Doppler Wind Lidar With TEA CO-Laser </PHRASE></F></HT>
+
+
+<TEXT>
+[.sub]2[/] 
+<F P=102>   947J0038C Moscow KVANTOVAYA ELEKTRONIKA in Russian Vol. 23 
+No. 3, Mar. 94 (manuscript received 22 Jul 93) pp. 284-290 </F>
+
+<F P=103> 947J0038C </F>
+<F P=104>  Moscow KVANTOVAYA ELEKTRONIKA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V.M. Gordiyenko and Yu.Ya. Putivskiy, </F>
+International Laser Center at Moscow State University imeni M.V. 
+Lomonosov; PACS 42.79Qx; 42.68.Wt] 
+  [Abstract] Construction of a Doppler wind lidar using a TEA 
+(transverse excitation atmospheric pressure) pulsed 
+single-frequency CO[.sub]2[/] injection laser for coherent 
+reception and processing of data on winds in the lower 
+atmospheric layers at altitudes up to 15 km. The design of such 
+a lidar is based on the fundamental equation relating the 
+signal-to-noise ratio to parameters of the sounding radiation 
+pulses and of the atmospheric medium, the solution to this 
+equation indicating the amount of energy needed for a sounding 
+radiation pulse to reach the desired altitude. A laser set of 
+this type with automatic ultraviolet preionization features both 
+simplicity and reliability. Its one drawback is the sweeping of 
+the emission frequency caused by presence of discharge electrons 
+in the active medium, resonance polarization of CO[.sub]2[/] 
+molecules, and acoustic expansion of heated gas. This sweep is 
+best measured by optical heterodyning with radiation of a 
+continuous-wave single-frequency reference CO[.sub]2[/]-laser 
+and subsequent mixing the two signals in a HgCdTe photodetector 
+for processing with the aid of an analog-to-digital converter. 
+The results of these measurements were used for optimizing the 
+composition of the active medium so as to ensure both minimum 
+width of the emission band and maximum emission energy. The 
+active medium, a CO[.sub]2[/]:N[.sub]2[/]:He = 1.5:2.5:6 
+mixture is confined inside a typically 5 m long linear resonator 
+cavity, this cavity being formed by a spherical mirror with a 
+typically 18 m radius and a germanium wedge. The cavity contains 
+also a NaCl wedge through which an external signal is injected 
+into the active medium and through which some laser radiation is 
+extracted for mode locking. Mode locking is achieved by noting 
+the instant of time at which the frequency of the injected 
+signal coincides with the frequency of the natural cavity mode 
+and at that instant initiating a discharge in the TEA 
+compartment. This instant can be recorded by a signal peak 
+detector as corresponding to the maximum intensity on the 
+interference pattern, with the cavity mirror oscillating 
+harmonically at a frequency of typically 180 Hz. Such a TEA 
+CO[.sub]2[/]-laser and a telescope were included in the 
+prototype of a Doppler wind lidar, also a continuous-wave 
+reference CO[.sub]2[/]-laser and a HgCdTe photodetector with 
+an output amplifier, a DVK-2 computer, and a CAMAC crate. A 
+model needed for determination of the signal scattering in the 
+atmosphere is based on the following premises: 1. scattering is 
+done by a large number of arbitrarily located identical aerosol 
+particles moving at the wind velocity, 2. atmospheric turbulence 
+influences only the wavefront of backscattered radiation, 3. 
+signal attenuation in the atmosphere obeys Bouger's law. With 
+this lidar were measured wind velocities along horizontal and 
+vertical paths, whereupon he data were used for calculating wind 
+velocity profiles and their dispersions. The authors thank 
+Professor S.A. Akhmanov for initiating this study and then 
+providing an comprehensive support, also G.A. Pogosov and L.A. 
+Kosovskiy for support and helpful discussion. Figures 7; 
+references 34. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 17	Score: 8.486456
+<DOC>
+<DOCNO> FBIS4-22928 </DOCNO>
+<HT>      "jpust008___94131" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   31 March 1994 </DATE1>
+<F P=100> LIFE SCIENCES </F>
+<F P=101> LASER AND NONIONIZING RADIATION </F>
+<H3> <TI>   Possibilities of Using Fiber Optic Luminescent Light Sources </TI></H3>
+<HT><F P=107><PHRASE>    Possibilities of Using Fiber Optic Luminescent Light Sources </PHRASE></F></HT>
+
+
+<TEXT>
+in   Medical and Biological Research 
+
+<F P=102> 947C0051A Moscow MEDITSINSKAYA TEKHNIKA in Russian No. 2, 
+Mar-Apr 93 pp 13-14 </F>
+
+<F P=103> 947C0051A </F>
+<F P=104>  Moscow MEDITSINSKAYA TEKHNIKA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V.A. Monich, I.V. Krivosheina, S.L. </F>
+Malinovskaya, K.N. Kontorshchikova, Nizhniy Novgorod Medical 
+Institute; UDC 615.849.19.03] 
+  [Abstract] The emergence of low-power medical lasers and 
+the resulting uses of such lasers on biological tissues as well 
+reports that the use of noncoherent light sources and lasers in 
+clinical practices leads to virtually indistinguishable results 
+prompted renewed interest in developing light treatment devices 
+using polymer optical fibers, especially since in most cases, 
+the clinics do not have the facilities for retuning the laser 
+radiation wavelength to match its spectrum with the resonant 
+absorption lines of biologically significant molecules. The 
+optical fiber will be able not only to transmit radiation 
+bounded by the fiber end aperture but also the light generated 
+by photoluminescence of the impurities. The structure of a 
+two-layer optical fiber containing luminescing impurities and a 
+block diagram of the fiber optic luminescent device are cited, 
+and the design and operating principles of this low-intensity 
+fiber optic luminescent device designed on the basis of the 
+above characteristics are described in detail. The operating 
+principle makes it possible to combine the function of injecting 
+light into thin fibers and isolating spectral radiation bands 
+which are most effective in given procedures. The device's 
+ability to generate pulse radiation greatly increases the 
+strength of the postoperative sutures; a 40 Hz frequency is 
+optimal, and red light (600-680 nm) is the most efficient. 
+Experiments with animals and donor blood demonstrates that 
+monochromated light has a favorable effect on skin tissue 
+regeneration. Figures 3; references 9. 
+
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 18	Score: 8.421503
+<DOC>
+<DOCNO> FBIS3-24491 </DOCNO>
+<HT>    "jpust006___94022" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-006 </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   09 March 1994 </DATE1>
+<F P=100> ELECTRONICS </F>
+<H3> <TI>   Passive Synchronization of the Modes of Neodymium Lasers 
+Using CuInSSe-Doped Glasses </TI></H3>
+
+
+<TEXT>
+[.sup]2x[/][.sub]2(1-x)[/] 
+<F P=102>  947K0035D Moscow KVANTOVAYA ELEKTRONIKA in Russian Vol 20, 
+No 9, Sep 93 pp 890-892 </F>
+
+<F P=103> 947K0035D </F>
+<F P=104>  Moscow KVANTOVAYA ELEKTRONIKA </F>
+ Language: <F P=105>Russian </F>
+Article Type:CSO 
+
+<F P=106> [Article by K. V. Yumashev, V. P. Mikhaylov, I. V. Bodnar, </F>
+M. I. Demchuk, P. V. Prokoshin, R. S. Dashyan; UDC 
+621.373.826.038.825.2] 
+  [Abstract] Passive synchronization of the modes of YAG:Nd 
+and YAlO[.sup]3[/] lasers using 
+CuInS[.sup]2x[/]Se[.sub]2(1- x)[/]-doped glasses is 
+discussed. The optical block diagram of the laser is provided 
+and its functioning is described. The laser resonator is formed 
+by a spherical mirror and a planar output mirror. A passive 
+synchronization of modes was obtained when glasses with 
+CuInS[.sup]1.2[/]Se[.sub]0.8[/] monocrystal were used as 
+passive gates in pulsed solid state neodymium lasers. The pulse 
+width was 36 and 16 ns for the YAG:Nd-and YAlO[.sup]3[/]:Nd 
+lasers, respectively. The passive gates operate as saturating 
+absorbers at low intensities and perform negative feed-back at 
+high radiation intensities. The glasses with 
+CuInS[.sup]2x[/]Se[.sub]2(1-x)[/] are a promising material 
+for semiconductor cavity saturating absorbers for solid state 
+lasers operating in a self-starting mode. The saturating 
+absorbers exhibit a rapid relaxation, and have low losses and 
+high saturation intensities. They can operate in a nonlinear 
+mode within resonators of solid state lasers, interacting with 
+pulse intensities in a pico range. The required operating wave 
+length can be selected within the 0.9-1.3 æm range by 
+changing 
+the stoichiometry coefficient and composition of the glass. 
+Figures 4, references 11: 4 Russian, 7 Western. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 19	Score: 8.326400
+<DOC>
+<DOCNO> FBIS4-47478 </DOCNO>
+<HT>    "jpust013___94031" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Feasibility of Electric-Discharge Excimer Laser With </TI></H3>
+<HT><F P=107><PHRASE>    Feasibility of Electric-Discharge Excimer Laser With </PHRASE></F></HT>
+
+
+<TEXT>
+Condensed   Noble Gas as Active Medium 
+
+<F P=102> 947J0038A Moscow KVANTOVAYA ELEKTRONIKA in Russian Vol. 23 
+No. 3, Mar. 94 (manuscript received 10 May 93) pp. 227-233 </F>
+
+<F P=103> 947J0038A </F>
+<F P=104>  Moscow KVANTOVAYA ELEKTRONIKA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by Ye.B. Gordon, O.S. Rzhevskiy, and V.V. </F>
+Khmelenko, Institute of Energy Problems in Chemical Physics at 
+Russian Academy of Sciences, Chernogolovka (Moscow Oblast) 
+branch; PACS 42.55.Gp;42.60.By] 
+  [Abstract] The feasibility of achieving an excimer laser 
+with a condensed active medium is examined for theoretical and 
+experimental purposes. Inasmuch as most advantageous is 
+transition of noble gases to a condensed phase and among all 
+excimer lasers these lasers emit shortest- wave radiation, 
+lasers, the most easily achievable Xe[.sub]2[/]-laser is 
+considered for specificity. The first problem is avoiding 
+absorption of emission-wavelength radiation under conditions of 
+high gas densities. The solution of this problem is based on 
+analysis of the known structure of lower energy levels and 
+origin of molecular luminescence bands, also helpful being the 
+known luminescence spectrum of crystalline solid xenon at 5 K 
+temperature. The most difficult next problem is adequate pumping 
+of the entire solid or liquid active medium, electric-discharge 
+pumping being preferable to inefficient pumping by another laser 
+and difficult to arrange pumping by a lamp. The necessary 
+conditions for attaining a homogeneous electric discharge with 
+sufficiently high energy for excitation of Xe atoms by electron 
+impact are established by analyzing the drift of fast excess 
+electrons through gaseous and liquid or solid xenon with 
+attendant elastic scattering by its atoms. As the intensity of 
+the electric field is increased above E* ÷ _e_/b= 2 kV/cm 
+for 
+xenon (_e_- electron energy, b- mean displacement of electron 
+prior to its thermalization), the energy lost by ``hot'' 
+electrons during their collisions with Xe atoms is increasingly 
+compensated by the energy imparted to the field so that the net 
+loss becomes negligible in an electric field of intensity E 
+&gt; &gt; 
+E* (3 kV/cm for xenon). A solid Xe-laser constructed according 
+to these guidelines has an H-form cell with already liquid xenon 
+between two plane mirrors parallel to its two wide walls. Two 
+electrodes,anode and cathode, are lining the cell wall on 
+opposite sides along the narrow middle segment so as to produce 
+a transverse electric discharge through xenon within this 
+segment. No electron multiplication takes place in this system 
+and use of an external electron source is inconvenient. Instead, 
+for sustaining the discharge, the metal cathode is covered with 
+a layer of a radioactive target material and a photoemissive 
+coating of a high-yield (low work function) material on top. 
+This ensures an electron avalanche by chain multiplication and 
+thus makes it very likely feasible to build 30 kW lasers 
+emitting ultraviolet radiation in pulses of up to 1 ms duration 
+with an up to 30 % efficiency, not only Xe- lasers (172 
+nm) but 
+also Kr-lasers (145 nm) and Ar-lasers (128 nm). Figures 6; 
+tables 1; references 26. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 20	Score: 8.291753
+<DOC>
+<DOCNO> SJMN91-06158047 </DOCNO>
+<ACCESS> 06158047 </ACCESS>
+<DESCRIPT>  OBITUARY; RESEARCH; TECHNOLOGY; CELEBRITY  </DESCRIPT>
+<LEADPARA>  Earl Bell knew there was more to lasers than the first one T.H. Maiman built
+in 1960.;    Maiman achieved "light amplification by stimulated emission of
+radiation" by using ruby, a solid material.  </LEADPARA>
+<SECTION>  Local  </SECTION>
+<HEADLINE>  EARL BELL, LASER TECHNOLOGY GENIUS, CO-FOUNDER
+OF SPECTRA-PHYSICS FIRM  </HEADLINE>
+<TEXT>     When Mr. Bell co-founded Spectra-Physics of San Jose, finding other ways to
+"lase" wasn't a top priority, but he was searching, and so were others.;    In
+1961, a team of scientists at Bell Laboratories operated a helium-neon gas
+laser. Mr. Bell found a way to use it.;    "Earl Bell made the first
+commercial helium-neon laser at Spectra-Physics," said Gene Watson, a former
+colleague and now president of Chromex, a scientific instrument firm in
+Albuquerque, N.M. It produced the red laser lines shoppers now see every time
+they buy groceries at a supermarket checkout scanner.;    But the red line
+wasn't enough for the researchers at Spectra-Physics. They wanted more
+powerful laser lines, in shades of blue and green, and they sought to do it
+not just with the gas itself but with the ions created when gas atoms are
+excited, Watson said.;    "Earl was conducting an experiment to get mercury
+vapor to 'lase,' " Watson said.;    "He came bursting out of the lab and said,
+'We got it. We got the green line.' ";    Watson said he asked, "Is it the one
+you're looking for?";    "Well, what difference does it make?" Mr. Bell
+answered. "It's green.";    With that answer, Watson said he learned an
+inventor's lesson: " 'It's not what you're looking for that's important,' Earl
+would say. 'It's what you get that's important.' ";    What was important was
+a breakthrough in laser technology. While Mr. Bell was using mercury vapor
+ions to "lase," Bill Bridges of Hughes Aircraft was using argon ions. They
+both got a green line, and it opened up a new world in surgery and optics.;   
+Today, the gas ion laser represents a $100 million-plus industry, said Herbert
+M. Dwight Jr., who along with Mr. Bell, Arnold Bloom, Bob Rempel and Ken
+Ruddock founded Spectra-Physics in 1961.;    "Its principal applications are
+in medical uses, in microsurgery, but also in the graphics industry for
+precise color separations," said Dwight, now chief executive officer of
+Superconductor Technologies Inc. in Santa Barbara.;    The other lesson Mr.
+Bell taught his co-workers was about the implementation of ideas. They saw him
+as the most prolific inventor they have ever known.;    When Mr. Bell died of
+cancer at age 70 recently, he had detected more than 30 laser intensities.;   
+"He discovered more laser lines than any other single researcher," said
+Watson. "This guy stood so far apart from the others. He not only had a good
+idea every day, he acted on them, reduced them to practice.";    If Mr. Bell
+had good ideas in lasers, he also had ideas that helped the United States
+explore outer space. One of his discoveries at Varian led to the development
+of the compact atomic clock used on the Apollo moon mission. The research is
+on permanent display in the Smithsonian Institution's Museum of Science &amp;
+Technology.;    Earlier, he participated in a definitive measurement of the
+lifetime of the subatomic particle mu-meson while with the Canadian Atomic
+Energy Project.;    Mr. Bell left California in 1971 to realize a dream. He
+managed the restoration and operation of the old Denver &amp; Rio Grande
+narrow-gauge steam railroad between Chama, N.M., and Antonito, Colo., now
+known as the Cumbres &amp; Toltec Scenic Railroad.;    Before he began slowing
+down, Mr. Bell returned to Silicon Valley to co-found one more high-tech firm,
+Quanta-Ray Inc. in Mountain View; started another laser firm, Lasertechnics
+Inc. in New Mexico; and started still another laser research and development
+firm in Hyde Park, Utah.;    For much of his career, colleagues assumed he was
+"Dr. Bell," but he never formally went beyond the 10th grade, Watson said. In
+the late 1980s, Utah State University conferred a honorary doctor of science
+degree on him.;     W. Earl Bell; (box)Born: April 2, 1921, Winnipeg,
+Ontario.; (box)Died: May 24, 1991, Hyde Park, Utah.; (box)Survived by: Wife,
+Diane of Hyde Park; former wife, Betty of Jerome, Ariz.; sons, Robert and Ross
+of Jerome; four grandchildren; two brothers and two sisters, all in Canada.;
+(box)Services: Private memorial held at Hyde Park. Cremation. Ashes
+distributed along the Cumbres &amp; Toltec Scenic Railroad in New Mexico and
+Colorado.  </TEXT>
+<COUNTRY>  USA  </COUNTRY>
+<EDITION>  Morning Final  </EDITION>
+<CODE>  SJ  </CODE>
+<NAME>  San Jose Mercury News  </NAME>
+<PUBDATE>   910606  </PUBDATE> 
+<DAY>  Thursday  </DAY>
+<MONTH>  June  </MONTH>
+<PG.COL>  3B  </PG.COL>
+<PUBYEAR>  1991  </PUBYEAR>
+<REGION>  WEST  </REGION>
+<STATE>  CA  </STATE>
+<WORD.CT>  728  </WORD.CT>
+<DATELINE>  Thursday June 6, 1991
+00158047,SJ1  </DATELINE>
+<COPYRGHT>  Copyright 1991, San Jose Mercury News  </COPYRGHT>
+<LIMLEN>  1  </LIMLEN>
+<LANGUAGE>  ENG  </LANGUAGE>
+</DOC>
+
+Qid: 224	Rank: 21	Score: 8.279587
+<DOC>
+<DOCNO> FBIS4-20606 </DOCNO>
+<HT>    "jpjst012__l94039" </HT>
+
+
+<HEADER>
+<AU>   JPRS-JST-94-012-L </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Japan </ABS>
+<DATE1>   5 January 1994 </DATE1>
+<F P=100> Lasers, Sensors, Optics </F>
+<H3> <TI>   NEC Semiconductor Laser Sets Record With Lowest Oscillation </TI></H3>
+<HT><F P=107><PHRASE>    NEC Semiconductor Laser Sets Record With Lowest Oscillation </PHRASE></F></HT>
+
+
+<TEXT>
+Current 
+
+<F P=102>   94P60104A Tokyo NIKKEI SANGYO SHIMBUN in Japanese 5 Jan 94 p 
+5 -- FOR OFFICIAL USE ONLY </F>
+
+<F P=103> 94P60104A </F>
+<F P=104>  Tokyo NIKKEI SANGYO SHIMBUN </F>
+<F P=105>  Japanese </F>
+CSO 
+
+  [Text] NEC has developed a new type of laser element whose 
+current required for laser oscillation is the smallest in the 
+world. Pulsed radiation at room temperature with a current 
+[threshold] value of 190 microamperes was achieved and this 
+broke the previous world record. By way of comparison, this is 
+less than one-tenth of the current used by conventional elements 
+and it means a large reduction in electrical power for 
+semiconductor lasers. The new element is also structured to 
+accommodate high density integration and it can be useful for 
+the realization of such things as super high speed optical 
+computers, which use optical signals to process information, and 
+optical circuitry devices. 
+  The developed element is a type of surface-emission laser 
+which emits radiation in a direction perpendicular to the 
+substrate of the semiconductor. It emits infrared laser 
+radiation at a wavelength of about 1 micron. The structure is 
+unique in that the active radiation layer is sandwiched on both 
+sides by multilayered semiconductor films. One side of the 
+multilayered film is finely cut into a cylindrical shape. The 
+diameter of the cylindrical part is 5 microns and the height is 
+4 microns. 
+  The multilayered film plays the role of a reflecting mirror 
+for laser oscillation and by designing the thickness of one 
+layer so that it is equal to the size of the wavelength, 
+radiation loss is considerably limited. The conventional film 
+layer has a margin of error of around 1 percent but NEC, by 
+successfully establishing conditions for molecular beam crystal 
+growth technology [molecular beam epitaxy], held it down to less 
+than 0.3 percent. Moreover, by using a cylindrical structure, 
+the radiation is efficiently confined inside it, and a reduction 
+of the current value necessary for laser oscillation was 
+achieved. 
+  It was experimentally confirmed that the new element began 
+oscillation at 190 microamperes and, at 2 milliamperes, there 
+was an optical output of 50 microwatts. The world's smallest 
+previous semiconductor oscillation current value was 250 
+microamperes. However, the element holding the world record was 
+a conventional type that oscillates in a direction horizontal to 
+the substrate and integration was difficult. Basically, since 
+the newly developed element is a surface emission-type, it can 
+be integrated and manufactured just like an ordinary transistor. 
+  Currently, the resistance of the element is large and the 
+efficiency is low, making continuous oscillation impossible. The 
+next step will be to make progress toward continuous oscillation 
+and improvement in the efficiency. 
+  The semiconductor laser element is mostly used by itself as 
+an optical source for compact disks and optical communications. 
+However, if multiple integration can be accomplished, its uses 
+will be expanded. For example, there is a possibility for using 
+it for such things as optical computers, which process imagery 
+data without conversion into electrical signals, or as an 
+optical source for high-speed optical circuitry which switches 
+multiple signals. 
+  When the operating current per semiconductor laser is high, 
+large electric power is necessary and integration is difficult. 
+In order to make integration practical, the problem has been 
+that of how to reduce the value of the oscillation current. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 22	Score: 8.257230
+<DOC>
+<DOCNO> FBIS4-47483 </DOCNO>
+<HT>    "jpust013___94036" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Resonator for Technological YAG:Nd Laser </TI></H3>
+<HT><F P=107><PHRASE>    Resonator for Technological YAG:Nd Laser </PHRASE></F></HT>
+
+<F P=102>   947J0042B St.Petersburg OPTIKA I SPEKTROSKOPIYA in Russian 
+Vol. 76 No. 4, Apr. 94 (manuscript received 21 Oct. 93) pp. </F>
+
+
+
+<TEXT>
+667-670 
+<F P=103> 947J0042B </F>
+<F P=104>  St.Petersburg OPTIKA I SPEKTROSKOPIYA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by A.V. Gorlanov, S.A. Dimakov, S.I. Klimentyev, </F>
+I.B. Orlova, and N.A. Sventsitskaya, State Institute of Optics 
+imeni S.I. Vavilov, St.Petersburg; UDC 621.373:535] 
+  [Abstract] An unstable resonator is proposed for the 
+LIT-100 commercial YAG:Nd laser. The active medium of this laser 
+consists of two cylindrical YAG:Nd rods 100 mm long and 6.3 mm 
+in diameter, a thermal lens being induced in each. They are now 
+placed each inside a single-lamp ellipsoidal reflector-luminaire 
+and each pumped with a 24 A - 150 Hz current supplying a power 
+of 5.5 kW. These luminaires are very energy-efficient but, owing 
+to multimode radiation emission by the active medium, they form 
+a widely divergent radiation beam. Stable resonators in the form 
+of long planar cavities minimize the beam divergence, but with 
+an attendant loss of power caused by distortions of higher 
+orders than those due to formation of the thermal lenses in the 
+active medium. Unstable resonators operating on the negative 
+branch of the stability curve are known to minimize the beam 
+divergence with minimum energy loss. Two variants of such a 
+resonator have been designed and tested. The telescopic 
+resonator providing an M= -1.7 magnification has a cavity formed 
+by two concave mirrors with respectively 0.67 m and 0.4 m radii 
+of curvature, the latter having a 3.6 mm diameter. The focus of 
+each mirror coincides with the focus of the nearest to it 
+thermal lens, the two thermal lenses having the same focal 
+length and the distance between them being equal to twice that 
+focal length. This resonator forms a radiation beam similar to 
+that formed by a ``cat's eye'' reflector and not much better 
+than that of the LIT-100 laser. The other resonator has a cavity 
+formed by two plane total-reflection back mirrors and an exit 
+mirror with a hole smaller than 6.3 mm in diameter. The image of 
+this hole, formed by the two thermal intracavity lenses, 
+coincides with it and the radiation beam thus exits through it 
+with hardly any loss of power. Such a resonator with 
+self-imaging of the exit hole rendered the best performance when 
+its critical dimensions were: 1. diameter of exit hole d= 5.2 
+mm, 2. focal length of thermal lenses f= 1 m, 3. distance from 
+focus of the thermal lens before the exit mirror to the nearest 
+back mirror L= 0.74 m. With this resonator the laser delivered a 
+power of 160 W (80 W per rod) in a beam with a 1.6 mrad 
+divergence angle (at 86% maximum intensity level). 
+Figures 3; 
+tables 1; references 6. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 23	Score: 8.197829
+<DOC>
+<DOCNO> FBIS4-66322 </DOCNO>
+<HT>    "jpcst008___94028" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>   24 May 1994 </DATE1>
+<F P=100> Science &amp; Technology </F>
+<F P=101> Lasers, Sensors, Optics </F>
+<H3> <TI>   Nonlinear Processes From Interaction of 1.053 </TI></H3>
+<HT><F P=107><PHRASE>    Nonlinear Processes From Interaction of 1.053 </PHRASE></F></HT>
+
+
+<TEXT>
+æm   Laser With Hohlraum Targets 
+
+<F P=102> 40100059A Chengdu QIANG JIGUANG YU LIZI SHU [HIGH-POWER 
+LASER AND PARTICLE BEAMS] in Chinese Vol 6 No 1, Feb 94 pp 5-15 </F>
+
+<F P=103> 40100059A </F>
+<F P=104>  Chengdu QIANG JIGUANG YU LIZI SHU [HIGH-POWER 
+LASER AND PARTICLE BEAMS] </F>
+
+<F P=105>  Chinese </F>
+CSO 
+
+<F P=106> [English abstract of article by Mei Qiyong, Zhao Xuewei, et </F>
+al. of Southwest Institute of Nuclear Physics and Chemistry, No 
+77, P.O. Box 525, Chengdu, 610003; MS received 20 Oct 92, 
+revised 20 Aug 93] 
+  [Text] Abundant nonlinear processes may be produced in 
+submillimeter-size hohlraum targets by 1.053 æm laser light 
+with duration of 1 ns and energy of 300-600 J. In experiments, 
+Stimulated Brillouin Scattering (SBS) and Stimulated Raman 
+Scattering (SRS) were directly measured, and Resonance 
+Absorption (RA), Two-Plasmon Decay (TPD), and Ion Acoustic Decay 
+(IAD) were observed indirectly. The experimental results show 
+that SBS and SRS are the dominant nonlinear processes in cavity; 
+they can scatter about 40 percent of the incident laser energy. 
+Electron plasma waves stimulated by nonlinear processes such as 
+SRS, TPD, RA, and IAD are the sources of suprathermal electron 
+generation. Our research indicates that SRS is the chief process 
+for electron plasma-wave generation in hohlraum targets, and it 
+can produce suprathermal electrons with a total energy about 10 
+percent of incident laser energy. Because spectra of nonlinear 
+process scattering light are closely related to the plasma 
+state, we can obtain information about the plasma state through 
+intensive measurement and analysis of these spectra of the 
+scattering light. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 24	Score: 8.167211
+<DOC>
+<DOCNO> FBIS3-24493 </DOCNO>
+<HT>    "jpust006___94024" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-006 </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   09 March 1994 </DATE1>
+<F P=100> ELECTRONICS </F>
+<H3> <TI>   Multiplexed Fiber-Optic Sensors with Autodyne Detection </TI></H3>
+<F P=102>  947K0035F Moscow KVANTOVAYA ELEKTRONIKA in Russian Vol 20, 
+No 9, Sep 93 pp 903-913 </F>
+
+<F P=103> 947K0035F </F>
+<F P=104>  Moscow KVANTOVAYA ELEKTRONIKA </F>
+
+
+<TEXT>
+Language: <F P=105> Russian </F>
+Article Type:CSO 
+
+<F P=106> [Article by V. T. Potapov, A. M. Mamedov, S. V. Shatalin, R. </F>
+V. Yushkaytis; UDC 681.586:681.7.068] 
+  [Abstract] A method is proposed for construction of 
+multiplex systems of fiber-optical interferometric sensors 
+entirely without optical directional couplers. In these systems, 
+the signal waves are formed by reflecting a portion of the 
+radiation, propagating in the fiber lightguide, from semi- 
+transparent mirrors, built within it, or from the internal 
+nonhomogenieties of the lightguide itself. When they arrive back 
+into the laser cavity, the lasing amplitude changes. Small 
+changes in the length of the optical path in the lightguide, 
+caused by the physical effects, which are being examined, can be 
+detected by controlling the laser output. Theoretical 
+relationships are developed for a frequency-modulated laser with 
+optical feedback and the carrier frequency modulation method for 
+multiplex sensors is discussed. Modulation characteristics of a 
+He-Ne laser, the bistability of the longitudinal modes are 
+examined and the effect of cross-talk is estimated. Autodyne 
+multiplex sensors including underwater acoustics antenna and 
+temperature sensors are also briefly discussed. The experimental 
+study of frequency-scanned He-Ne-laser operating with different 
+lightguide systems demonstrated that an autodyne detection is 
+suitable for application with distributed sensors employing a 
+Rayleigh scattering signal. Figures 9,references 12: 4 Russian, 
+8 Western 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 25	Score: 8.101182
+<DOC>
+<DOCNO> SJMN91-06313234 </DOCNO>
+<ACCESS> 06313234 </ACCESS>
+<DESCRIPT>  COMPUTER; RESEARCH; FIRST; TELEPHONE; COMPANY  </DESCRIPT>
+<LEADPARA>  Scientists at AT&amp;T's Bell Laboratories announced Thursday that they had
+produced the world's smallest lasers, an advance that one day may simplify the
+manufacture of a new generation of ultrafast computers controlled by beams of
+light.  </LEADPARA>
+<SECTION>  Business  </SECTION>
+<HEADLINE>  TINY LASERS MAY SPEED UP COMPUTERS  </HEADLINE>
+<TEXT>     The same technology may also have other promising applications, including
+building sensitive artificial-vision systems that could operate in a manner
+similar to the human retina, researchers said.;   The Bell Labs research team
+presented its work Thursday in San Jose at the annual meeting of the Optical
+Society of America.;   Part of the report's significance is that the new
+lasers -- which look like microscopic thumbtacks whose round tops emit
+piercing beams of light -- can be made in arrays by the same process that is
+used to make modern semiconductors.;   Thus the researchers said they believed
+that optical computers, which exist today only in theory, might some day be
+able to follow the same falling cost curves that have been emblematic of the
+microelectronics industry.;   "We're hoping that when you get to computing
+speeds above a billion cycles per second that optics will play a major part,"
+said Richart Slusher, head of the Bell Labs Optical Physics Research
+Department. "The key is whether these technologies will be cost effective.";  
+The new lasers are made by alternating one or more layers of indium gallium
+arsenide with layers of indium gallium arsenide phosphide. The thin layers
+that constitute the laser head are only 400 atoms thick. The researchers then
+etch away some material to leave the tiny thumbtack-shaped structures that can
+emit laser light in several directions.;   So far, prototypes of tiny lasers
+that are 2, 5 and 10 microns in diameter have been manufactured using the new
+process. By comparison, a human hair is approximately 75 microns in diameter
+and a conventional laser beam used to play a compact disk player is 250
+microns in diameter.;   The new semiconductor laser was designed by Sam
+McCall, a Bell Labs physicist.;   The researchers said that they would now
+attempt a second key technological step: designing photon "wires" to guide the
+beams emitted by the lasers.;   By building circuits of optical lasers and
+other components, the researchers said they hoped to be able to fabricate
+systems that would permit computer designers to create reliable connections
+between computer chips in high-speed systems.;   The new lasers operate at
+extremely low power levels and therefore would be well-suited as light sources
+for future optical switches, the researchers said.  </TEXT>
+<BYLINE>  New York Times  </BYLINE>
+<COUNTRY>  USA  </COUNTRY>
+<EDITION>  Stock Final  </EDITION>
+<CODE>  SJ  </CODE>
+<NAME>  San Jose Mercury News  </NAME>
+<PUBDATE>   911108  </PUBDATE> 
+<DAY>  Friday  </DAY>
+<MONTH>  November  </MONTH>
+<PG.COL>  9D  </PG.COL>
+<PUBYEAR>  1991  </PUBYEAR>
+<REGION>  WEST  </REGION>
+<STATE>  CA  </STATE>
+<WORD.CT>  409  </WORD.CT>
+<DATELINE>  Friday, November 8, 1991
+00313234,SJ1  </DATELINE>
+<COPYRGHT>  Copyright 1991, San Jose Mercury News  </COPYRGHT>
+<LIMLEN>  1  </LIMLEN>
+<LANGUAGE>  ENG  </LANGUAGE>
+</DOC>
+
+Qid: 224	Rank: 26	Score: 8.096613
+<DOC>
+<DOCNO> FBIS3-40421 </DOCNO>
+<HT>    "jpest006__l94039" </HT>
+
+
+<HEADER>
+<AU>   JPRS-EST-94-006-L </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Europe/International </ABS>
+<DATE1>    18 February 1994 </DATE1>
+<F P=100> WEST EUROPE </F>
+<F P=101> LASERS, SENSORS, OPTICS </F>
+<H3> <TI>   Netherlands: Inauguration of Free Electron Laser </TI></H3>
+<F P=102>  BR1402141794 Bristol PHYSICS WORLD in English Jan 94 p 
+12--FOR OFFICIAL USE ONLY </F>
+
+<F P=103> BR1402141794 </F>
+<F P=104>  Bristol PHYSICS WORLD </F>
+
+
+<TEXT>
+Language: <F P=105> English </F>
+Article Type:BFN 
+
+<F P=106> [Article by Peter Rodgers: "FELIX Opens for Business"] </F>
+  [Text] United Kingdom researchers are to receive 20 
+percent of the beam time on the FELIX free electron laser at the 
+Dutch Institute for Plasma Physics "Rijnhuizen" in Nieuwegein 
+for the next two years. The agreement was signed at the 
+inauguration of FELIX last month and the beam time is payment in 
+kind for two United Kingdom-built undulators. The undulators 
+were intended for a British free electron laser project that was 
+cancelled in 1987. The Rijnhuizen laboratory is part of the 
+Foundation for Fundamental Research on Matter (FOM). 
+  Work on FELIX started in 1987. The Dutch Ministry of 
+Education and Science paid 13.4 million Dutch guilders [FL] 
+(about 5.7 million pounds) capital costs and is spending another 
+FL4 million per year to turn FELIX into an international user 
+facility - the agreement with the United Kingdom is the first 
+step. FELIX actually started operating in 1991 and the first 
+experiments started late in 1992. According to FELIX project 
+leader Wim van Amersfoort, the facility is oversubscribed by 
+more than a factor of two. The plan is to operate FELIX 42 
+weeks of the year (16 hours a day, five days per week) and the 
+annual running costs are expected to be about FL3.5 million. 
+  A free electron laser (FEL) is a cross between a synchrotron 
+and a laser. Synchrotron radiation is produced when a beam of 
+relativistic electrons is forced to oscillate in a magnetic 
+field. The core of a FEL is an undulator, a device that produces 
+more intense synchrotron radiation than other arrangements of 
+magnets. If mirrors are placed at each end of the undulator, the 
+radiation can be stored in the resulting cavity and made 
+coherent. Bunched electrons travel through the undulator, 
+amplifying radiation produced by previous bunches. One of the 
+mirrors is partially reflecting to allow the FEL radiation to 
+escape from the cavity. 
+  FELIX operates between 6 and 110 microns in the infrared and 
+is used for experiments in atomic physics, molecular physics and 
+chemistry, solid-state physics, surface physics and chemistry, 
+medicine and biomolecular spectroscopy. The wavelength is tuned 
+by changing the electron energy or the magnetic field in the 
+undulator. It is tunability over a wide range of wavelengths 
+that give FELs their advantage over other radiation sources. 
+  FELIX actually has two undulators and two linear 
+accelerators. Its output consists of micropulses - infrared 
+pulses with durations between 0.5 and 10 picoseconds and peak 
+powers of 10 megawatts. The micropulses are separated by 1 
+nanosecond and form macropulses which can last as long as 6 
+microseconds and contain thousands of micropulses. There are 
+between six and ten macropulses per second. 
+  Twenty percent of the time on FELIX will be used for 
+studying 
+FELs themselves. The FOM group plans to produce micropulses 
+with durations of hundreds of femtoseconds and to extend the 
+wavelength range to 300 microns - shorter wavelengths in the 1 
+to 20 microns range are already covered by the CLIO free 
+electron laser at Orsay in France. 
+  Rijnhuizen has also started work on a free electron maser 
+(FEM) as a megawatt source of tunable millimetre waves. This 
+would be used to heat and control magnetically-confined fusion 
+plasmas in tokamaks. Completion of the FEM project, which is 
+being carried out in collaboration with laboratories in the 
+former Soviet Union, Russia and Germany, is expected in 1995. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 27	Score: 8.071026
+<DOC>
+<DOCNO> FBIS4-22965 </DOCNO>
+<HT>      "jpust005__l94008" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-005l </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   06 April 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Possibility of Using Thermoemission Reactor-Converter With </TI></H3>
+<HT><F P=107><PHRASE>    Possibility of Using Thermoemission Reactor-Converter With </PHRASE></F></HT>
+
+
+<TEXT>
+Nuclear-Pumped   Laser Set for Cleaning Outer Space of Debris: 
+Departmental Conference of Specialists on 26-29 May 1992 
+
+<F P=102> 947J0010A Obninsk FIZIKA YADERNO-VOZBUZHDAYEMOY PLAZMY I 
+PROBLEMY LAZEROV S YADERNOY NAKACHKOY in Russian 1963, pp </F>
+
+257-261--FOR OFFICIAL USE ONLY 
+<F P=103> 947J0010A </F>
+<F P=104>  Obninsk FIZIKA YADERNO-VOZBUZHDAYEMOY PLAZMY I 
+PROBLEMY LAZEROV S YADERNOY NAKACHKOY </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by P.I. Bystrov, L.A. Gorshkov, N.I. Zelenshchikov, </F>
+A.A. Maslennikov, V.V. Pukhov, Yu.P. Semenov, V.C. Sinyavskiy, 
+and Yu.A. Sobolev, Scientific-Industrial Association ``Energiya 
+(Energy)'' imeni Academician S.P. Korolev, Kaliningrad (Moscow 
+Oblast); editors in charge: Petr Petrovich Dyyachenko and 
+Anatoliy Vasilevich Zrodnikov, Institute of Physics and Power 
+Engineering] 
+  [Translation] 
+  Key words: spacecraft, nuclear power plant, heat emitting 
+reactor-converter, nuclear-pumped laser set. 
+  According to estimates, as a result of accidental and in 
+many 
+cases intentional exhausts there are now over 3.5 million 
+artificial objects and particles in the circumterrestrial layer 
+of outer space. Such a cosmic ``debris'' presents a danger to 
+astronauts as well as to spacecraft. 
+  Passive methods and active methods of cleaning outer space 
+of 
+this debris are now being investigated. Removal of debris 
+fragments by active methods requires use of devices which detect 
+particles and impart either energy or momentum to them so as to 
+ensure their deceleration and descent from the orbit. This 
+problem can be solved in a cardinal way, namely by vaporization 
+of fragments with the aid of high-energy systems. Such a system 
+may be a spacecraft which carries an electric reaction engine 
+which propels it, a nuclear power plant which supplies power to 
+the engine, and a laser set which imparts energy to a particle 
+in space. 
+  Under consideration is the possibility of using for this 
+purpose a spacecraft which carries a nuclear power plant 
+consisting of a heat emitting reactor-converter and a built-in 
+laser set with nuclear pumping /1/. 
+  The basal nuclear power plant has the following main 
+technical and technological characteristics /2/: 
+  1. Use of heat emitting fast-neutron reactor-converter with 
+a 
+moderating reflector and with an emitter shell formed by 
+tungsten single crystals. 
+  2. Use of a high-temperature cooling system with lithium as 
+the coolant. 
+  3. Transmission of the heat ejected during the thermodynamic 
+cycle through the surface of a cooler-radiator consisting of 
+sodium heat exchanger tubes. 
+  4. Use of only one structural material, a niobium alloy, 
+throughout the entire nuclear power plant. 
+  5. Layout of the nuclear power plant based on the radiation 
+path principle, with use of shadow-type radiation protection. 
+  One envisages a compound reactor regulation system 
+consisting 
+of rotating cylinders inside the lateral reflector in addition 
+to control elements and protective devices ensuring radiation 
+safety directly inside the reactor-converter core. Inside the 
+core is also located a protective nuclear safety system 
+consisting of devices which absorb neutrons and ensuring nuclear 
+safety in all emergency situations, these devices being 
+withdrawn from the core into their functional orbit only before 
+the power is turned on. The nuclear power plant is both started 
+and cooled by a startup cooling system which ensures economical 
+melting of lithium in the tubes by the heat coming from the 
+reactor-converter during startup. 
+  An array of laser cells is mounted in the lateral reflector 
+of the heat emitting reactor-converter, its electric power 
+rating being 150 kw. The reactor generates both the voltage 
+necessary for sustaining the discharge in the discharge chamber 
+of the CO[.sub]2[/]-laser and the neutron flux used for 
+boost-excitation of the active laser medium. Each cell is a 
+discharge chamber, a 700 mm long cylindrical tube 110 mm in 
+diameter, its geometrical axis coinciding with optical axis of 
+the laser. The electrodes are disposed along that optical axis 
+and produce a transverse discharge, perpendicular to the 
+direction of gas flow. The active medium is a 
+CO[.sub]2[/]-N[.sub]2[/]-He mixture driven through the 
+discharge tube, its temperature and pressure at the inlet being 
+500 K and 4500 Pa respectively. A laser set with an exit beam 
+power of 15 kw requires 10 such cells inside the lateral 
+reflector. The cells can be cooled either by an independent 
+cooling system or by a cooling system combined with the cooling 
+system for the protective shields. It is also feasible to use a 
+cooling system withe heat exchanger tubes. 
+  Design estimates indicate that the mass of such a nuclear 
+power plant with an electric power rating of 150 kw will not 
+exceed nine tons. 
+  Estimates regarding the effectiveness radius of such a power 
+plant indicate the following. Inasmuch as most of the artificial 
+objects in outer space are made of aluminum and are within the 
+0.1-10 mm size range, they require correspondingly 0.00023-200 
+kJ of energy for vaporization. 
+  Owing to divergence of the laser beam, the intensity of 
+radiation reaching the surface of a particle will depend on the 
+distance to that surface. The intensity of radiation incident on 
+a particle is 
+
+<FIG ID=JPRS-UST-005L-17A>      FORMULA </FIG>
+
+
+  The intensity levels (watts) of incident radiation from a 15 
+kW laser, depending on the radius of a particle (cm) and on the 
+distance to a particle (km), are listed is the Table. The 
+numbers in parentheses represent the time (seconds) needed for 
+vaporization of a particle: 
+
+<FIG ID=JPRS-UST-005L-17B>      FORMULA </FIG>
+
+
+  Evidently such a system is very effective at least within 
+the 
+10-30 km range of distances. 
+  Such systems operate now in radiation-safe orbits within the 
+800-2000 km range of altitudes, where most of the mass of debris 
+fragments is located. The rocket-carrier ``Proton'' puts a 
+spacecraft with a dry mass of 11.2 tons into a circular orbit at 
+800 km altitude, whereupon the nuclear power plant on the 
+spacecraft is turned on so that search for and vaporization of 
+particles can begin. The spacecraft then moves from 800 km to 
+2000 km altitude and back to 800 km altitude with an only small 
+change of the orbit inclination angle, propelled by the 150 kW 
+electric reaction engine with xenon as the working medium. It 
+takes the spacecraft about 960 h to make one such sweep and, 
+with a 5-6 tons supply of xenon, it can make 40-50 sweeps during 
+its 5 years long life. Complete removal of fragments within the 
+800-2000 km layer requires 8-10 such spacecrafts. 
+
+<FIG ID=JPRS-UST-005L-18A>      Spacecraft for Cleaning Circumterrestrial Space Layer of Debris Fragments </FIG>
+
+
+Bibliography 
+  1. F.M. Arinkin, G.A. Batyrbekov, A.O. Beysebayev, et al.; 
+``Neutron-Physics Based Possibility of Laser Operation With 
+Nonself-Sustained Discharge in Heat Emitting Fast-Neutron 
+Reactor-Converter'', in this collection of articles Vol. 3, p. 
+262. 
+  2. Yu.P. Semenov, L.A. Gorshkov, P.I. Bystrov, et al.; 
+``Configuration of Electric Motor Unit Based on Heat-Emitting 
+Nuclear Power Plant for Piloted Flight to Mars'', Transactions 
+of Second Departmental Specialist Conference on ``Nuclear Power 
+in Outer Space'', Obninsk 1990. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 28	Score: 8.049129
+<DOC>
+<DOCNO> FBIS4-47479 </DOCNO>
+<HT>    "jpust013___94032" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Pumping Wide-Aperture Excimer Laser ``GARPUN'' With </TI></H3>
+<HT><F P=107><PHRASE>    Pumping Wide-Aperture Excimer Laser ``GARPUN'' With </PHRASE></F></HT>
+
+
+<TEXT>
+Counterpropagating   Electron Beams 
+
+<F P=102> 947J0038B Moscow KVANTOVAYA ELEKTRONIKA in Russian Vol. 23 
+No. 3, Mar. 94 (manuscript received 10 Aug 93) pp. 241-246 </F>
+
+<F P=103> 947J0038B </F>
+<F P=104>  Moscow KVANTOVAYA ELEKTRONIKA </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by S.V. Arlantsev, Ye.A. Grigoryants, A.D. </F>
+Vadkovskiy, V.D. Zvorykin, and G.Ye. Metreveli, Institute of 
+Physics imeni P.N. Lebedev at Russian Academy of Sciences, 
+Moscow; PACS 42.55.Gp;42.60.By;41.75.Fr] 
+  [Abstract] Electron-beam pumping of the wide-aperture 
+excimer laser ``GARPUN'' [HARPOON] is being studied in search of 
+a scheme which will ensure most efficient and nearly uniform 
+excitation of the active medium. This laser, inside a 144 cm 
+long chamber with a 22x22 cm[.sup]2[/] large square 
+cross-section and a 18x20 cm[.sup]2[/] wide aperture, is 
+pulse- pumped by two relativistic electron beams entering 
+laterally from opposite sides through vacuum-sealed windows made 
+of 20 æm thick titanium foil, which separates the gaseous 
+working medium inside from the beam accelerating vacuum diodes 
+outside. The high-voltage beam accelerators consist each of four 
+duplex shaping lines on deionized water which are electrically 
+charged by a generator of voltage pulses. A pair of solenoids 
+produces a pulsed magnetic field of about 1 kG intensity 
+parallel to the counterpropagating electron beams which 
+stabilizes the beams and minimizes diffusion of electrons from 
+the active medium. This arrangement makes it feasible to form 
+electron beams 12x100 cm[.sup]2[/] in cross-section carrying 
+a uniformly distributed current of 60 kA behind the windows and 
+delivering it in square pulses of 100 ns duration. The 
+accelerating voltage is regulated by varying either the voltage 
+of pulse generator or the geometry of interelectode gap in the 
+vacuum diodes. The experimental apparatus includes a graphite 
+calorimeter measuring the energy of both electron beams at the 
+entrance to the laser chamber and a DMI-1 magnetic inductive 
+instrument recording the pressure pulses in the active medium 
+through an 8ANCh-23 strain-gage transducer on an S8-14 
+oscillograph, the time constant of this set being 0.3 ms and 
+thus much shorter than the about 200 ms long pressure transient 
+inside the laser chamber. Tests were performed with 
+Ar*[.sub]2[/] and Kr*[.sub]2[/] molecules, 0.1-0.6% 
+CO[.sub]2[/] being added for effective quenching of the 
+excitation states. The theoretical model of electron transfer in 
+the one-particle approximation disregards collective effects and 
+plasma instabilities, all being negligible under conditions of 
+the experiment. Only pairwise collisions of electrons with atoms 
+of the noble gas are thus assumed to take places during electron 
+beam and active medium interaction, in the course of which 
+either the atoms become ionized (excited) by the electrons or 
+electrons are being scattered by the atoms. Radiation losses 
+attending elastic scattering are in this case also negligible. 
+Analysis of this process requires calculating the trajectories 
+of individual electrons between successive collisions with atoms 
+by solving the equations of motion dP/dt = e[vB] and dS/dt = v 
+(momentum P= m[.sub]e[/]v/[1- 
+(v/c)[.sup]2[/]][.sup]1/2[/], S- distance traveled by 
+electron, e- electron charge, B- magnetic induction, 
+m[.sub]e[/]- electron mass, v- velocity of electron, c- speed 
+of light, t- time). This system of equations has been solved 
+numerically by the universally applicable and most precise of 
+all Monte Carlo method. The results of the experiment and of the 
+numerical simulation indicate the optimum conditions for pumping 
+an energy of as much as 2.1 kJ and correspondingly a power of 
+about 0.8 MW/cm[.sup]3[/] density into a ``Garpun'' Ar-laser 
+with an about 60% efficiency, with the energy 
+distribution over 
+the aperture deviating less than 20% from a uniform one 
+and the 
+overall pump efficiency reaching about 16%. The authors 
+thank 
+E.A. Molodykh for setting up he numerical calculations, A.A. 
+Ionin and A.A. Kotkov for supplying the experimental apparatus 
+and setting up the pressure measurements, V.G. Bakayev and G.V. 
+Sychutov for assisting in preparation of the experiments. 
+Figures 6; tables 1; references 29. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 29	Score: 8.044813
+<DOC>
+<DOCNO> FBIS3-59759 </DOCNO>
+<HT>    "jpjst004__l94045" </HT>
+
+
+<HEADER>
+<AU>   JPRS-JST-94-004L </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Japan </ABS>
+<DATE1>   27 January 1994 </DATE1>
+<F P=100> Physics </F>
+<H3> <TI>   Mitsubishi Electric Corp. Develops High Output Green Light 
+Laser </TI></H3>
+<F P=102>  94P60068A Tokyo KAGAKU KOGYO NIPPO in Japanese 24 Nov 93 p 5 
+-- FOR OFFICIAL USE ONLY </F>
+
+<F P=103> 94P60068A </F>
+<F P=104>  Tokyo KAGAKU KOGYO NIPPO </F>
+
+
+<TEXT>
+Language: <F P=105> Japanese </F>
+Article Type:CSO 
+
+  [Text] Mitsubishi Electric has developed short-wavelength, 
+high-output oscillation technology using a solid-state YAG 
+laser. It was difficult to obtain the high-output 
+short-wavelength laser light because the wavelength conversion 
+element, which transforms the YAG laser light (infrared light) 
+into short-wavelength light, tends to cause crystal destruction. 
+The company avoided crystal destruction by bringing about a 
+``gentle frequency conversion.'' It achieved this by lengthening 
+the frequency conversion element and increasing the optical beam 
+size of the YAG laser by an order of millimeters 10 times that 
+of conventional types. Using this technology, Mitsubishi 
+achieved the oscillation of 24 watt green laser light. 
+Furthermore, it is said that not only green laser light but also 
+blue laser light and other high output oscillations are possible. 
+  The solid state laser which oscillates short-wavelength 
+laser 
+light consists of an excitation light source, a YAG laser (a 
+yttrium-aluminum-garnet laser doped with niobium), a nonlinear 
+optical material which is the wavelength conversion element, and 
+other components. The excited YAG laser emits 1064 nanometer 
+infrared light which, after passing through the wavelength 
+conversion element, oscillates green, blue and other 
+short-wavelength light. However, the wavelength conversion 
+element crystal was too brittle to withstand the strong infrared 
+light. 
+  The company enlarged the spot size of the infrared light 
+entering the wavelength conversion element by an order of 
+millimeters for the purpose of dispersing the energy and, at the 
+same time, it lengthened the wavelength conversion element. 
+Several crystals were connected together because the maximum 
+size for the wavelength conversion element crystal is 10 
+millimeters. The optimal phase matching of their adjoining parts 
+has been designed in order to minimize conversion loss. 
+Accordingly, even when high output infrared radiation enters, 
+the destruction of the wavelength conversion element crystal 
+does not occur. 
+  Employing this technology, and using a KTP (potassium 
+titanate phosphate) wavelength conversion element which halves 
+the wavelength, a 24 watt (electric power input 4.9 kilowatts) 
+green laser light (532 nanometer wavelength) generation was 
+attained. This is double the output achieved up until the 
+present time and it is said that it is possible to have an 
+output of more than 100 watts. Moreover, this technology can be 
+applied to other wave conversion elements, such as 
+KNb&lt;inf&gt; 3&lt;/inf&gt;  (potassium niobium&lt;inf&gt; 3&lt;/inf&gt; ) which converts 
+the wavelength to one third -- a blue wavelength. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 30	Score: 8.018424
+<DOC>
+<DOCNO> FBIS3-43046 </DOCNO>
+<HT>      "jpust005___94042" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-005 </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   10 February 1994 </DATE1>
+<F P=100> ENGINEERING AND EQUIPMENT </F>
+<F P=101> INDUSTRIAL ENGINEERING </F>
+<H3> <TI>   On Use of Laser Radiation for Shaped Cutting of Rolled Bituminous Materials </TI></H3>
+<F P=102>  947F0048A Moscow STROITELNYYE MATERIALY in Russian No 
+8(464), Aug 93 pp 25-26 </F>
+
+<F P=103> 947F0048A </F>
+<F P=104>  Moscow STROITELNYYE MATERIALY </F>
+
+
+<TEXT>
+Language: <F P=105> Russian </F>
+Article Type:CSO 
+
+<F P=106> [Article by L.A. Teplova, Scientific Production Association </F>
+of Polymer Building Materials; UDC 678.58.691.16.621.791.94] 
+  [Abstract] The widening gap between the physical and 
+engineering base of the construction industry and today's 
+standards, the low mechanization level of roofing operations, 
+and the increasing popularity of soft bitumen-based materials 
+prompted the National Scientific Research Institute of Polymer 
+Building Materials together with the Tekhnopom National 
+Scientific and Engineering Center to examine the effectiveness 
+of shaped cutting of rolled bitumen-impregnated roofing 
+materials using a specialized laser system. To this end, CW, 
+pulse, and periodic pulse CO[.sup]2[/], garnet, ruby, and 
+Nd-glass lasers are tested. The experiment demonstrates that 
+CO[.sup]2[/] CW lasers with a 1-6 kgf/cm[.sup]2[/] air 
+injection to the cutting zone are optimum for materials moving 
+at a high velocity relative to the beam. A comparison of laser, 
+mechanical, and combined laser-mechanical cutting methods and 
+process parameters makes it possible to speculate that a 36.9 
+m/min cutting speed can be obtained using a 5 kW laser whose 
+radiation is split into two beams. The advantages of a 
+computer-aided laser cutting system include the simplicity and 
+speed of switching from one standard size of material to 
+another. The findings confirm the outlook for using laser 
+radiation for shaped cutting of soft bitumen-impregnated roofing 
+materials and the method's ability to implement complex designer 
+concepts and original shapes for various building roof shapes. 
+The anticipated economic impact from implementing the 
+computer-aided laser complex using the combined laser-mechanical 
+method with a double-split beam and three knives is up to 10 
+million rubles in 1993 prices. References 4. 
+
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 31	Score: 8.010744
+<DOC>
+<DOCNO> FBIS4-20465 </DOCNO>
+<HT>    "jpcst004___94035" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-004 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>   7 February 1994 </DATE1>
+<F P=100> Microelectronics </F>
+<H3> <TI>   808-nm, 980-nm Quantum Well Laser Diodes Pass Design </TI></H3>
+<HT><F P=107><PHRASE>    808-nm, 980-nm Quantum Well Laser Diodes Pass Design </PHRASE></F></HT>
+
+
+<TEXT>
+Finalization 
+
+<F P=102>   94P60158A Beijing ZHONGGUO DIANZI BAO [CHINA ELECTRONICS 
+NEWS] in Chinese 7 Feb 94 p 3 </F>
+
+<F P=103> 94P60158A </F>
+<F P=104>  Beijing ZHONGGUO DIANZI BAO [CHINA ELECTRONICS 
+NEWS] </F>
+
+<F P=105>  Chinese </F>
+CSO 
+
+<F P=106> [Article by Zheng Zhaosen [6774 0340 2773]: </F>
+``808-nm-Wavelength, 980-nm-Wavelength Quantum Well Laser 
+Diodes''] 
+  [Summary] The 808-nm-wavelength high-power AlGaAs quantum 
+well laser diode and 980-nm-wavelength InGaAs/AlGaAs 
+strained-layer quantum well laser diode developed by MEI's 
+Institute 13 as pump sources for solid state lasers recently 
+passed design finalization. The former laser diode is a key 
+device used in all-solid-state YAG lasers, while the latter is a 
+key device for erbium-doped fiber optical amplifiers. Both 
+achievements were listed as Eighth FYP Key State Projects and 
+863 Plan key projects. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 32	Score: 7.996906
+<DOC>
+<DOCNO>
+WSJ920220-0140
+</DOCNO>
+<DOCID>
+920220-0140.
+</DOCID>
+<HL>
+   Technology &amp; Medicine:
+   GE Reports
+   New Laser Beam
+   Has More Power
+   ----
+   By Jerry E. Bishop
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+02/20/92
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B5
+</SO>
+<CO>
+   GE
+</CO>
+<MS>
+CONGLOMERATES (CGL)
+</MS>
+<IN>
+CONGLOMERATES (CGL)
+</IN>
+<NS>
+SCIENCE &amp; TECHNOLOGY (SCN)
+</NS>
+<RE>
+CONNECTICUT (CT)
+NORTH AMERICA (NME)
+UNITED STATES (US)
+</RE>
+<LP>
+   SCHENECTADY -- General Electric Co. researchers said they
+produced a high-powered beam of green light from a beam of
+infrared light generated by a solid-state laser.
+   The feat showed that a trick called frequency doubling
+might be used to get high-powered, high-quality beams of
+various colors of light from a solid-state laser. The power
+and quality of the beams could lead to new applications of
+solid-state lasers in medicine, communications and
+manufacturing, the company said.
+</LP>
+<TEXT>
+   Powerful beams of green light have been produced
+previously, but by gas lasers, explained Michael H.
+McLaughlin, manager of laser technology at GE's big research
+and development center here. Solid-state lasers have the
+advantage of being smaller and more compact and thus more
+amenable to various applications. But until now, beams of
+green light from solid-state lasers have been relatively weak
+and there have been some questions of whether it is possible
+to use the frequency-doubling trick to produce high-powered
+beams of light from solid-state lasers.
+   To get a powerful beam of green light, the GE researchers
+said they started with a 16-watt beam of invisible infrared
+light from a solid-state laser. The beam was fed into a
+so-called face-pumped laser that pumped up the power of the
+beam to 92 watts.
+   In the next step, the 92-watt beam was focused on a
+crystal of lithium triborate which doubled the frequency of
+part of the beam, jumping it into the green part of the light
+spectrum from the infrared. The power of the green beam was
+52 watts, or twice as powerful as green beams previously
+produced by solid-state lasers, GE said. Moreover, the green
+beam was of "good quality," meaning it tended to stay narrow
+and steady.
+   Green light is easily absorbed by certain plastic
+composites and thus the more powerful beam might be useful in
+machining such composites, the company said. Green light also
+passes easily through seawater and thus such lasers might be
+useful for submarine communications.
+   "With additional frequency conversions, we can shift the
+green beam to wavelengths in the ultraviolet and deep
+ultraviolet regions useful for laser surgery and other
+medical applications while retaining substantial average
+power," Mr. McLaughlin said.
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 33	Score: 7.966125
+<DOC>
+<DOCNO>
+WSJ920213-0073
+</DOCNO>
+<DOCID>
+920213-0073.
+</DOCID>
+<HL>
+   PERSONAL TECHNOLOGY
+   ----
+   By Walter S. Mossberg
+</HL>
+<DATE>
+02/13/92
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B1
+</SO>
+<CO>
+   EVRX HWP T.DC
+</CO>
+<MS>
+TECHNOLOGY (TEC)
+</MS>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+OFFICE EQUIPMENT (OFF)
+SOFTWARE (SOF)
+</IN>
+<NS>
+NEW PRODUCTS &amp; SERVICES (PDT)
+</NS>
+<RE>
+CALIFORNIA (CA)
+CANADA (CN)
+NORTH AMERICA (NME)
+PACIFIC RIM (PRM)
+UNITED STATES (US)
+</RE>
+<LP>
+
+   Reasonable Facsimiles
+   Of Fax Machines
+                                                                                                       
+
+   YOU DON'T need a fax machine to send and receive faxes. In
+fact, you may be able to do much or all of your faxing from
+your desk, using equipment you already own: a personal
+computer and laser printer.
+</LP>
+<TEXT>
+   A growing array of add-on products give computers and
+printers faxing ability. Depending on your needs, PCs and
+printers can replace, or at least supplement, stand-alone fax
+machines. Properly equipped, they can mimic the three main
+parts of fax machines: a mechanism for scanning documents to
+be faxed, a special built-in phone for sending or receiving
+images of documents, and a printing mechanism for reproducing
+faxes on paper.
+   There are limitations to faxing without fax machines. The
+biggest drawback is that most setups can only send
+computerized documents, not paper ones. But on the receiving
+end, you have the pleasure of being free from greasy, curly
+fax paper. You can simply read faxes on the screen, or print
+them out on regular paper using your computer's laser
+printer.
+   The most popular faxing device for computers is a fax
+modem. These products combine, in one unit, a standard modem
+-- the specialized phones that send and receive computer data
+-- and the telephonic guts of a fax machine.
+   To transmit a fax with these devices, you use special
+software to send an electronic document through the fax modem
+to a regular fax machine elsewhere. When someone sends a fax
+to you from a fax machine, the fax modem answers the call and
+turns the transmission into a computer graphic image that can
+be displayed on your screen or printed on your laser printer
+(but would require massaging before it could be edited in
+your word processor).
+   I've tried two fax modems: the $179 Fax96 1-Liner by
+Frecom, of Fremont, Calif., for my IBM-compatible PC; and the
+$269 DoveFax, by Dove Computer, Wilmington, N.C., for my
+Macintosh computer. Both work well, but there are many
+others.
+                                                                                                       
+
+   Before choosing a fax modem, consider the software it
+includes. The software should be easy to use and install, and
+should let you maintain an automated phone list for quick and
+simple sending, view and manipulate incoming faxes and create
+customized cover pages.
+   Dove's software and other Macintosh faxing programs allow
+you to fax documents directly from word processors or other
+programs by going through the same steps you would to print
+the document but selecting the fax modem as your "printer."
+An impressive $75 program called Winfax, from Delrina
+Technology of Toronto, lets you do the same thing on
+IBM-compatible computers running Microsoft's Windows program.
+   Some fax programs have special features. The Fax96 modem's
+software automatically determines whether an incoming call is
+a regular voice phone call, a fax call or a standard computer
+data transmission. Calera Recognition Systems, Sunnyvale,
+Calif., offers a $99 Windows program called FaxGrabber that
+automatically turns faxes being received by a fax modem into
+text that can be edited in your word processor.
+   A key advantage of using your computer as a fax machine is
+that you can simply look at faxes on the screen and delete
+the ones you don't want without wasting time or paper by
+printing them. But a disadvantage is that, if you receive a
+lot of faxes, they can hog your computer's memory and disk
+storage space.
+                                                                                                       
+
+   One solution is to buy an add-on device that turns a laser
+printer into a stand-alone fax machine, without requiring
+incoming faxes to go through your computer. The JetFax II by
+JetFax, Menlo Park, Calif., was an early entry in this
+market. A slender box, it sits beside a Hewlett-Packard
+LaserJet or compatible printer and automatically routes
+incoming faxes to the printer. H-P now offers its own
+competing fax add-on, a bigger unit called the LaserJet Fax.
+Both devices can send computer files as faxes, but the H-P
+can also send paper documents.
+   These two products are relatively costly (around $700 for
+the JetFax II, nearly $1,000 for the LaserJet Fax). Tall Tree
+Systems of Palo Alto, Calif., offers a compact, $399
+alternative called Fax-O-Matic. This little black box merely
+lets an H-P or compatible laser printer receive faxes,
+without the involvement of the computer. Extended Systems of
+Boise, Idaho, makes a $599 device, the FaxConnection, that
+goes inside an H-P laser printer to enable it to receive
+faxes.
+   The most elegant solution is the LaserScript Fax by Everex
+Systems, Fremont, Calif. This is a laser printer with
+built-in fax circuitry. It will automatically receive faxes
+and let you send faxes from the computer. LaserScript Fax
+sells for $2,500 to $3,000. Eventually, I suspect, most laser
+printer makers will offer built-in faxing like this, further
+eroding the need for separate fax machines, and that awful
+fax paper.
+                                                                                                       
+
+   ADDENDUM: A few weeks back, I glibly described internal
+modems as "sheets of silicon" with chips mounted on them. A
+couple of eagle-eyed readers pointed out that the main part
+of the modem isn't made of silicon, only the chips. I stand
+corrected.
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 34	Score: 7.881036
+<DOC>
+<DOCNO> FBIS4-44611 </DOCNO>
+<HT>    "jpcst011___94010" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-011 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>    29 April 1994 </DATE1>
+<F P=100></F>
+<F P=101>   Other Optoelectronic Devices </F>
+<H3> <TI>   Optoelectronics Achievements of CAS Institute of </TI></H3>
+<HT><F P=107><PHRASE>    Optoelectronics Achievements of CAS Institute of </PHRASE></F></HT>
+
+
+<TEXT>
+Semiconductors 
+<H4>    670-nm Visible-Light Laser Diode </H4>
+
+<F P=102> 94P60277B Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 29 Apr 94 p 4 </F>
+
+<F P=103> 94P60277B </F>
+<F P=104>  Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 29 Apr 94 p 4 </F>
+
+<F P=105> Chinese </F>
+CSO 
+
+<F P=106> [Article by Zheng Huaide: ``670-nm Visible-Light Laser </F>
+Diode''] 
+  [Summary] This InGaAlP visible-light semiconductor laser, 
+an excellent replacement for He-Ne gas lasers, has an emission 
+wavelength of 670 +/- 10 nm, a threshold current of 60-80 mA, 
+and an output power of 3-5 mW. Applications for this 
+device--whose demand is indicated by a 200 percent growth rate 
+abroad over the past few years--include indicators, gunsights, 
+optical disk storage, bar code scanners, and laser printers. 
+For interested manufacturers, equipment investment costs are 
+about 5 million yuan, which should generate an output value of 
+15 million yuan within 3 years, after which profits should begin. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 35	Score: 7.856168
+<DOC>
+<DOCNO>
+WSJ910329-0010
+</DOCNO>
+<DOCID>
+910329-0010.
+</DOCID>
+<HL>
+   Technology Brief -- Toshiba Corp.:
+   Firm's Researchers Develop
+   Strong Semiconductor Laser
+</HL>
+<DATE>
+03/29/91
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B3
+</SO>
+<CO>
+   J.TOS
+</CO>
+<IN>
+ELECTRICAL COMPONENTS AND EQUIPMENT (ELQ)
+SEMICONDUCTORS, INTEGRATED CHIPS (SEM)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+</IN>
+<LP>
+   Toshiba Corp. announced that researchers at its Toshiba
+R&amp;D Center have developed a prototype red-light semiconductor
+laser, or laser diode, with the highest optical output power
+of any continuous-wave visible laser diode in the world.
+   The new prototype device is expected to be used as a new
+light source for optical information storage products,
+replacing conventional semiconductor lasers, Toshiba said in
+Tokyo.
+</LP>
+<TEXT>
+   The new device emits a laser with a maximum optical output
+power of 106 milliwatts, or mW, at a wavelength of 690
+nanometers, or nm. Conventional devices, used as light
+sources to read and write data for storage products such as
+electronic document filing systems and CD-ROMs, emit an
+invisible laser beam with 30mW of output power and an 830nm
+wavelength.
+   Toshiba said demand is increasing for devices with higher
+output power and a shorter wavelength in order to store data
+at a higher density and read the data more accurately. The
+higher the density becomes, the more power is required for
+writing and reading data.
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 36	Score: 7.839778
+<DOC>
+<DOCNO> SJMN91-06105175 </DOCNO>
+<ACCESS> 06105175 </ACCESS>
+<DESCRIPT>  COMPUTER; IMAGE; EQUIPMENT; COST  </DESCRIPT>
+<LEADPARA>  I like clever products. When someone invents an ingenious way of doing
+something for pennies that ordinarily would cost thousands, it makes me want
+to stand up and applaud.;    A standing ovation for cleverness goes to
+LaserColor, from Minds In Motion. LaserColor adds a glossy metallic color to
+any lettering or image created by an ordinary black-and-white laser printer or
+copier.  </LEADPARA>
+<SECTION>  Computing  </SECTION>
+<HEADLINE>  LASERCOLOR FOILS HIGH COST OF LASER PRINTING
+IN COLOR  </HEADLINE>
+<MEMO>  FYI  </MEMO>
+<TEXT>     Color laser printers today are far too costly ($30,000 and up) for personal
+use. But even these expensive color laser printers can't give you colored
+foil-like text. LaserColor does, and does it for pennies. Here's how.;   
+LaserColor's $14.95 MultiColor Pac contains 10 metallic-color sheets of heat-
+and pressure-sensitive film. The film has a patented adhesive that bonds only
+to dry toner, the powdered ink used by laser printers and most copying
+machines.;    Starting with a printed page from your laser printer or copier,
+cut a piece of the film large enough to cover the text or image you want to
+color. Then tape the film to the paper with the provided adhesive dots.;   
+Next, run the document and the attached film through the laser printer or
+copier using the single sheet feed or manual tray. The heat and pressure
+activate the film's adhesive, and the metallic color will stick only to the
+printed areas.;    Once the paper has passed through the machine, you peel off
+the film and adhesive dots. The result is a colored, near-mirror finish added
+to the text or image you selected.;    For more information and a free sample,
+contact: Minds In Motion Inc., (619) 748-5003.  </TEXT>
+<BYLINE>  CRAIG CROSSMAN, Knight-Ridder News Service  </BYLINE>
+<COUNTRY>  USA  </COUNTRY>
+<EDITION>  Morning Final  </EDITION>
+<CODE>  SJ  </CODE>
+<NAME>  San Jose Mercury News  </NAME>
+<PUBDATE>   910414  </PUBDATE> 
+<DAY>  Sunday  </DAY>
+<MONTH>  April  </MONTH>
+<PG.COL>  8F  </PG.COL>
+<PUBYEAR>  1991  </PUBYEAR>
+<REGION>  WEST  </REGION>
+<STATE>  CA  </STATE>
+<WORD.CT>  268  </WORD.CT>
+<DATELINE>  Sunday April 14, 1991
+00105175,SJ1  </DATELINE>
+<COPYRGHT>  Copyright 1991, San Jose Mercury News  </COPYRGHT>
+<LIMLEN>  1  </LIMLEN>
+<LANGUAGE>  ENG  </LANGUAGE>
+</DOC>
+
+Qid: 224	Rank: 37	Score: 7.801644
+<DOC>
+<DOCNO> FBIS4-47472 </DOCNO>
+<HT>    "jpust013___94025" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-013 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   23 June 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Forming Informational Signals with Two-Frequency YAG:Nd+++ </TI></H3>
+<HT><F P=107><PHRASE>    Forming Informational Signals with Two-Frequency YAG:Nd+++ </PHRASE></F></HT>
+
+
+<TEXT>
+Lasers   for Communication and Rangeing 
+
+<F P=102> 947J0030B Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA in Russian Vol. 58 No. 2, Feb. 94 pp. 25-34 </F>
+
+<F P=103> 947J0030B </F>
+<F P=104>  Moscow IZVESTIYA AKADEMII NAUK: SERIYA 
+FIZICHESKAYA </F>
+
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V.M. Yermachenko, A.V. Panteleyev, V.N. </F>
+Petrovskiy, Ye.D. Protsenko, and R.A. Shananin, Moscow Institute 
+of Engineering Physics; UDC 621.373.826.038.825.3] 
+  [Abstract] The performance of a two-frequency YAG:Nd+++ 
+laser with beat (frequency separation) modulation for 
+communication systems and rangefinders is analyzed 
+theoretically, assuming equal quality factors in both modes and 
+a uniformly broadened amplification band when the gain excess 
+over the the sum of cavity and exit mirror losses remains small. 
+For specificity is considered a laser with the following 
+parameters: half-width of upper level _g_= 3 kHz, unilateral 
+half-width of amplification band &Ggr;= 200 GHz, normalized 
+pumping rate _ee_= 1.0225, absolute frequency deviation D= 1 
+GHz. 
+The system of equations of kinetics has been solved numerically 
+for the population inversion in each mode, the intensity of each 
+mode, and the beat frequency as explicit functions of time in 
+the case of linear sawtooth frequency modulation of one mode. 
+With the aid of these data is now calculated the form of a 
+compressed pulse and thus also its nonlinearity, whereupon the 
+results are used for the design of a matching filter or 
+correlational signal processor. The resolving power of a 
+rangefinder operating with one such two-frequency laser is found 
+to be theoretically the same as that of a rangefinder operating 
+with two single-frequency lasers. Practically, however, it is 
+much higher owing to the fact that here technical fluctuations 
+are correlated and especially so at a 10[.sup]6[/] GHz/s or 
+higher scanning rate with a pulse signal shortened to an 
+approximately 5 ns duration. Figures 4; references 6. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 38	Score: 7.781892
+<DOC>
+<DOCNO> FBIS4-22835 </DOCNO>
+<HT>    "jpust008___94037" </HT>
+
+
+<HEADER>
+<AU>   JPRS-UST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Central Eurasia </ABS>
+<DATE1>   31 March 1994 </DATE1>
+<F P=100> PHYSICS AND MATHEMATICS </F>
+<H3> <TI>   Plasma Formed by Interaction of Laser Radiation and Solid </TI></H3>
+<HT><F P=107><PHRASE>    Plasma Formed by Interaction of Laser Radiation and Solid </PHRASE></F></HT>
+
+
+<TEXT>
+Targets 
+
+<F P=102>   947J0011A Moscow USPEKHI FIZICHESKIKH NAUK in Russian Vol. 
+163 No. 12, Dec 93 (manuscript received 17 Jun 93, after </F>
+
+completion 28 Sep 93) pp 51-84 
+<F P=103> 947J0011A </F>
+<F P=104>  Moscow USPEKHI FIZICHESKIKH NAUK </F>
+<F P=105>  Russian </F>
+CSO 
+
+<F P=106> [Article by V.S. Vorobyev, Institute of High Temperatures at </F>
+Russian Academy of Sciences, Moscow] 
+  [Abstract] Research done during the 1969-1991 period 
+concerning the physical mechanisms of laser-induced plasma 
+formation above solid targets is reviewed, formation of 
+low-temperature surface plasma by interaction of laser radiation 
+and solid targets covering the 10[.sup]5[/]-10[.sup]10[/] 
+range of radiation intensity being essentially considered here 
+along with negative and positive technological aspects of the 
+process. The results of experiments with pulsed 
+CO[.sub]2[/]-lasers indicate that formation of a plasma above 
+metal surfaces in air requires a radiation of only about 10 
+MW/cm[.sup]2[/] intensity in pulses of about 1 æs duration 
+and of only 0.1-1 MW/cm[.sup]2[/] intensity in millisecond 
+pulses, while breaking down air in the absence of metal surfaces 
+requires as much as 1-10 GW/cm[.sup]2[/]. Two characteristic 
+target temperatures have been defined as parameters of the 
+initial thermal interaction: temperature T* of complete 
+vaporization and temperature T[.sub]b[/] of boiling or 
+sublimation under a given pressure of the ambient gas. The 
+energy relations during thermal stage of target heating to 
+vaporization and the subsequent stage of vapor ionization are 
+examined theoretically with the support of experimental data, 
+for the purpose of determining the threshold laser radiation 
+intensity and the threshold energy density at the target 
+surface. Inasmuch as both threshold depend on the mode of 
+surface plasma formation, the following ones are considered 
+here: S- by heating of the entire target surface, MD- by heating 
+of thermally insulated microdefects, A- by heating and 
+vaporization of aerosol, VGM- by ionization of the target vapor 
+mixed with ambient gas in the diffusion mode, EF- 
+hydrodynamically in the presence of an erosion flare. The review 
+covers plasma formation in these modes above ideally smooth 
+surfaces of many metals ranging from fusible ones (Zn,Pb) to 
+refractory ones (W,Ta) including brass, also of carbon and 
+several oxides (alumina, silica), above surfaces of 
+nonhomogeneous materials such as aluminum alloys with solid 
+inclusions of intermetallic compounds, above microdefective 
+surfaces, and above rough surfaces. Analysis of surface plasma 
+formation in vapor-gas mixtures in the diffusion mode after 
+heating of the entire target surface (S-VGM) are considered two 
+models: quasi-steady vapor distribution within a cloud of finite 
+dimensions and nonsteady vapor distribution within a cloud in 
+statu nascendi, atomic and molecular ambient gases being 
+considered. Analysis of surface plasma in the hydrodynamic mode 
+in the presence of an erosion flare is based on the model of 
+vapor breakdown by a ``heat absorption spike'' or the model of 
+``avalanche ionization'' in gas layers at the target surface. 
+Despite the subjectivity of researchers and not always 
+consistent research data, the thresholds of surface plasma 
+formation by laser radiation pulses have been in many cases 
+correctly estimated. Figures 15; tables 5; references 155. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 39	Score: 7.763377
+<DOC>
+<DOCNO> WSJ861215-0039 </DOCNO>
+<HL> German Technology Gains on U.S., Japan
+---
+Laser Maker's Success
+Exemplifies the Progress
+---
+By Thomas F. O'Boyle
+Staff Reporter of The Wall Street Journal</HL>
+<DD> 12/15/86</DD>
+<SO> WALL STREET JOURNAL (J)</SO>
+<IN> EUROP </IN>
+<DATELINE> HAMBURG, West Germany  </DATELINE>
+<TEXT>
+    Samuel Simonsson has just
+returned from a trip to Japan. In a few minutes he will meet
+with customers from Italy. In a few hours he is leaving for
+Moscow.
+   Mr. Simonsson makes lasers, and these days demand is about as hot as the light beam itself. 
+Rofin-Sinar Laser G.m.b.H., which built its first laser only four years ago, already is the world's No. 3 producer of industrial lasers. 
+It has sold more than 300 custom-built machines to customers in 23 countries; sales have advanced 70% annually for several years. 
+
+   Such success wouldn't have seemed probable a few years ago for any start-up venture in West Germany, much less one in the vanguard of high technology. 
+From government ministries to corporate boardrooms, Germans sensed they were falling behind the U.S. and Japan in the global race for technological leadership. 
+
+   But as Rofin-Sinar's sudden rise suggests, that technology gap may be closing. 
+In such highly advanced technologies as lasers, high-energy and nuclear physics and pharmaceutical research, Germany now matches or surpasses Japan and the U.S., technology experts say. 
+
+   "Five or six years ago, the Germans were buying other people's lasers. 
+Now they're the world's leaders," says David Belforte, an industry consultant in Sturbridge, Mass. 
+"The technology they have introduced is very impressive." 
+Germany's funding of laser research, he adds, "far exceeds the U.S. and perhaps even Japan and the U.S. combined." 
+
+   Of course, German technology is woefully inadequate in several fields, most notably microelectronics and computers. 
+Moreover, the success of many joint European projects, which aim in particular to shore up the continent's low standing in electronics, won't be known for years. 
+
+   Still, German scientists won the Nobel Prize for physics this year and last, Germany's first back-to-back selection in the category since 1919. 
+Total government and private research spending has risen nearly 20% in the past three years, to the equivalent of $27.3 billion, the highest proportion of research spending to gross national product of any nation. 
+
+   And in its latest "World Competitiveness Report," the European Management Forum, a Swiss research firm, rates West German industry's technological effort as second in the world -- behind Japan but ahead of the U.S., which dropped to fifth place from second in this year's rankings. 
+
+   "There's a wide range of German industry that is competitive technologically," says Thomas Rauschenbach, who wrote the study. 
+
+   In the case of lasers, German industry is not only competitive but is widely believed to be leading the pack. 
+That leadership in part reflects the government's own recognition that lasers are an important future technology that builds on German strengths in fields such as optics, precision equipment and physics, and should therefore be nurtured. 
+
+   As much as 20% of Rofin-Sinar's research budget is federally funded. 
+Of the 72 projects under Western Europe's Eureka research-support umbrella, the second largest is the so-called Eurolaser program. 
+About 40% of its $205 million support comes from the Bonn government. 
+
+   While President Reagan envisions bold uses for the laser in his proposed space-based missile-defense system, the Germans think nonmilitary applications have the most potential. 
+Though world-wide sales of all types of lasers will barely exceed $500 million this year, the laser already is an essential tool. 
+
+   German companies are heavily involved. 
+The electronics giant Siemens AG supplies more than one-third of the world's supermarket checkout scanners. 
+Tiny Lambda Physik G.m.b.H. of Goettingen makes 70% of the world's excimer lasers, used to perform delicate surgery. 
+And in factory automation, powerful Rofin-Sinar lasers are used to cut, weld and anneal many materials, replacing traditional processes. 
+
+   "Lasers won't replace spot welding," predicts Mr. Simonsson, Rofin-Sinar's boyish-looking 37-year-old president, "but they will take over many applications." 
+
+   Born in Sweden and educated in Germany, Mr. Simonsson and two partners founded Rofin-Sinar in 1975 to sell other companies' lasers. 
+Banks were reluctant to lend money to the new concern. 
+In fact, the idea probably would have flopped without the backing of a venture capitalist, Eberhard Lohss, a Hamburg businessman who holds a majority interest. 
+
+   The new company also had trouble recruiting personnel. 
+"People in Germany aren't as willing to take a professional risk," says Mr. Simonsson, an engineer by training. 
+"When I was in college I was amazed how many people had a fixed idea about their careers. 
+They already knew what pension they could expect." 
+
+   But by 1982 the company had achieved enough success that Mr. Simonsson was convinced he could make better lasers than the ones he was peddling. 
+
+   Even competitors thought the new machines had promise: Spectra-Physics Inc. of San Jose, Calif., the largest commercial laser manufacturer, bought rights to sell one early Rofin-Sinar design in the U.S. 
+
+   "American companies are living off the technology of others," says Robert McCrory, who directs laser research at the University of Rochester. 
+"They aren't in the vanguard, pushing new applications." 
+The Germans, on the other hand, are "very, very competitive," he adds. 
+
+   Rofin-Sinar has been particularly aggressive in its commercial development of German scientific discoveries. 
+One of the company's newest lasers, Mr. Simonsson explains proudly, can cut thick steel plates with a beam six times as intense as previous designs. 
+
+   Yet the machine -- about the size of two stacked caskets -- consumes only twice as much gas. 
+A new technique uses radio waves to generate the laser beam, a process developed by a nearby German university. 
+
+   Elsewhere on the company's shop floor, workers are building some of the 100 lasers that Rofin-Sinar will produce this year, which range in price from $50,000 to more than $1 million. 
+
+   Yet even with its rapid growth, Rofin-Sinar is a midget among giants. 
+SpectraPhysics's sales of $210 million in the year ended Sept. 30 dwarf Rofin-Sinar's projected $25 million for calendar 1986. 
+Still, Mr. Simonsson sees advantages to being small -- including being nimble enough to exploit market opportunities in a rapidly changing field. 
+
+   Mr. Simonsson figures his company must have something going for it -- or the competition wouldn't be trying to buy him out. 
+"We have an offer every two or three weeks," he says. 
+"I'm trying to think of new ways to say no." 
+
+   ---
+
+              Output of Industrial Lasers
+                (Carbon dioxide type)
+               Japan           Germany         U.S.
+ 1982           240              120           800
+ 1983           350              180           925
+ 1984           525              280          1100
+ 1985           680              370          1550
+ 1986           800              480          1800
+   Sources: Laser Focus Magazine; private consultants'
+estimates
+
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 40	Score: 7.750077
+<DOC>
+<DOCNO>
+WSJ911108-0139
+</DOCNO>
+<DOCID>
+911108-0139.
+</DOCID>
+<HL>
+   Technology:
+   AT&amp;T's Bell Labs
+   Develops a Laser
+   For Use in Chips
+   ----
+   By John J. Keller
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+11/08/91
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B8
+</SO>
+<CO>
+   T
+</CO>
+<MS>
+TECHNOLOGY (TEC)
+UTILITIES (UTI)
+</MS>
+<IN>
+COMMUNICATIONS TECHNOLOGY (CMT)
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+SEMICONDUCTORS, INTEGRATED CHIPS (SEM)
+TELEPHONE SYSTEMS, INCLUDING CELLULAR (TLS)
+</IN>
+<NS>
+NEW PRODUCTS &amp; SERVICES (PDT)
+SCIENCE &amp; TECHNOLOGY (SCN)
+</NS>
+<RE>
+NEW JERSEY (NJ)
+NORTH AMERICA (NME)
+NEW YORK (NY)
+UNITED STATES (US)
+</RE>
+<LP>
+   Scientists at American Telephone &amp; Telegraph Co.'s Bell
+Laboratories said they have developed the world's smallest
+semiconductor lasers.
+   AT&amp;T said the lasers are so tiny (about five microns in
+diameter) that at least 10,000 would fit on the head of a
+pin. AT&amp;T and its rivals have been racing to boost
+transmission power of fiber-optic communications equipment
+and to miniaturize devices that comprise such gear to reduce
+cost and make them easier to service.
+</LP>
+<TEXT>
+   "This is a very novel semiconductor laser structure," said
+Erich Ippen, a Massachusetts Institute of Technology
+professor who specializes in lasers and optics. "The use of
+high-density microscopic lasers as interconnects is
+potentially quite important" for linking information systems
+in the future, he said.
+   AT&amp;T is looking at using "these beautiful little
+structures" as communications devices for optical switches
+and connectors for linking computers and the devices within
+them, said Richart Slusher, chief of Bell Labs' Optical
+Physics Research department, Murray Hill, N.J. However, AT&amp;T
+scientists must first show that the new devices can be made
+as inexpensively as current electrical connectors and that
+they are compatible with silicon-based electronic equipment,
+he added.
+   Pictures supplied by AT&amp;T show the microscopic devices,
+dubbed "microdisk lasers," look like thumbtacks when viewed
+through a scanning electron microscope. The head of each one
+of these "tacks" is 400 atoms thick, or one-thousandth the
+diameter of a human hair. Dr. Slusher said the devices are
+Bell Labs' "biggest breakthrough" since so-called
+surface-emitting lasers were developed about three years ago.
+Such lasers use two microscopic mirrors to concentrate a
+light beam on the laser chip's interior surface before
+shooting the beam in the form of a cone.
+   The new lasers were designed by Bell Labs' researcher Sam
+McCall to operate in the so-called "whispering gallery" mode,
+named for the sound effect associated with St. Paul's
+Cathedral in London, where a person can whisper and be heard
+clearly along the wall of the dome. In a similar fashion, Dr.
+McCall's lasers are said to shoot their light pulses or
+photons along the edge of the disk-shaped laser, or the path
+of least resistance, AT&amp;T said.
+   Each laser, which is crafted of indium gallium arsenide
+"sandwiched" between indium gallium arsenide phosphide, took
+about nine months to develop, said Dr. Slusher, who noted
+that Dr. McCall worked on the team that developed AT&amp;T's
+surface-emitting devices.
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 41	Score: 7.728219
+<DOC>
+<DOCNO> FBIS4-20466 </DOCNO>
+<HT>    "jpcst004___94036" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-004 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>   18 February 1994 </DATE1>
+<F P=100> Microelectronics </F>
+<H3> <TI>   Room-Temperature Vertical Cavity Surface-Emitting Laser </TI></H3>
+<HT><F P=107><PHRASE>    Room-Temperature Vertical Cavity Surface-Emitting Laser </PHRASE></F></HT>
+
+
+<TEXT>
+Diode   Developed 
+
+<F P=102> 94P60158B Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 18 Feb 94 p 2 </F>
+
+<F P=103> 94P60158B </F>
+<F P=104>  Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 18 Feb 94 p 2 </F>
+
+<F P=105> Chinese </F>
+CSO 
+
+<F P=106> [Article by He Chunfan [0149 2504 5672]: ``Major Advance in </F>
+Vertical Cavity Surface-Emitting Laser Diode Development''] 
+  [Summary] The GaAs/AlGaAs vertical cavity surface-emitting 
+laser diode (VCSEL) developed as an 863 Plan key project by the 
+National Integrated Optoelectronics Laboratory at the CAS 
+Institute of Semiconductors has fulfilled an Eighth FYP task 3 
+years ahead of schedule. Fabricated via molecular beam epitaxy 
+and proton bombardment techniques, this VCSEL exhibits 
+room-temperature pulsed emission, with an emission threshold 
+current of 10 mA and an output optical power ranging from 0.3 mW 
+to 0.7 mW. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 42	Score: 7.623857
+<DOC>
+<DOCNO> FBIS3-59568 </DOCNO>
+<HT>    "jpest002___94002" </HT>
+
+
+<HEADER>
+<AU>   JPRS-EST-94-002 </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Europe/International </ABS>
+<DATE1>   14 January 1994 </DATE1>
+<F P=100> WEST EUROPE </F>
+<F P=101> LASERS, SENSORS, OPTICS </F>
+<H3> <TI>   Germany: Holographic Grating Developed for Environmental 
+Analysis </TI></H3>
+<F P=102>  94WS0059A Frankfurt/Main FRANKFURTER ZEITUNG/BLICK DURCH DIE 
+WIRTSCHAFT in German 13 Oct 93 p 8 </F>
+
+<F P=103> 94WS0059A </F>
+<F P=104>  Frankfurt/Main FRANKFURTER ZEITUNG/BLICK DURCH DIE 
+WIRTSCHAFT </F>
+
+
+
+<TEXT>
+Language: <F P=105> German </F>
+Article Type:CSO 
+
+<F P=106> [Article by "JB": "Holographic Grating for Environmental </F>
+Analysis and Laser Work. Optoelectronic Devices Can Become 
+Smaller and Less Expensive/Resolution of 0.3 Nanometer"] 
+  [Text] Frankfurt--Holographic gratings are optical 
+microstructures that can be used in numerous ways in optical 
+measuring systems and in laser equipment. The Berlin Institute 
+for Optics GmbH [Limited Liability Company] (Rudower Chaussee 5, 
+12484 Berlin) has developed new kinds of holographic gratings 
+that can be used in spectrometers for environmental analysis and 
+for optimization of the application of high-power lasers. 
+  As Dr. Christel Budzinski reports, optical microstructures 
+like holographic gratings can be fabricated by processes that 
+come from microelectronics. They include photolithography and 
+dry etching. Holographic gratings can help to reduce the size of 
+optoelectronic devices. The cost of these devices can also be 
+lowered by the use of gratings. 
+  Spectrometers in the field of environmental analysis are an 
+application possibility. Incident light is split up spectrally 
+and analyzed in spectrometers. These instruments have to be 
+especially lightweight and compact if they are used in 
+satellites for remote sensing, for determination of the state of 
+terrestrial vegetation, for example. 
+  A grating from Berlin specially developed for this purpose 
+can help here. The spectrometer required operates in the 
+spectral region of 650 to 800 nanometers. An image of a strip of 
+the earth's surface (swath) is formed by means of a lens in the 
+entrance slit and is then directed to the grating, where the 
+spectrum is split into individual colors. The spectrum is then 
+picked up by a photodetector array (CCD) and can be analyzed. 
+  Atmospheric gases and changes in them as well as the state 
+of 
+vegetation can be detected in this way by estimating the red 
+shift of chlorophyll margins. The holographic grating is the 
+chief component. It defines the precision of the measurements. 
+The spectral resolution, that is, the precision with which 
+individual wavelengths can be differentiated, is especially 
+decisive. 
+  The resolution comes to 0.3 nanometer for the grating 
+developed for the remote-sensing spectrometer. This also enables 
+the spatial resolution of measured values in a modified 
+spectrometer. Thus, the values for a swath can be associated 
+with individual elements of the earth's surface, and this 
+enhances the strength of the evidence of environmental analysis. 
+  Laser technology is an additional application possibility 
+for 
+holographic gratings. CO&lt;inf&gt; 2&lt;/inf&gt;  lasers above all have 
+recently taken on importance in medicine and in the working of 
+materials. This type of laser is very efficient and can be 
+handled with precision. 
+  This precision is closely associated with the diameter of 
+the 
+laser spot. The smaller the diameter of the beam, the higher the 
+energy density and the more finely detailed the work that can be 
+done. Now holographic gratings can help to reduce the laser 
+spot's size. However, conventional gratings fabricated by 
+photolithography do not have especially high stress tolerance. 
+  The gratings are ruined even at lower laser outputs. That is 
+why the scientists in Berlin have fabricated holographic 
+gratings by means of a molding process and with copper as the 
+substrate. These gratings have substantially higher stress 
+tolerance and thus can contribute to higher precision when 
+working with high-power lasers. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 43	Score: 7.618254
+<DOC>
+<DOCNO> FBIS4-66321 </DOCNO>
+<HT>    "jpcst008___94027" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-008 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>   24 May 1994 </DATE1>
+<F P=100> Science &amp; Technology </F>
+<F P=101> Lasers, Sensors, Optics </F>
+<H3> <TI>   Bipulse-Drive-Generated High-Gain X-Ray Laser Experiment </TI></H3>
+<HT><F P=107><PHRASE>    Bipulse-Drive-Generated High-Gain X-Ray Laser Experiment </PHRASE></F></HT>
+
+
+<TEXT>
+Successful 
+
+<F P=102>   94P60228B Chengdu QIANG JIGUANG YU LIZI SHU [HIGH-POWER 
+LASER AND PARTICLE BEAMS] in Chinese Vol 6 No 1, Feb 94, inside </F>
+
+back cover 
+<F P=103> 94P60228B </F>
+<F P=104>  Chengdu QIANG JIGUANG YU LIZI SHU [HIGH-POWER 
+LASER AND PARTICLE BEAMS] </F>
+
+<F P=105>  Chinese </F>
+CSO 
+
+<F P=106> [Article by Sun Yongliang [1327 3057 5328]: </F>
+``Bipulse-Drive-Generated High-Gain X-Ray Laser Experiment 
+Successful''] 
+  [Summary] From 20 October to 19 November 1993, scientists 
+at Laboratory 214 of the Southwest Institute of Nuclear Physics 
+and Chemistry (SINPC) conducted a series of X-ray laser 
+experiments. Using the LF-12 laser facility, and guided by X-ray 
+laser theoretical research done at the Beijing Institute of 
+Applied Physics and Computational Mathematics, the SINPC 
+scientists successfully observed two electron-collision-excited 
+Ne-like Ge X-ray laser gain lines--one at 19.6 nm and one at 
+23.6 nm. The scientists used a narrow-pulse-width, low-energy 
+bipulse laser drive and a thin-film target. In 
+electron-collision-excited mechanism research, this is the first 
+report worldwide of successful realization of high-gain X-ray 
+lasing with a low-energy, mid/high-power-density laser. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 44	Score: 7.580251
+<DOC>
+<DOCNO>
+WSJ920211-0165
+</DOCNO>
+<DOCID>
+920211-0165.
+</DOCID>
+<HL>
+   Technology:
+   Compaq, in First Bid Outside Core Area,
+   Plans Laser Printers for PC Networks
+   ----
+   By Laurence Hooper
+   Staff Reporter of The Wall Street Journal
+</HL>
+<DATE>
+02/11/92
+</DATE>
+<SO>
+WALL STREET JOURNAL (J), PAGE B10
+</SO>
+<CO>
+   CPQ FUJIY RANKY U.RKX XRX
+</CO>
+<MS>
+CONSUMER CYCLICAL (CYC)
+TECHNOLOGY (TEC)
+</MS>
+<IN>
+COMPUTERS AND INFORMATION TECHNOLOGY (CPR)
+ENTERTAINMENT AND LEISURE (ENT)
+FILM, TELEVISION &amp; MUSIC INDUSTRIES (MOV)
+OFFICE EQUIPMENT (OFF)
+RECREATION, ENTERTAINMENT, TOYS, MOVIES, PHOTOGRAPHY (REC)
+LEISURE TIME SERVICES AND PRODUCTS (REQ)
+</IN>
+<NS>
+NEW PRODUCTS &amp; SERVICES (PDT)
+</NS>
+<RE>
+CONNECTICUT (CT)
+EUROPE (EU)
+KENTUCKY (KY)
+NORTH AMERICA (NME)
+TEXAS (TX)
+GREAT BRITAIN (UK)
+UNITED STATES (US)
+WESTERN EUROPE (WEU)
+</RE>
+<LP>
+   Compaq Computer Corp. is planning to produce laser
+printers for PC networks in its first move outside the
+personal-computer business, according to industry executives.
+   The new products will put Compaq in competition with
+industry rivals such as Hewlett-Packard Co., the leading
+laser-printer maker, in a fast-growing market that accounted
+for well over $1 billion in world-wide sales last year.
+</LP>
+<TEXT>
+   Industry executives said Compaq won't try to compete with
+Hewlett in the huge mainstream market for smaller,
+stand-alone laser printers. They added that though the
+company has recruited executives for a printer division and
+is setting up operations in the U.S. and Germany, details
+could still change before the machine's planned U.S. debut in
+May. Compaq, based in Houston, has previously scotched
+tentative plans to launch a laser-printer product line.
+   In a telephone interview from Germany, Compaq Chief
+Executive Officer Eckhard Pfeiffer declined to talk about the
+company's efforts to produce laser printers.
+   According to the industry executives, Compaq's machines
+are envisioned as head-to-head competitors for Hewlett's
+17-page-a-minute LaserJet IIIsi printer, the main contender
+in a segment that is growing much faster than the general
+market for laser printers. In Europe, for example, sales of
+12- to 19-page-a-minute laser printers grew 72% to $340
+million last year -- and are expected to continue growing at
+a compound annual rate of 31% for the next five years.
+   In the U.S., the category exploded during 1991, with
+revenue almost quadrupling to $879 million, according to BIS
+Strategic Decisions, a market research firm.
+   For its new machines, Compaq would use a printer "engine"
+made by Fuji Xerox Co., a Japanese joint venture of Fuji
+Photo Film Co. and Rank Xerox Ltd., but would contribute much
+of the remaining technology itself, the executives said.
+Japan dominates the market for laser-printer engines,
+primarily through Canon Inc., which supplies the guts of
+several printer brands, including Hewlett's all-conquering
+LaserJet family.
+   Rank Xerox Ltd., a U.K.-based joint venture between Xerox
+Corp. and Rank Organisation PLC, is itself a low-end
+competitor in the European market for printers in the 12- to
+19-page-a-minute range. Other sellers of printers in this
+speed category include Matsushita Electric Industrial Co.'s
+Panasonic brand, Kyocera Corp., Fujitsu Ltd., QMS Inc.,
+Digital Equipment Corp. and International Business Machines
+Corp.  Lexmark International Inc., a recent IBM laser printer
+spinoff, based in Lexington, Ky., also plans to enter the
+faster segment during 1992.
+   Designed to function in a PC network, the new Compaq
+printers will likely be portrayed as plug-and-play components
+for high-performance corporate networks, a business area that
+Compaq has been trying to expand lately.
+   While noncommittal about the company's chance of success
+as a printer maker, industry analysts said Compaq will
+certainly benefit from a new way to differentiate itself from
+makers of cheap "clone" PCs, which have become the bane of
+its existence lately.
+   "A lot of companies have been caught by surprise by
+success of the clone companies," said U.K.-based printer
+analyst Greg Porell, of BIS Strategic Decisions. "As the PC
+market has become price-driven, Compaq's market share has
+dropped. What they're doing now is looking for ways to get
+incremental business -- and maybe offering a printer will
+give them an edge in the corporate market."
+</TEXT>
+</DOC>
+
+Qid: 224	Rank: 45	Score: 7.512575
+<DOC>
+<DOCNO> FBIS4-44775 </DOCNO>
+<HT>      "jpest010___94075" </HT>
+
+
+<HEADER>
+<AU>   JPRS-EST-94-010 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Europe/International </ABS>
+<DATE1>   7 June 1994 </DATE1>
+<F P=100> WEST EUROPE </F>
+<F P=101> LASERS, SENSORS, OPTICS </F>
+<H3> <TI>   Germany: 270 Million Marks Earmarked for Laser Research </TI></H3>
+<HT><F P=107><PHRASE>    Germany: 270 Million Marks Earmarked for Laser Research </PHRASE></F></HT>
+
+<F P=102>   94P60221A Berlin INGENTEUR DIGEST in German Mar 94 p 6 </F>
+<F P=103> 94P60221A </F>
+<F P=104>  Berlin INGENTEUR DIGEST </F>
+<F P=105>  German </F>
+
+
+<TEXT>
+CSO 
+
+  [Text] The BMFT [Federal Ministry for Research and 
+Technology] is providing about 270 million German marks up to 
+1997 for development of new laser sources and applications. The 
+new "Laser 2000" research focus is intended to speed up the 
+generational change from tube (gas lasers) to semiconductor 
+technology (diode lasers) in Germany. The main thrust of the 
+program is: basic research for new generations of lasers, 
+precision machining using lasers, new applications, and laser 
+medicine. Work on the pilot project on high-power diode lasers 
+has already begun with leading participation of Jenaoptik. 
+According to Dr. Werner Gries of BMFT, the goal is to develop a 
+small high-power, low-maintenance laser that is usable in a wide 
+range of products. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 46	Score: 7.487556
+<DOC>
+<DOCNO> FBIS4-44877 </DOCNO>
+<HT>    "jpjst028__l94013" </HT>
+
+
+<HEADER>
+<AU>   JPRS-JST-94-028L </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Japan </ABS>
+<DATE1>   23 March 1994 </DATE1>
+<F P=100> Lasers, Sensors, Optics </F>
+<H3> <TI>   Sharp Develops High Output Red Semiconductor Laser </TI></H3>
+<HT><F P=107><PHRASE>    Sharp Develops High Output Red Semiconductor Laser </PHRASE></F></HT>
+
+<F P=102>   94P60198A Tokyo NIKKEI SANGYO SHIMBUN in Japanese 23 Mar 94 
+p 5 -- FOR OFFICIAL USE ONLY </F>
+
+<F P=103> 94P60198A </F>
+<F P=104>  Tokyo NIKKEI SANGYO SHIMBUN </F>
+<F P=105>  Japanese </F>
+
+
+<TEXT>
+CSO 
+
+  [Text] Sharp developed technology for oscillation with a 
+high-output semiconductor laser which emits 680 nanometer red 
+light. By attaching a transparent layer, which acts as a window, 
+to the laser's end surface, Sharp was able to achieve the 
+world's highest output (295 milliwatts) by preventing heat 
+generation, which occurs when the end surface of the crystal 
+absorbs light and deteriorates. This achievement will raise the 
+reliability during the recording and reading of data on optical 
+discs. Sharp will continue to prevent the deterioration of 
+interior elements and such and also plans to apply this 
+technology to short wavelength lasers, which are suitable for 
+high density recording. 
+  The most distinguishing feature of the newly developed laser 
+is the window which was grown by the MOCVD [metal organic 
+chemical vapor deposition] method on a laser element composed of 
+aluminum, gallium, indium, and phosphorus. The window has a 
+composition similar to that of the laser element. Because it is 
+possible to control the light absorption at the end surface, it 
+is possible for the laser to have a long life span. When 50 
+milliwatt lasers were compared, the one with the window was able 
+to extend its lifetime by more than 10 times that of the one 
+without the window. 
+  When a semiconductor laser's output is increased, the laser 
+element's end surface absorbs light, heat is generated, and the 
+crystal structure breaks down. Up until now, the optical output 
+for a red laser came to a halt at 200 milliwatts. 
+  The red semiconductor laser is used for compact disc [CD] 
+reading and for minidisc [MD] reading and writing. A 700 
+nanometer type with an output from 30-50 milliwatts has been put 
+to practical use. The volume of information, which includes 
+imagery and voice and such, increases the need for the 
+commercialization of shortwave lasers that can record with 
+higher speed and more density. The company intends to apply this 
+element design to short wavelength lasers with high output. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 47	Score: 7.471682
+<DOC>
+<DOCNO> FBIS4-44613 </DOCNO>
+<HT>    "jpcst011___94012" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-011 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>    29 April 1994 </DATE1>
+<F P=100></F>
+<F P=101>   Other Optoelectronic Devices </F>
+<H3> <TI>   Optoelectronics Achievements of CAS Institute of </TI></H3>
+<HT><F P=107><PHRASE>    Optoelectronics Achievements of CAS Institute of </PHRASE></F></HT>
+
+
+<TEXT>
+Semiconductors 
+<H4>    1.3-Micron InGaAsP/InP Semiconductor Laser, Detector </H4>
+
+<F P=102> 94P60277D Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 29 Apr 94 p 4 </F>
+
+<F P=103> 94P60277D </F>
+<F P=104>  Beijing ZHONGGUO KEXUE BAO [CHINESE SCIENCE NEWS] 
+in Chinese 29 Apr 94 p 4 </F>
+
+<F P=105> Chinese </F>
+CSO 
+
+<F P=106> [Article by Zheng Huaide: ``1.3-æm InGaAsP/InP </F>
+Semiconductor Laser and Detector''] 
+  [Summary] This 1.3-æm InGaAsP/InP semiconductor laser 
+and detector, key components of fiber optic communications 
+equipment, are now being manufactured by a number of domestic 
+firms, and small batches have been exported to the U.S., Canada, 
+and elsewhere. This laser diode and detector, which can be 
+provided with multimode and single-mode fiber optic connector 
+modules having international-standard interfaces, are ideal for 
+long-wavelength fiber optic trunk lines, LANs, fiber optic 
+microwave subcarrier-wave (SCM), fiber optic cable TV, 
+convergent-control radar signal fiber optic distributors, and 
+many other applications. For interested manufacturers, 
+investment costs to build a production line with an annual 
+output of 100,000 laser diodes and detectors is about 30 million 
+yuan, and annual output value is about 100 million yuan. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 48	Score: 7.457822
+<DOC>
+<DOCNO> FBIS3-21117 </DOCNO>
+<HT>    "jpjst008__l94020" </HT>
+
+
+<HEADER>
+<AU>   JPRS-JST-94-008-L </AU>
+Document Type:JPRS 
+Document Title:Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  Japan </ABS>
+<DATE1>   2 March 1994 </DATE1>
+<F P=100> Lasers, Sensors, Optics </F>
+<H3> <TI>   Matsushita Electric Develops First Surface-Emission Laser OEIC </TI></H3>
+<F P=102>  94P60096A Tokyo KAGAKU KOGYO NIPPO in Japanese 8 Dec 93 p 
+5--FOR OFFICIAL USE ONLY </F>
+
+<F P=103> 94P60096A </F>
+<F P=104>  Tokyo KAGAKU KOGYO NIPPO </F>
+
+
+<TEXT>
+Language: <F P=105> Japanese </F>
+Article Type:CSO 
+
+  [Text] The Semiconductor Technology Center of Matsushita 
+Electric Industrial Co., Ltd. developed the world's first 
+surface-emission laser optoelectronic integrated circuit (OEIC) 
+which can operate 10 times as fast as a conventional matrix-type 
+surface-emission laser. The center designed a unique system in 
+which transistors are mounted on lasers (transistor-on-laser) 
+and lined up 64 lasers in an array-formation in a cell that is a 
+480 micron square. Each laser has a built-in transistor as its 
+driver. As a result, this accomplishment makes 10 gigahertz 
+high-speed operations functionally possible and it will open up 
+the way to the attainment of optical computers and optical 
+switchboards. 
+  Innovations in the CPU [Central Processing Unit] and such 
+have advanced the speed of computers. However, transmission 
+delays become a problem when there is an interchange among them 
+on networks. It has been pointed out that there are limits to 
+the present method used to amplify the signal by converting 
+optical communications into electricity. 
+  Therefore, there is a strong need for optical switches and 
+such which will make ultra high speed circuitry possible for the 
+switching of optical signals, without conversion, between 
+optical fibers. The surface-emission laser is expected to be one 
+of the basic technologies to make this possible. 
+  Although a chip has been developed which has integrated over 
+a thousand elements in the surface-emission laser, the 
+conventional product uses a matrix form of circuitry which needs 
+a large electric current to change the frequency of the laser. 
+Moreover, the circuit distance from the driver transistor is so 
+great that it makes high-speed operations difficult. 
+  In this instance, the device developed by Matsushita 
+Electric 
+has 64 0.98 nanometer wavelength surface-emission lasers each 
+integrated with a driver transistor. This structure uses a 
+unique method of putting the transistor on top of the laser. By 
+doing this, Matsushita made it possible to increase the 
+high-speed operations to more than 10 times that of the 
+matrix-type and also made it possible to increase the density 
+and reduce the area to one third of the latter type. A special 
+quality is that it is feasible to increase the speed up of 10 
+gigahertz and it is expected that this development will 
+drastically promote the utilization of optical computers and 
+optical switches. 
+
+</TEXT>
+
+</DOC>
+
+Qid: 224	Rank: 49	Score: 7.432037
+<DOC>
+<DOCNO> AP900104-0194 </DOCNO>
+<FILEID>AP-NR-01-04-90 1210EDT</FILEID>
+<FIRST>a a BC-EXP--Briefs Adv08   01-04 0608</FIRST>
+<SECOND>BC-EXP--Briefs, Adv 08,0624</SECOND>
+<NOTE>$adv08</NOTE>
+<NOTE>For release Monday, Jan. 8, and thereafter</NOTE>
+<HEAD>Blue Laser Could Mean Big Gains in Data Storage</HEAD>
+<DATELINE>GAINESVILLE, Fla. (AP) </DATELINE>
+<TEXT>
+   A zinc selenide laser that produces a
+blue beam and can be focused more tightly than other lasers could
+eventually triple the amount of information stored on optical
+computer disks, its developer says.
+   Japanese researchers in March developed a zinc selenide laser,
+but it had to be cooled to 135 degrees below zero Fahrenheit,
+according to the University of Florida, which announced a more
+practical, room-temperature laser.
+   Zinc selenide produces a blue beam that can focus on a spot
+one-third the size of that produced by current materials, packing
+information more densely on optical disks, increasing capacity.
+Optical storage has been slow to be adopted in computers because it
+is not as economical as magnetic storage.
+   But optical disks have some marked advantages, primarily in
+volume. The NeXT computer developed by Apple founder Steven Jobs is
+the first desktop model to use an optical disk as a primary storage
+device.
+   Peter Zory, a University of Florida electrical engineer who led
+the development of the zinc selenide laser, said that before it
+makes its way into use for information storage, it will be
+necessary to develop a blue laser diode of the same material.
+Diodes allow lasers to be powered by electricity. Without them,
+semiconductor lasers must be powered by other lasers or electron
+beams.
+   Zory, who has worked on lasers for IBM and General Electric,
+said IBM is trying another technique called second harmonic
+generation. ``It's expensive but they're doing it anyway, because
+they want that blue light. If we come in soon with the blue diode,
+it will blow that technology out of the water.''
+   Glenn Sincerbox, a former colleague of Zory's who manages
+optical recording for IBM in San Jose, Calif., said, ``Blue lasers
+are very important. We consider them strategic.''
+</TEXT>
+<HEAD>Planning Begins for Model Solar Village in Arizona</HEAD>
+<DATELINE>TUCSON, Ariz. (AP) </DATELINE>
+<TEXT>
+   Construction could begin by the end of this
+year on the first solar houses in the proposed $500 million Tucson
+Solar Village, which is envisioned as a guide for energy-efficient
+housing in the coming century.
+   ``We're getting interest from all over the globe because of the
+uniqueness of this project,'' said John Beimfohr of the state Solar
+Energy Office.
+   ``The overall effort will be to provide an affordable, mixed-use
+community using less energy and resources than traditional
+developments and complying with more stringent environmental
+performance codes,'' said Wilson Orr, project manager for the
+800-acre village to be built on state-owned land.
+   Workshops, review meetings and surveys will allow the public to
+offer opinions on transportation, density, jobs, energy costs,
+water use, solid waste management, open spaces, wildlife,
+recreation and affordability, Orr said.
+   ``Basically, our drawing board is blank right now,'' he said.
+``In the coming months, we'll be relying on the public to help us
+define this community and the performance standards for the
+community.''
+   Beimfohr said the village will incorporate such ``passive''
+solar techniques as narrower, tree-lined streets to reduce the
+``urban heat island effect,'' landscaping and house designs and
+orientation, as well as ``active'' techniques such as solar
+collectors to heat water or provide energy.
+   Initial funding for the project will come from an $850,000 oil
+overcharge restitution fund administered by the state. Another
+$69,000 in the first year will come from the Urban Consortium,
+which administers energy-related funds for the U.S. Department of
+Energy, Orr said.
+   Under a ``best-case scenario,'' officials said, construction on
+the first model homes could begin late this year, with land
+auctions by 1992.
+</TEXT>
+<NOTE>End Adv for Jan. 8</NOTE>
+</DOC>
+
+Qid: 224	Rank: 50	Score: 7.431774
+<DOC>
+<DOCNO> FBIS4-44609 </DOCNO>
+<HT>    "jpcst011___94008" </HT>
+
+
+<HEADER>
+<AU>   JPRS-CST-94-011 </AU>
+JPRS 
+Science &amp; Technology 
+
+</HEADER>
+
+<ABS>  China </ABS>
+<DATE1>    11 April 1994 </DATE1>
+<F P=100></F>
+<F P=101>   Other Optoelectronic Devices </F>
+<H3> <TI>   Latest Optoelectronic Devices from MEI Institute 44 </TI></H3>
+<HT><F P=107><PHRASE>    Latest Optoelectronic Devices from MEI Institute 44 </PHRASE></F></HT>
+<H4>    Sixteen Achievements Certified </H4>
+
+<F P=102> 94P60271C Beijing ZHONGGUO DIANZI BAO [CHINA ELECTRONICS 
+NEWS] in Chinese 11 Apr 94 p 3 </F>
+
+<F P=103> 94P60271C </F>
+<F P=104>  Beijing ZHONGGUO DIANZI BAO [CHINA ELECTRONICS 
+NEWS] </F>
+
+<F P=105>  Chinese </F>
+
+
+<TEXT>
+CSO 
+
+<F P=106> [Article by Yu Ruming [0151 3067 2494]: ``16 Achievements of </F>
+MEI Institute 44 Pass Appraisal''] 
+  [Summary] MEI Institute 44, tracking the world 
+state-of-the-art, recently developed 16 military and civilian 
+optoelectronic devices, which passed product design finalization 
+on 23 March. Prominent among these 16 devices is the GR1342J 
+superradiation light-emitting diode, the first domestically 
+developed superradiation LED meeting early-90s international 
+commercial standards. This new device, fabricated with an 
+epitaxial technique and end-face film depostion, is used as an 
+intermediary between LEDs and laser diodes, and is an ideal 
+light source for fiber optic gyros. Other important devices 
+include the GD3255Y fast-response, high-sensitivity, 
+large-photosensitive-surface non-magnetic photodiode, an 
+embargoed optoelectronic detector used in asdic [i.e. 
+anti-submarine detection] systems; the GZ1140Z 
+broad-passband-range, low-intra-passband-ripple, 
+steep-transition-band CCD [charge-coupled device] recursive 
+filter used in new-generation radar systems; the SK161 coaxial 
+hermetic package used in high-power pulsed laser diodes for key 
+State projects and also for laser diode arrays and LEDs; the 
+GD5281Y high-sensitivity, broad-dynamic-range quadrant avalanche 
+detector [i.e. photodiode] used in missile guidance and 
+tracking, security monitoring, medical diagnosis, and robot 
+vision systems; the GH5200Q zero-light-detection switch; the 
+GH1200Z and two other models of optical couplers; and the 
+GH8740J and one other ac/dc solid state relay. 
+
+</TEXT>
+
+</DOC>
+
