@@ -70,7 +70,8 @@ def test(fit):
 		return True
 
 def main():
-	print 'Predictions for random data from various models'
+	print 'Predictions as to whether an answer is correct'
+	print 'for random data from various models'
 	print ' SVM result: '+str(test(train(mlpy.Svm)))
 	print ' KNN result: '+str(test(train(mlpy.Knn)))
 	print ' FDA result: '+str(test(train(mlpy.Fda)))
