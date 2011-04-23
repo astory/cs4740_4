@@ -42,7 +42,10 @@ def train(model):
 	#Format them for the classification model https://mlpy.fbk.eu/data/doc/classification.html
 	xtr = np.array([confidence1,confidence2,confidence3,confidence4,confidence5,confidence6,confidence7])
 	ytr = np.array(correct)
-	fit = model()  # initialize Svm class
+	if model==mlpy.Knn:
+		fit=model(k=1)
+	else:
+		fit=model()  # initialize Svm class
 	fit.compute(xtr, ytr)  # compute SVM
 	#print svm.weights(xtr,ytr) #Weights/coefficients
 	return fit
@@ -66,11 +69,10 @@ def test(fit):
 	elif fit.predict(xts)==1:
 		return True
 
-
 def main():
 	print 'Predictions for random data from various models'
 	print ' SVM result: '+str(test(train(mlpy.Svm)))
-#	print ' KNN result: '+str(test(train(mlpy.Knn)))
+	print ' KNN result: '+str(test(train(mlpy.Knn)))
 	print ' FDA result: '+str(test(train(mlpy.Fda)))
 	print 'SRDA result: '+str(test(train(mlpy.Srda)))
 	print ' PDA result: '+str(test(train(mlpy.Pda)))
