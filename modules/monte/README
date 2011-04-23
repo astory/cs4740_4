@@ -1,0 +1,133 @@
+'Monte' (or 'monte python') is a machine learning library written in 
+python. Monte is released under the license described in the LICENSE file.
+
+Monte is available at montepython.sourceforge.net
+
+
+
+Installation: 
+------------
+Installing Monte is very simple: Just copy the main directory monte/, which 
+is also the directory where you found this README file, into your python 
+search path. You should also make sure that you have the python packages 
+listed under 'Requirements' below installed. That's all! You should be ready 
+to use Monte now.
+
+
+
+Usage:
+-----
+To get an idea of how Monte works, see the file crf_example.py in the 
+subdirectory examples. A more detailed documentation of Monte's features 
+is in the making and is being provided incrementally. Check back regularly, 
+and check out the code, which explains some features itself.
+
+
+
+Requirements: 
+------------
+Monte needs Python 2.4 (or later), and the packages numpy (Version 1.0 or 
+later), scipy (Version 0.5.1 or later) and matplotlib (Version 0.87 or 
+later) to work best.
+
+
+
+!!! NOTE: MONTE HAS A NEW DIRECTORY LAYOUT SINCE VERSION 0.2.0 !!!
+Monte's NEW directory layout (since Version 0.2.0):
+--------------------------------------------------
+
+Module/
+subpackage:     Purpose:
+----------       --------
+
+models:          Sub-package containing all ready-to-use models. Many (but not 
+                 all) of these models have a grad- and a cost-method. These  
+                 models can be trained with trainer-objects. Many models are 
+                 composed of back-prop-components (see below).
+
+models/backprop: Sub-package containing trainable 'back-prop'-components,
+                 the building blocks for gradient-based learning machines. 
+                 Each back-prop component contains an fprop-method, a 
+                 bprop-method, and a grad-method. Training of the components 
+                 is done with error back-propagation. The method fprop 
+                 computes the response of the component wrt. its input. The 
+                 method bprop computes the derivative of an error-function 
+                 with respect to the component's inputs, using the derivative 
+                 wrt. to it's own outputs. The method grad computes the 
+                 derivative of the error wrt. the component's parameters. 
+                 Backprop-components are typically not used as trainable 
+                 machines themselves. Rather, multiple back-prop components 
+                 can be combined into models (which reside in the subpackage 
+                 models).
+
+train            The definition of models and of mechanisms for training 
+                 these is deliberately separated in Monte. The module trainers 
+                 contains trainer-classes that can be used to train the 
+                 models. Models are registered with trainer objects at the 
+                 time the trainer objects are constructed. Training is then 
+                 performed by repeatedly calling a trainer's step()-method.
+
+examples:        This sub-package contains simple example-scripts, that 
+                 illustrate various aspects of Monte.
+
+util:            The util module contains utility functions- and classes, 
+                 such as fuctions for normalizing data, computing 'logsumexp', 
+                 etc.
+
+doc:             Documentation.
+
+
+
+
+
+Monte's OLD directory layout (FOR REFERENCE ONLY. THE DIRECTORY LAYOUT CHANGED 
+IN VERSION 0.2.0):
+-------------------------
+
+Directory:      Purpose:
+----------      --------
+
+bp:             This directory contains trainable 'back-prop'-components. Each 
+                of these components contains an fprop-method, a bprop-method,
+                and a grad-method. Training of the components is done with 
+                error back-propagation. The method fprop computes the response 
+                of the component wrt. its input. The method bprop computes the 
+                derivative of some error-function with respect to the 
+                component's inputs from the derivative wrt. to it's outputs.
+                The method grad computes the derivative of the error wrt. the 
+                component's parameters. 
+
+models:         This directory holds trainable modules, that is components 
+                that contain cost function and gradient and can be trained 
+                using trainer objects. 
+
+models/contrastive: Many common learning machines are 'contrastive': They are 
+                trained using positive and negative examples. This directory
+                contains the definiton for an abstract class 'contrastive'
+                and a set of sub-classes that are trained using the 
+                contrastive learning paradigm. The sub-directory 'scorefunc'
+                contains a wide variety of score-functions from which 
+                complex learning machines can be constructed. Many of these 
+                score-functions make use of the back-prop-components defined 
+                in the directory bp.
+
+arch:           All top level 'architectures' are placed here -- ie. fully 
+                functional systems that can be trained with a trainer object 
+                and that can be applied easily to real data. 
+
+gym:            The definition of models and of mechanisms for training 
+                these is deliberately separated in Monte. The directory 
+                gym contains trainer-classes, that are registered with a 
+                model at construction time, and are used to train the model.
+
+examples:       This directory contains simple example-scripts, that 
+                illustrate various aspects of Monte.
+
+util:           Helper functions- and classes, such as fuctions for 
+                normalizing data, computing a 'logsumexp', etc., are placed 
+                here.
+
+doc:            Documentation.
+
+
+
