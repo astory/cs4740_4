@@ -5,7 +5,7 @@
 import numpy as np
 import mlpy
 
-def train(model=mlpy.Svm):
+def train(model):
 	'''
 	Train a model for classifying answers as correct or not
 	based on the confidence measures from various QA methods.
@@ -61,15 +61,20 @@ def test(fit):
 	xts = np.array(confidence) # test point
 	# predict SVM on test corpus answer
 	if fit.predict(xts)==-1:
+		#print fit.realpred # real-valued prediction. I'm not sure what this is. I guess it's the predicted Y value?
 		return False
 	elif fit.predict(xts)==1:
 		return True
-	#print svm.realpred # real-valued prediction. I'm not sure what this is. I guess it's the predicted Y value?
 
 
 def main():
-	print test(train())
-
+	print 'Predictions for random data from various models'
+	print ' SVM result: '+str(test(train(mlpy.Svm)))
+#	print ' KNN result: '+str(test(train(mlpy.Knn)))
+	print ' FDA result: '+str(test(train(mlpy.Fda)))
+	print 'SRDA result: '+str(test(train(mlpy.Srda)))
+	print ' PDA result: '+str(test(train(mlpy.Pda)))
+	print 'DLDA result: '+str(test(train(mlpy.Dlda)))
 
 if __name__ == "__main__":
     main()
