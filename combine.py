@@ -47,7 +47,7 @@ def train(model=mlpy.Svm):
 	#print svm.weights(xtr,ytr) #Weights/coefficients
 	return fit
 
-def test(svm):
+def test(fit):
 	'''
 	Guess which test corpus answers are correct based on
 	 * The model from the training corpus
@@ -60,9 +60,9 @@ def test(svm):
 
 	xts = np.array(confidence) # test point
 	# predict SVM on test corpus answer
-	if svm.predict(xts)==-1:
+	if fit.predict(xts)==-1:
 		return False
-	elif svm.predict(xts)==1:
+	elif fit.predict(xts)==1:
 		return True
 	#print svm.realpred # real-valued prediction. I'm not sure what this is. I guess it's the predicted Y value?
 
