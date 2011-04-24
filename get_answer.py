@@ -62,7 +62,7 @@ def run_baseline(write_to_file = "", send_to_scorer = ""):
         write_to_file : if this is not "", then set it to a filename and it will write to it
         send_to_scorer : string of your netid, submit this to the 4740 scorer website """
 
-    q, a = get_answer()
+    q, a = get_answer(first=201)
     out = submit.formatAnswers(q, a)
     print out
     print "==============="

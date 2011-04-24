@@ -1,2 +1,5 @@
 Some modules were not easy to install with easy_install.
 This directory may help with that
+
+Some are less obvious. Here they are
+easy_install install multipartposthandler
