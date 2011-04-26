@@ -47,9 +47,10 @@ their accuracy.  Simple evaluators include word vector model matching against
 the question, and more complex ones might include parsing, or other
 sophisticated evaluation techniques.
 
-We will then feed these confidences into some machine learning device (to be
-determined by experimentation and by availability of usable packages), which
-will order them by confidence.  We will then pack the answers into the 50 bytes
+We will then train a supervised classification algorithm to predict whether
+answers are correct based on the confidence measures from the various question
+answering techniques. This will produce aggregate confidence measures for
+each answer. Finally, we will pack the most confident answers into the 50 bytes
 until we run out of space.
 
 \begin{figure}
