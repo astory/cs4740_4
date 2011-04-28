@@ -9,7 +9,7 @@ def get_chunked_sentences(namedEntity,q_id):
     chunk= []
     topdoc = init.get_corpus(q_id)
     doc_nums = topdoc.keys()
-    for key in doc_nums[:5]:
+    for key in doc_nums:
         doc_text = topdoc[key].split()
         # pull out sentences from docs that have that word
         positions = [i for i,x in enumerate(doc_text) if x == namedEntity]
