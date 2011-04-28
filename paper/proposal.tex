@@ -2,9 +2,11 @@
 \usepackage{tikz}
 \usetikzlibrary{shapes,arrows}
 % styles for flowcharts
-\tikzstyle{machine} = [star, star points=7, star point ratio=0.8, draw, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{machine} = [star, star points=7, star point ratio=0.8, draw, text width=5em, text badly centered, node distance=3cm, inner sep=0pt]
 \tikzstyle{data} = [trapezium, trapezium left angle=70, trapezium right angle=-70, draw,text centered]
-\tikzstyle{process} = [rectangle, draw, text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{process} = [rectangle, draw, text width=5em, text centered, rounded corners, minimum height=4em] 
+
+\addtolength{\textwidth}{10pt}
 
 \title{Question Answering\\
 \small{Project Proposal}}
@@ -47,9 +49,10 @@ their accuracy.  Simple evaluators include word vector model matching against
 the question, and more complex ones might include parsing, or other
 sophisticated evaluation techniques.
 
-We will then feed these confidences into some machine learning device (to be
-determined by experimentation and by availability of usable packages), which
-will order them by confidence.  We will then pack the answers into the 50 bytes
+We will then train a supervised classification algorithm to predict whether
+answers are correct based on the confidence measures from the various answer
+evaluation techniques. This will produce aggregate confidence measures for
+each answer. Finally, we will pack the most confident answers into the 50 bytes
 until we run out of space.
 
 \begin{figure}
@@ -66,7 +69,7 @@ until we run out of space.
    \node[process] (a2) [below of=sf]                    {Answer Evaluator};
    \node[process] (a1) [left of=a2]                     {Answer Evaluator};
    \node[process] (a3) [right of=a2]                    {Answer Evaluator};
-   \node[machine] (as) [below of=a2]                    {Machine Learning Selector};
+   \node[machine] (as) [below of=a2]                    {Confidence aggregator};
    \node[data] (A) [below of=as]                        {Answer};
    
    % edges
