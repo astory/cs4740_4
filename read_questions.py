@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-#this will read in the questions without the answers and return a list
-#where each item in the list is a question.  Each question is a list
-#of two things.  The first item in this list is the question number
-#and the second is the actual text which is a continuous string
+#this will read in the questions without the answers and return a list where
+#each item in the list is a question.  Each question is a list of two things.
+#The first item in this list is the question number and the second is the 
+#actual text which is a continuous string
 def read_questions_no_answers():
   f = open('corpus/questions.txt', 'r')
   top_flag = 0
@@ -48,7 +48,9 @@ def read_questions_answers():
       if word_list[0] == 'Question':
         question_list.append(question)   # I think if you want, changing
         question = []                    # it to question = [word_list[1]]
-        question.append(word_list[1])    # and then question_list.append would solve the problem below
+        question.append(word_list[1])    # and then doing
+                                         # question_list.append would
+                                         # solve the problem below
       else:
         question.append(line)
   
@@ -59,5 +61,4 @@ def read_questions_answers():
   # thing. If this function is rewritten like read_questions_no_answers(),
   # this line below may be unnecessary
   question_list.pop(0)
-  
   return question_list
