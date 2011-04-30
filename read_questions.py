@@ -53,5 +53,4 @@ def read_questions_answers():
         question.append(line)
   
   question_list.append(question)
-  question_list.pop(0)
   return question_list
