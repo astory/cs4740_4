@@ -28,6 +28,8 @@ def bigram_tagger(context, position):
 
 def tag_answers():
   import read_questions
+  #We probably don't want the answers in their own list like this.
+  #It's really here so I remember how to access the answers.
   answers=[]
   for i in read_questions.read_questions_answers():
       answers.append(i[3])
