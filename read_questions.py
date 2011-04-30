@@ -52,5 +52,6 @@ def read_questions_answers():
       else:
         question.append(line)
   
+  question_list.pop(0)
   question_list.append(question)
   return question_list
