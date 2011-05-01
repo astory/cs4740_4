@@ -11,6 +11,13 @@
 import read_questions
 
 def rewriteQuestion(question):
+    """Attempts to re-write a question
+    
+    Takes a question as a string, and attempts to re-write it with simple rules.
+
+    Returns a possible re-write, or the empty string
+    """
+
     qReWrite = ""
     qi = 0
     qVerb = ""
@@ -45,7 +52,7 @@ def rewriteQuestion(question):
             qReWrite = qReWrite[:qSpace] + qVerb + qReWrite[qSpace + 1:]
         else:
             qReWrite = qReWrite + qVerb
-        return qReWrite
+    return qReWrite
 
 def rewriteQuestionsList():
     # calls the dictionary version and plugs it into a list of lists (like
