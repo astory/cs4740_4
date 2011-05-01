@@ -13,7 +13,7 @@ import read_questions
 def rewriteQuestionsList():
 	# calls the dictionary version and plugs it into a list of lists (like
 	# read_questions is presented)
-	qDict = rewriteQuestionsDict()
+	qDict = rewriteQuestionsDict(read_questions.read_questions_no_answers())
     questionsList = []
     for key in qDict:
         questions = []
@@ -22,9 +22,8 @@ def rewriteQuestionsList():
         questionsList.append(questions)
     return questionsList        
     
-def rewriteQuestionsDict():
+def rewriteQuestionsDict(qList):
     result = {}
-    qList = read_questions.read_questions_no_answers()
     # because a dictionary is easier for me than a list of lists
     qDict = {}
     b = 0
