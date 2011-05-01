@@ -5,13 +5,15 @@
 # This re-writes questions, so for:
 # "Who is the President?"  you get:
 # "the President is "
-# Not all questions lend themselves to simple rewrites, in this case I return an empty string
+# Not all questions lend themselves to simple rewrites, in this case I return an
+# empty string
 
 import read_questions
 
 def rewriteQuestionsList():
-    # calls the dictionary version and plugs it into a list of lists (like read_questions is presented)
-    qDict = rewriteQuestionsDict()
+	# calls the dictionary version and plugs it into a list of lists (like
+	# read_questions is presented)
+	qDict = rewriteQuestionsDict()
     questionsList = []
     for key in qDict:
         questions = []
@@ -50,7 +52,8 @@ def rewriteQuestionsDict():
             if qIndex != -1:
                 qi = 5
                 qVerb = " was "
-        # I also tried "are" and "were", rarely was the rewrite grammatically correct.           
+		# I also tried "are" and "were", rarely was the rewrite grammatically
+		# correct.           
 
         if qi > 0:
             # take the string after the "is/was"
@@ -62,8 +65,9 @@ def rewriteQuestionsDict():
                 # find index of last space before "ed" word
                 qSpace = qReWrite.rfind(" ")
                 qReWrite = qReWrite[:qSpace] + qVerb + qReWrite[qSpace + 1:]
-            # "Where was" sometimes needs the verb to go between the NP and the adjective
-            # this works fine on the test questions, but could easily be fooled on the unknown questions
+			# "Where was" sometimes needs the verb to go between the NP and the
+			# adjective this works fine on the test questions, but could easily
+			# be fooled on the unknown questions
             elif qDict[key].startswith("Where was"):
                 qSpace = qReWrite.rfind(" ")
                 qReWrite = qReWrite[:qSpace] + qVerb + qReWrite[qSpace + 1:]
