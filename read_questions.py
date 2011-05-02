@@ -46,11 +46,20 @@ def read_questions_answers():
     if len(line)>0:
       word_list = line.split()
       if word_list[0] == 'Question':
-        question_list.append(question)
-        question = []
-        question.append(word_list[1])
+        question_list.append(question)   # I think if you want, changing
+        question = []                    # it to question = [word_list[1]]
+        question.append(word_list[1])    # and then doing
+                                         # question_list.append would
+                                         # solve the problem below
       else:
         question.append(line)
   
   question_list.append(question)
+
+  # now pop the first element of this list, which is [], since we did
+  # question = [] above and question is always appended as the first
+  # thing. If this function is rewritten like read_questions_no_answers(),
+  # this line below may be unnecessary
+  question_list.pop(0)
+
   return question_list
