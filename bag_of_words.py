@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+#this returns the dot product of the question vector and answer vector as  I understand the vector space model does.  Basically just takes each word in the question as a dimension and the number of times that the word appears as the value.  Then it does the same thing with the answers and takes the dot product
 def vector_bag (question_list, doc_num, answer_list, context,d):
   v1 = []
   v2 = []
