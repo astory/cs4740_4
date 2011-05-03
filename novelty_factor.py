@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+#as of now this is going to assume that both the question and the answer is a list of words and that the dictionary is irrelevant for what this task should do this will return 1 if a new word has been found and 0 if a new word has not been found
+def novelty_bool (question_list, doc_num, answer_list, context,d):
+  b = 0  
+  for a in answer_list:
+    temp = 1
+    for q in question_list:
+       if a.lower() == q.lower():
+         temp = 0
+         break
+    if temp == 1:
+      b = 1
+  print b
+  (question_list, doc_num, answer_list, b)
+
+#this will return the number of words that are novel divided by the number of words in the answer to give a percent value
+def novelty_count (question_list, doc_num, answer_list, context,d):
+  count = 0.0
+  for a in answer_list:
+    temp = 1
+    for q in question_list:
+       if a.lower() == q.lower():
+         temp = 0
+         break
+    if temp == 1:
+      count = count + 1.0
+  count = count / (len(answer_list))
+  print count
+  (question_list, doc_num, answer_list, count)
