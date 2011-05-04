@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 
 #this returns the dot product of the question vector and answer vector as  I understand the vector space model does.  Basically just takes each word in the question as a dimension and the number of times that the word appears as the value.  Then it does the same thing with the answers and takes the dot product
-def vector_bag (question_list, doc_num, answer_list, context,d):
+import nltk
+from nltk import word_tokenize
+from nltk.corpus import stopwords
+from math import sqrt
+def vector_bag (q_list, doc_num, a_list, context,d):
+  question_list = word_tokenize(q_list)
+  answer_list = word_tokenize(a_list)
   v1 = []
   v2 = []
   for q in question_list:
@@ -20,6 +26,8 @@ def vector_bag (question_list, doc_num, answer_list, context,d):
     for (c,q) in v1:
       if(a.lower()==q.lower()):
         v2[v1.index((c,q))] = v2[v1.index((c,q))] +1.0
+  print v1
+  print v2
   numer = 0.0
   denom1 = 0.0
   denom2 = 0.0
@@ -29,12 +37,14 @@ def vector_bag (question_list, doc_num, answer_list, context,d):
     denom1 = denom1 + c * c
     denom2 = denom2 + v2[count] * v2[count]
     count = count + 1
-  dot = numer/denom1/denom2
+  dot = numer/sqrt(denom1)/sqrt(denom2)
   print dot
-  (question_list, doc_num, answer_list, dot)   
+  (q_list, doc_num, a_list, dot)   
 
 #this will return the number of words that are in the question divided by the number of words in the answer to give a percent value.  Thsi is normalized.  It migth be best to not normalize it
-def bag_of_words (question_list, doc_num, answer_list, context,d):
+def bag_of_words (q_list, doc_num, a_list, context,d):
+  question_list = word_tokenize(q_list)
+  answer_list = word_tokenize(a_list)
   count = 0.0
   for a in answer_list:
     temp = 1
@@ -44,4 +54,4 @@ def bag_of_words (question_list, doc_num, answer_list, context,d):
          break
   count = count / (len(answer_list))
   print count
-  (question_list, doc_num, answer_list, count)
+  (q_list, doc_num, a_list, count)
