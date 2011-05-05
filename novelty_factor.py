@@ -15,8 +15,7 @@ def novelty_bool (q_list, (a_list, doc_num, context,d)):
          break
     if temp == 1:
       b = 1
-  print b
-  (question_list, doc_num, answer_list, b)
+  (b)
 
 #this will return the number of words that are novel divided by the number of words in the answer to give a percent value
 def novelty_count (q_list, (a_list, doc_num, context,d)):
@@ -32,5 +31,4 @@ def novelty_count (q_list, (a_list, doc_num, context,d)):
     if temp == 1:
       count = count + 1.0
   count = count / (len(answer_list))
-  print count
-  (q_list, doc_num, a_list, count)
+  (count)

@@ -38,8 +38,7 @@ def vector_bag (q_list, (a_list, doc_num, context,d)):
     denom2 = denom2 + v2[count] * v2[count]
     count = count + 1
   dot = numer/sqrt(denom1)/sqrt(denom2)
-  print dot
-  (q_list, doc_num, a_list, dot)   
+  (dot)   
 
 #this will return the number of words that are in the question divided by the number of words in the answer to give a percent value.  Thsi is normalized.  It migth be best to not normalize it
 def bag_of_words (q_list, (a_list, doc_num, context,d)):
@@ -53,5 +52,4 @@ def bag_of_words (q_list, (a_list, doc_num, context,d)):
          count = count + 1.0
          break
   count = count / (len(answer_list))
-  print count
-  (q_list, doc_num, a_list, count)
+  (count)
