@@ -2,6 +2,7 @@ import nltk.chunk
 import nltk
 from nltk.corpus import conll2000
 import itertools
+from nltk import pos_tag, word_tokenize
 
 class UnigramChunker(nltk.ChunkParserI):
     def __init__(self, train_sents): 
@@ -33,18 +34,28 @@ class UnigramChunker(nltk.ChunkParserI):
         return nltk.chunk.conllstr2tree('\n'.join(lines))
 
 
-test_sents = conll2000.chunked_sents('test.txt', chunk_types=['NP'])
-train_sents = conll2000.chunked_sents('train.txt')
-unigram_chunker = UnigramChunker(train_sents)
+def run(q_id):
+    test_sents = conll2000.chunked_sents('test.txt', chunk_types=['NP'])
+    train_sents = conll2000.chunked_sents('train.txt')
+    unigram_chunker = UnigramChunker(train_sents)
+
+    import init
+    #get document here and tag; put into this format:
+    #tagged = [("the", "DT"), ("little", "JJ"), ("yellow", "JJ"),("dog", "NN"), ("barked", "VBD"), ("at", "IN"),  ("the", "DT"), ("cat", "NN"),(".", ".")]
+    topdoc = init.get_corpus(q_id)
+    doc_nums = topdoc.keys()
+    for key in doc_nums[:1]:
+        doc_text = topdoc[key].split()
+        tagged=pos_tag(doc_text)
 
 
-tagged = [("the", "DT"), ("little", "JJ"), ("yellow", "JJ"),("dog", "NN"), ("barked", "VBD"), ("at", "IN"),  ("the", "DT"), ("cat", "NN"),(".", "."),("the", "DT"), ("little", "JJ"), ("yellow", "JJ"),("dog", "NN"), ("barked", "VBD"), ("at", "IN"),  ("the", "DT"), ("cat", "NN"),(".", ".")]
-iobtagged=unigram_chunker.parse2(tagged)
-for subtree in iobtagged.subtrees(filter=lambda t: t.node == 'NP'):
-    # print the noun phrase as a list of part-of-speech tagged words
-    print subtree.leaves() 
-#s = '\n'.join(iobtagged)
-#print s
+    chunked=unigram_chunker.parse2(tagged)
+    for subtree in chunked.subtrees(filter=lambda t: t.node == 'NP'):
+        # print the noun phrase as a list of part-of-speech tagged words
+        print subtree.leaves()
+        
+    #put into correct output (string,doc number, index, feature_dict)
 
-#nltk.chunk.conllstr2tree(s).draw()
 
+if __name__=="__main__":
+    run(201)
