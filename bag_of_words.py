@@ -11,7 +11,7 @@ def remove_stop_words (question_tokens):
 
 def vector_bag (q_list, (a_list, doc_num, context,d)):
   question_list = remove_stop_words (word_tokenize(q_list))
-  answer_list = word_tokenize(a_list)
+  answer_list = remove_stop_words(word_tokenize(a_list))
   v1 = []
   v2 = []
   for q in question_list:
@@ -24,6 +24,18 @@ def vector_bag (q_list, (a_list, doc_num, context,d)):
        v1[v1.index((c,q))] = ((c+b,q))
      else:
        v1.append((1.0,q))
+
+  for q in answer_list:
+     b = 0.0
+     for (c,s) in v1:
+       if s.lower() == q.lower():
+         b = b +1.0
+         break
+     if (b>0):
+       v1[v1.index((c,q))] = ((c+b,q))
+     else:
+       v1.append((0.0,q))
+
   for v in v1:
     v2.append(0.0)
   for a in answer_list:
@@ -50,8 +62,8 @@ def vector_bag (q_list, (a_list, doc_num, context,d)):
 
 #this will return the number of words that are in the question divided by the number of words in the answer to give a percent value.  Thsi is normalized.  It migth be best to not normalize it
 def bag_of_words (q_list, (a_list, doc_num, context,d)):
-  question_list = word_tokenize(q_list)
-  answer_list = word_tokenize(a_list)
+  question_list = remove_stop_words (word_tokenize(q_list))
+  answer_list = remove_stop_words(word_tokenize(a_list))
   count = 0.0
   for a in answer_list:
     temp = 1
