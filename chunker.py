@@ -35,7 +35,6 @@ class UnigramChunker(nltk.ChunkParserI):
 
 
 def run(q_id):
-    test_sents = conll2000.chunked_sents('test.txt', chunk_types=['NP'])
     train_sents = conll2000.chunked_sents('train.txt')
     unigram_chunker = UnigramChunker(train_sents)
 
@@ -52,22 +51,36 @@ def run(q_id):
 
     answers= [];
     chunked=unigram_chunker.parse2(tagged)
-    for subtree in chunked.subtrees(filter=lambda t: t.node == 'NP'):
-        # print the noun phrase as a list of part-of-speech tagged words
-        #print subtree.leaves()
-        words=[word for (word,tag) in subtree.leaves()]
-        words=' '.join(words)
-        feature_dict = {'is_np': 1}
-        answers.append((words,q_id,feature_dict));
-    for subtree in chunked.subtrees(filter=lambda t: t.node == 'VP'):
-        # print the noun phrase as a list of part-of-speech tagged words
-        #print subtree.leaves()
-        words=[word for (word,tag) in subtree.leaves()]
-        words=' '.join(words)
-        feature_dict = {'is_vp': 1}
-        answers.append((words,q_id,feature_dict));
+    answers=[]
+    flatten= chunked.pos()
+    #print flatten
+    numbered= enumerate(flatten)
+    currentTag=''
+    words=[]
+    for i,v in numbered:
+        print i,v
+        ((word,tag),phrasetag)=v
+        if currentTag=='':
+            currentTag=phrasetag
+        if currentTag==phrasetag:
+            words.append(word)
+        else:
+            feature_dict = {currentTag: 1}
+            answers.append((' '.join(words),q_id,i-len(words),feature_dict))
+            currentTag= phrasetag
+            words= [word]
+    feature_dict = {currentTag: 1}
+    answers.append((' '.join(words),q_id,i-len(words),feature_dict))
+          
+
 
     
+    #for (phrase,tag) in (numbered):
+    #    words.append(phrase);
+    #for (phrase,tag) in (words):
+    #    words2.append(phrase);
+    #print words2
+    #print enumerate(words2)
     #put into correct output (string,doc number, index, feature_dict)
     return answers
 
