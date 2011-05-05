@@ -13,8 +13,7 @@
 
 \addtolength{\textwidth}{10pt}
 
-\title{Question Answering\\
-\small{The CATDWAM experience. (Please change this.)}}
+\title{CAT-DWAM, A Question Answering System}
 \author{
 Alec Story,
 Ansu Abraham,
@@ -126,12 +125,46 @@ until we run out of space.
 
 \subsection{The Classifier}
 
-\subsection{System Filters}
-% This is where the MAGIC happens. I wanted to call them feature
-% extractors like last time, but I'm not sure it that's correct.
+\subsection{Question Evaluators}
 
-\subsubsection{Question Rewrite}
-% Alec
+\subsubsection{Question-Document Comparison}
+
+	We implemented a system to compare the question and answer against the
+	proposed document in two ways:  one, with a na\"ive diffing algorithm that
+	simply seeks out the longest indentical sequence, and one by implementing
+	the Smith-Waterman local alignment
+	algorithm.\footnote{\url{http://en.wikipedia.org/wiki/Smith-Waterman_algorithm}}
+	We also implemented a system to attempt to re-write questions, discussed
+	below, and applied these same techniques to the re-written question
+
+	The na\"ive method does an adequate job when the document highly resembles
+	the question, but does very poorly otherwise because it has no tolerance of
+	faults.  The local alignment does much better for documents that resemble
+	the question a great deal, but are not precise - it can smoothly deal with
+	small differences, and still produce a good alignment.  This is a standard
+	technique from bioinformatics, and is used extensively to align small
+	sequences of DNA, RNA or protein against a larger corpus, such as a
+	chromosome or a whole genome.  This is a fairly similar usage to aligning a
+	question against a document which is much longer than the question.
+
+	We chose Smith-Waterman over the similar Needleman-Wunsch, of which is a
+	special case, because Needleman-Wunsch creates a \emph{global} alignment,
+	which forces all of the characters in both strings to align.  This leads to
+	the insertion of many gaps, and needlessly aligns words which are useless,
+	for example, ``Who is Queen of England?'' should align well against
+	``Elizabeth is Queen of England'' and it does, under Smith-Waterman, but the
+	``who'' causes Needleman-Wunsch to choke.  Similarly, Needleman-Wunsch does
+	not excuse one string for being shorter than the other, and chokes on all of
+	the apparent gaps that it needs to insert, so it is not a good choice.
+
+	We locate what we best believe to be the question via these two methods, and
+	then evaluate how far away from that segment of the document the answer is.
+	If it is fairly close, that is a good indicator that it is highly related to
+	the question, but if it is far, it is likely to be unrelated.  We feed that
+	distance, and either the length of the na\"ive alignment or the score that
+	Smith-Waterman produces (higher is better for both) because very short or
+	very poor alignments are less likely to reflect an actual representation of
+	the question.
 
 \subsubsection{Punctuation Filter}
 % Ansu
