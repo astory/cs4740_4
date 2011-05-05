@@ -45,7 +45,10 @@ def run(q_id):
     topdoc = init.get_corpus(q_id)
     doc_nums = topdoc.keys()
     for key in doc_nums[:1]:
-        doc_text = topdoc[key].split()
+        doc_text = topdoc[key]
+        #make "hello." into 'hello .'
+        doc_text = doc_text.replace("."," .")
+        doc_text= doc_text.split()
         tagged=pos_tag(doc_text)
 
 
