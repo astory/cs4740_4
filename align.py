@@ -1,3 +1,8 @@
+# Some inspiration from Forrest Bao at http://narnia.cs.ttu.edu/drupal/node/104,
+# as such, this code is released under the GNU GPL version 3, although the code
+# is entirely my own.
+#
+# copyright Alec Story, 2011
 import numpy
 
 MATCH = 2
@@ -17,7 +22,7 @@ def weight(a_i, b_j):
 
 def sw_align(a, b):
     """Smith-Waterman alignment
-    Source:  http://en.wikipedia.org/wiki/Smith_waterman
+    Source:  http://en.wikipedia.org/wiki/Smith_Waterman
 
     Aligns a against b
 
