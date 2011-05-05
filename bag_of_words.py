@@ -5,8 +5,12 @@ import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from math import sqrt
+stopwords = nltk.corpus.stopwords.words('english')
+def remove_stop_words (question_tokens):     
+  return [w for w in question_tokens if w.lower() not in stopwords]
+
 def vector_bag (q_list, (a_list, doc_num, context,d)):
-  question_list = word_tokenize(q_list)
+  question_list = remove_stop_words (word_tokenize(q_list))
   answer_list = word_tokenize(a_list)
   v1 = []
   v2 = []
@@ -37,6 +41,10 @@ def vector_bag (q_list, (a_list, doc_num, context,d)):
     denom1 = denom1 + c * c
     denom2 = denom2 + v2[count] * v2[count]
     count = count + 1
+    if denom1==0:
+      denom1 = 1
+    if denom2==0:
+      denom2 = 1
   dot = numer/sqrt(denom1)/sqrt(denom2)
   (dot)   
 
