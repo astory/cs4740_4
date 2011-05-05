@@ -168,9 +168,14 @@ until we run out of space.
 
 \subsubsection{Punctuation Filter}
 % Ansu
+    The punctuation location filter returns true if the candidate answer is immmediately followed
+    by a comma, period, quotation marks, semicolon, or exclamation mark. The candidate answer is 
+    located in the document using a word_index provided in the candidate tuple. This is a good 
+    heuristic to rank candidate answers since it retrieves a property from the context where the
+    answer appears in the document.
 
 \subsubsection{Apposition Filter}
-% Ansu
+% Alec
 
 \subsubsection{Preceding and Proceeding N-grams Filter}
 % Tom
