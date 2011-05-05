@@ -23,7 +23,11 @@ def literal_question_distance(question, (answer, doc_num, index, features)):
     returns (distance, length of fragment)
     """
     doc = init.get_doc(doc_num)
+    doc = doc.replace("."," .")
+    doc = doc.replace(","," ,")
     (start, _, length) = find_match(question, doc)
+    words = doc.split()
+    index = len(" ".join(words[0:index+1]))
     return (min( abs(start - index),
         abs(start + length - index),
         0 if start <= index <= start + length else MAX_INT), length)
@@ -43,7 +47,11 @@ def align_question_distance(question, (answer, doc_num, index, features)):
     returns (distance, score)
     """
     doc = init.get_doc(doc_num)
+    doc = doc.replace("."," .")
+    doc = doc.replace(","," ,")
     (score, q, d, (q_start, d_start), (q_end, d_end)) = sw_align(question, doc)
+    words = doc.split()
+    index = len(" ".join(words[0:index+1]))
     print q
     print d
     return (min( abs(d_start - index),
@@ -157,4 +165,4 @@ if __name__ == "__main__":
     init.get_corpus(qNum=209)
     question = "Who is the inventor of the phonograph?"
     doc = "SJMN91-06010225"
-    print align_rewrite_distance(question, (1, doc, 700, {}))
+    print align_question_distance(question, (1, doc, 30, {}))
