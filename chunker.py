@@ -46,6 +46,8 @@ def run(q_id):
     for key in doc_nums[:1]:
         doc_text = topdoc[key]
         doc_text = doc_text.replace("."," .")
+        doc_text = doc_text.replace(","," ,")
+        #print doc_text
         doc_text= doc_text.split()
         tagged=pos_tag(doc_text)
 
@@ -58,7 +60,7 @@ def run(q_id):
     currentTag=''
     words=[]
     for i,v in numbered:
-        print i,v
+        #print i,v
         ((word,tag),phrasetag)=v
         if currentTag=='':
             currentTag=phrasetag
@@ -72,16 +74,6 @@ def run(q_id):
     feature_dict = {currentTag: 1}
     answers.append((' '.join(words),q_id,i-len(words),feature_dict))
           
-
-
-    
-    #for (phrase,tag) in (numbered):
-    #    words.append(phrase);
-    #for (phrase,tag) in (words):
-    #    words2.append(phrase);
-    #print words2
-    #print enumerate(words2)
-    #put into correct output (string,doc number, index, feature_dict)
     return answers
 
 
