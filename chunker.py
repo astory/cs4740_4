@@ -43,40 +43,43 @@ def run(q_id):
     #tagged = [("the", "DT"), ("little", "JJ"), ("yellow", "JJ"),("dog", "NN"), ("barked", "VBD"), ("at", "IN"),  ("the", "DT"), ("cat", "NN"),(".", ".")]
     topdoc = init.get_corpus(q_id)
     doc_nums = topdoc.keys()
-    for key in doc_nums[:1]:
+    answers= [];
+    for key in doc_nums:
         doc_text = topdoc[key]
+        docnum= key
+        #print docnum
         doc_text = doc_text.replace("."," .")
         doc_text = doc_text.replace(","," ,")
         #print doc_text
         doc_text= doc_text.split()
         tagged=pos_tag(doc_text)
 
-    answers= [];
-    chunked=unigram_chunker.parse2(tagged)
-    answers=[]
-    flatten= chunked.pos()
-    #print flatten
-    numbered= enumerate(flatten)
-    currentTag=''
-    words=[]
-    for i,v in numbered:
-        #print i,v
-        ((word,tag),phrasetag)=v
-        if currentTag=='':
-            currentTag=phrasetag
-        if currentTag==phrasetag:
-            words.append(word)
-        else:
-            feature_dict = {currentTag: 1}
-            answers.append((' '.join(words),q_id,i-len(words),feature_dict))
-            currentTag= phrasetag
-            words= [word]
-    feature_dict = {currentTag: 1}
-    answers.append((' '.join(words),q_id,i-len(words),feature_dict))
+    
+        chunked=unigram_chunker.parse2(tagged)
+        flatten= chunked.pos()
+        #print flatten
+        numbered= enumerate(flatten)
+        currentTag=''
+        words=[]
+        for i,v in numbered:
+            #print i,v
+            ((word,tag),phrasetag)=v
+            if currentTag=='':
+                currentTag=phrasetag
+            if currentTag==phrasetag:
+                words.append(word)
+            else:
+                feature_dict = {currentTag: 1}
+                answers.append((' '.join(words),docnum,i-len(words),feature_dict))
+                currentTag= phrasetag
+                words= [word]
+        feature_dict = {currentTag: 1}
+        answers.append((' '.join(words),docnum,i-len(words),feature_dict))
+        #print answers
           
     return answers
 
 
 if __name__=="__main__":
-    print run(201)
+    print run(213)
     
