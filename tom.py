@@ -6,16 +6,31 @@ import itertools
 def colocation_ngram(q_id,n,direction='after'):
   pass
 
-def is_number(answer):
+#Is the answer one of the two numeric types?
+def is_numeric(answer):
   return(re.match('.*[0-9].*',answer))
+
+#Is the answer a raw number?
+def is_number(answer):
+  if is_numeric(answer):
+    return max(measurement_unit(answer))==''
+  else:
+    return False
+
+#Is the answer a quantity?
+def is_quantity(answer):
+  if is_numeric(answer):
+    return max(measurement_unit(answer))!=''
+  else:
+    return False
 
 def measurement_unit(answer):
   ''' Take the full answer string and
       return preceeding and proceeding potential units.
   '''
-  if is_number(answer):
+  if is_numeric(answer):
   #If it's a number question, return potential units
-    return re.split('[0-9. ]*',answer)
+    return re.split('[0-9., ]*',answer)
   else:
   #If not, return nothing
     return []
