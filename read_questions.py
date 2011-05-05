@@ -54,6 +54,7 @@ def read_questions_answers():
       else:
         question.append(line)
   
+  question_list.pop(0)
   question_list.append(question)
 
   # now pop the first element of this list, which is [], since we did
