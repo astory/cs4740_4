@@ -69,12 +69,10 @@ def run(q_id):
             if currentTag==phrasetag:
                 words.append(word)
             else:
-                feature_dict = {currentTag: 1}
-                answers.append((' '.join(words),docnum,i-len(words),feature_dict))
+                answers.append((' '.join(words),docnum,i-len(words),currentTag))
                 currentTag= phrasetag
                 words= [word]
-        feature_dict = {currentTag: 1}
-        answers.append((' '.join(words),docnum,i-len(words),feature_dict))
+        answers.append((' '.join(words),docnum,i-len(words),currentTag))
         #print answers
           
     return answers
