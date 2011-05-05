@@ -32,5 +32,6 @@ def tag_answers():
   #It's really here so I remember how to access the answers.
   answers=[]
   for i in read_questions.read_questions_answers():
-      answers.append(i[3])
-
+      list_tags = pos_tag(word_tokenize(i[3]))   
+      answers.append(list_tags)
+  return answers
