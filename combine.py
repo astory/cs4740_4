@@ -64,22 +64,37 @@ def test(fit):
 
 	xts = np.array(confidence) # test point
 	# predict SVM on test corpus answer
+	fit.predict(xts)
+	out=[]
 	if fit.predict(xts)==-1:
-		#print fit.realpred # real-valued prediction. I'm not sure what this is. I guess it's the predicted Y value?
-		return False
+		out.append(False)
 	elif fit.predict(xts)==1:
-		return True
+		out.append(True)
+	try:
+		out.append(fit.realpred)
+		# "real-valued prediction"
+		# I think it's something like confidence
+	except:
+		pass
+	return out
 
-def main():
+
+def demo():
+#	print '----------------------------------------------'
+	print ''
 	print 'Predictions as to whether an answer is correct'
 	print 'for random data from various models'
-	print ' SVM result: '+str(test(train(mlpy.Svm)))
-	print ' KNN result: '+str(test(train(mlpy.Knn)))
-	print ' FDA result: '+str(test(train(mlpy.Fda)))
-	print 'SRDA result: '+str(test(train(mlpy.Srda)))
-	print ' PDA result: '+str(test(train(mlpy.Pda)))
-	print 'DLDA result: '+str(test(train(mlpy.Dlda)))
+	print '----------------------------------------------'
+        print 'Model Result Confidence? ("Real value")'
+	print '----- ------ ---------------------------------'
+        print ' SVM  '+str(test(train(mlpy.Svm)))
+	print ' KNN  '+str(test(train(mlpy.Knn)))
+	print ' FDA  '+str(test(train(mlpy.Fda)))
+	print 'SRDA  '+str(test(train(mlpy.Srda)))
+	print ' PDA  '+str(test(train(mlpy.Pda)))
+	print 'DLDA  '+str(test(train(mlpy.Dlda)))
+	print '----------------------------------------------'
 
 if __name__ == "__main__":
-    main()
+    demo()
 
