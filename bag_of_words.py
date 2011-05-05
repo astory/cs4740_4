@@ -5,7 +5,7 @@ import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from math import sqrt
-def vector_bag (q_list, doc_num, a_list, context,d):
+def vector_bag (q_list, (a_list, doc_num, context,d)):
   question_list = word_tokenize(q_list)
   answer_list = word_tokenize(a_list)
   v1 = []
@@ -42,7 +42,7 @@ def vector_bag (q_list, doc_num, a_list, context,d):
   (q_list, doc_num, a_list, dot)   
 
 #this will return the number of words that are in the question divided by the number of words in the answer to give a percent value.  Thsi is normalized.  It migth be best to not normalize it
-def bag_of_words (q_list, doc_num, a_list, context,d):
+def bag_of_words (q_list, (a_list, doc_num, context,d)):
   question_list = word_tokenize(q_list)
   answer_list = word_tokenize(a_list)
   count = 0.0

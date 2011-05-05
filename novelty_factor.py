@@ -3,7 +3,7 @@
 #as of now this is going to assume that both the question and the answer is a list of words and that the dictionary is irrelevant for what this task should do this will return 1 if a new word has been found and 0 if a new word has not been found
 import nltk
 from nltk import word_tokenize
-def novelty_bool (q_list, doc_num, a_list, context,d):
+def novelty_bool (q_list, (a_list, doc_num, context,d)):
   question_list = word_tokenize(q_list)
   answer_list = word_tokenize(a_list)
   b = 0  
@@ -19,7 +19,7 @@ def novelty_bool (q_list, doc_num, a_list, context,d):
   (question_list, doc_num, answer_list, b)
 
 #this will return the number of words that are novel divided by the number of words in the answer to give a percent value
-def novelty_count (q_list, doc_num, a_list, context,d):
+def novelty_count (q_list, (a_list, doc_num, context,d)):
   count = 0.0
   question_list = word_tokenize(q_list)
   answer_list = word_tokenize(a_list)
