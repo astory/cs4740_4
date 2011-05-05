@@ -190,13 +190,15 @@ until we run out of space.
 % Mike
 
 \subsubsection{Word Vector (Feature?)}
-% Dustin
+This feature will take the in question and the candidate answer and remove all of the stop words (identifyed by the stopwords corpus in nltk.corpus).  Then the remaining words of the question will be put into a vector in an n-dimensional space (where n is the amount of distinct words in the question and candidate answer).  Each value in the first vector represents the number of times each word occurs in the question.  Then the candidate answer vector will contain the number of times each word appears in the candidate answer. Then we will take the vector dot product of the two vectors and normalize it by the length of the vectors and return a value between zero and one (this is because longer candidate answers will lead to larger values unless they are normalized).
 
 \subsubsection{Bag of Words Filter}
-% Dustin
+This will simply take in the question and potential answer and count how many times a question word appears in the potential answer.  Stop words are also removed in both the question and the answer.  The value returned will be normalized by the size of the potential answer, thus returning the percentage of words of the potential answer that occur in the question.
 
 \subsubsection{Novelty Factor}
-% Dustin
+There are two features that involve the novelty factor.  This factor determines how different the question and the candidate answer are.  The central idea behind this is that if the candidate phrase contains only words from the question then it contains no new information and therefore cannot contain the answer.  The first feature takes in the question and candidate answer and returns a 0 if all of the words in the candidate answer are contained in the question and returns a 1 if there is a word in the candidate answer that does not occur in the question.
+
+The second feature takes in the question and candidate answer and returns the percentage of words in the candidate words that are novel.  This could be useful because there may be an optimal percentage of words that match and this feature would help the machine learning algorithm determine this. 
 
 \subsubsection{Part of Speech Matching}
 % Craig
@@ -226,4 +228,4 @@ until we run out of space.
 
 \section{Conclusion}
 
-\end{document}
+\end{document}tk.
