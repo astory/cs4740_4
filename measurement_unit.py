@@ -4,11 +4,14 @@ import re
 def colocation_ngram(q_id,n,direction='after'):
   pass
 
+def is_number(answer):
+  return(re.match('.*[0-9].*',answer))
+
 def measurement_unit(answer):
   ''' Take the full answer string and
       return preceeding and proceeding potential units.
   '''
-  if re.match('.*[0-9].*',answer):
+  if is_number(answer):
   #If it's a number question, return potential units
     return re.split('[0-9. ]*',answer)
   else:
