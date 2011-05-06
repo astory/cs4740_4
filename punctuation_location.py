@@ -7,6 +7,11 @@ import init
 def punc_loc(question, (answer, doc_num, index, features)):
     doc = init.get_doc(doc_num) #retrieves the document labelled as doc_num
     
+    answer = answer.replace(" .",".")
+    answer = answer.replace(" ,",",")
+    answer = answer.replace(" !","!")
+    answer = answer.replace(" :",":")
+    answer = answer.replace(" \"","\"")
     #go to index location of candidate within the document
     alist = answer.split()              #split candidate answer into words (space delimiter)
     answer_len = len(alist)             #word length of the candidate answer
