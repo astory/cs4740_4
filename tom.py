@@ -42,7 +42,7 @@ def find_units(q_id):
 def interactions(predictors,rmax=None):
   ''' Given a list of main effects, return a list of the interactions
       of order up to rmax. If rmax is not given, all orders of
-      interactions are returned. The main effects are not returned.
+      interactions are returned. The main effects are also returned.
   '''
   if rmax==None:
     rmax=len(predictors)
