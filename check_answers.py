@@ -1,4 +1,6 @@
-def patterns():
+import re
+
+def get_patterns():
 	patternList=[(201,'Leonov'),
 	(202,'Central\s+American?'),
 	(202,'Yucatan'),
@@ -642,4 +644,13 @@ def patterns():
 			patternDict[pattern[0]]=[pattern[1]]
 	return patternDict
 
-print patterns()
+def check_answer(candidate):
+	def check_one_pattern(one_pattern):
+		return re.match(one_pattern,candidate[0])!=None
+	return reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[candidate[2]],False)
+
+patterns=get_patterns()
+
+if __name__ == '__main__':
+	candidate=('California','top_docs.208',208,'NNP')
+	print check_answer(candidate)
