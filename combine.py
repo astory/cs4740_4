@@ -61,19 +61,7 @@ def test(fit,features):
 	xts = np.array(features) # test point
 	# predict SVM on test corpus answer
 	fit.predict(xts)
-	out=[]
-	if fit.predict(xts)==-1:
-		out.append(False)
-	elif fit.predict(xts)==1:
-		out.append(True)
-	try:
-		out.append(fit.realpred)
-		# "real-valued prediction"
-		# I think it's something like confidence
-	except:
-		pass
-	return out
-
+	return fit.realpred
 
 def demo():
 	candidates_train=[

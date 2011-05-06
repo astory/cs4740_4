@@ -22,12 +22,18 @@ def question_learning_data(first=204,last=204):
 
 def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-0094', 57, 'S')):
 	x=run_evaluators([candidate])
-	return x[0],q_id,candidate
+	return x[0],candidate
+
+def run_question_predictions(trained_model,first=205,last=205):
+	for q_id in range(first,last+1):
+		for candidate in question_candidates(q_id):
+			x_test,candidate= question_prediction_data(q_id,candidate)
+			print test(trained_model,x_test)
 
 def main():
 	y_train,x_train = question_learning_data()
-	x_test,q_id,candidate= question_prediction_data()
-	return train(mlpy.Svm,y_train,x_train)
+	trained=train(mlpy.Svm,y_train,x_train)
+	run_question_predictions(trained)
 	
 if __name__ == '__main__':
 	main()
