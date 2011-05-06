@@ -637,7 +637,45 @@ def get_patterns():
 	(398,'December\s+26'),
 	(398,'day\s+after\s+Christmas'),
 	(399,'UK\s*currency.*Dollars\s*1\.4945'),
-	(399,'to\s+\$\s*1\.7091')]
+	(399,'to\s+\$\s*1\.7091'),
+	(10000,'Nov\s*9'),
+	(10001,'Lou\s+Vasquez'),
+	(10002,'spade\s+shaped'),
+	(10003,'60\s+million'),
+	(10004,'Denmark'),
+	(10005,'substantia\s+nigra'),
+	(10006,'May\s+18'),
+	(10007,'Burgh\s+Island\s+Hotel'),
+	(10008,'1215'),
+	(10009,'William\s+Seward'),
+	(10010,'3\s+1/2\s+hours'),
+	(10011,'270'),
+	(10012,'5.7bn'),
+	(10013,'Brazil'),
+	(10014,'Gilbert'),
+	(10015,'3\s+hours\s+45\s+minutes'),
+	(10016,'Robert\s+Angel'),
+	(10017,'2,100\s+miles'),
+	(10018,'Little'),
+	(10019,'4\s+minutes,\s+43\s+seconds'),
+	(10020,'Washington'),
+	(10021,'92m'),
+	(10022,'Kampala'),
+	(10023,'Madison'),
+	(10024,'Lansing'),
+	(10025,'South\s+America'),
+	(10026,'Illinois'),
+	(10027,'Monsanto\s+and\s+Eli\s+Lilley'),
+	(10028,'Neil\s+Armstrong'),
+	(10029,'Sunday,\s+25\s+March\s+1990'),
+	(10030,'May\s+6,\s+1994'),
+	(10031,'10\s+May\s+1994'),
+	(10032,'Saparmurad\s+Niyazov'),
+	(10033,'Tchaikovsky'),
+	(10034,'about\s+2015\s+or\s+2020'),
+	(10035,'Zebra\s+Mussel'),
+	(10036,'John\s+F.\s+Welch\s+Jr.'),
+	(10037,'1,000\s+foot\s+high')]
 	patternDict={}
 	for pattern in patternList:
 		if pattern[0] in patternDict.keys():
@@ -669,4 +707,4 @@ patterns=get_patterns()
 
 if __name__ == '__main__':
 	candidate=('California','taoseutasoetuh08',1438,'NNP')
-	print check_answer(3208,candidate)
+	print check_answer(10008,candidate)
