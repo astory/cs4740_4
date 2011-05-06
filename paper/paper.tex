@@ -211,6 +211,11 @@ matter much.
 
 \subsubsection{Part of Speech Matching}
 % Craig
+The chunker module assigns one of four part of speech tags to each answer candidate
+phrase. We discard the answer candidate if the tag is either PP (Prepositional Phrase) 
+or S (simple declarative clause). If the answer candidate is NP (Noun Phrase) we 
+assign it a probability of 1 (most likely). If the answer candidate is VP (Verb Phrase
+we assign it a probability of 0.1 (not very likely).
 
 \subsection{Score Aggregation}
 We used supervised classification algorithms to aggregate the scores produced
