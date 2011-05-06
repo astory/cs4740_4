@@ -3,6 +3,7 @@ from combine import *
 import chunker
 import mlpy
 import check_answers
+from packer import pack
 
 def question_candidates(q_id):
 #Incomplete
@@ -25,13 +26,18 @@ def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-009
 	return x[0],candidate
 
 def run_question_predictions(trained_model,first=205,last=205):
-	y_hat=[]
 	for q_id in range(first,last+1):
+		y_hat=[]
 		for candidate in question_candidates(q_id):
 			x_test,candidate= question_prediction_data(q_id,candidate)
 			y_hat.append( ( test(trained_model,x_test) , candidate ) )
-	print y_hat
-			
+		y_hat = sorted(y_hat, key=lambda (s,_): s,reverse=True)
+		y_hat = map(lambda a:(a[0],a[1][1]),y_hat)
+		answers=[]
+		print y_hat
+		for i in range(0,2):
+			answer,y_hat = pack(y_hat, 50)
+	print answer
 
 def main():
 	y_train,x_train = question_learning_data()
