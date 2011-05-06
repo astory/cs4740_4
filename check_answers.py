@@ -698,7 +698,7 @@ def check_answer(q_id,candidate):
 		pass
 	else:
 		print 'Invalid question number'
-		return False
+		return boolto1(False)
 	def check_one_pattern(one_pattern):
 		return re.match(one_pattern,candidate[0])!=None
 	return boolto1(reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[q_id],False))
