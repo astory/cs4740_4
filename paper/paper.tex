@@ -69,7 +69,7 @@ From this ranked output we choose our final answers.
    \node[process] (a2) [below of=ch]                    {Answer Evaluator};
    \node[process] (a1) [left of=a2]                     {Answer Evaluator};
    \node[process] (a3) [right of=a2]                    {Answer Evaluator};
-   \node[machine] (as) [below of=a2]                    {Confidence aggregator};
+   \node[machine] (as) [below of=a2]                    {Score aggregator};
    \node[data] (A) [below of=as]                        {Answer};
    
    % edges
@@ -151,8 +151,6 @@ From this ranked output we choose our final answers.
 	If it does, then the answer is likely to be in apposition.  We also applied
 	this to re-written questions.
 
-\subsubsection{Preceding and Proceeding N-grams Filter}
-% Tom
 
 \subsubsection{Number and Quantity Answer Type Filters}
 % Tom
@@ -188,8 +186,29 @@ matter much.
 \subsubsection{Part of Speech Matching}
 % Craig
 
-\subsection{Confidence Measures}
+\subsection{Score Aggregation}
+We used supervised classification algorithms to aggregate the scores produced
+by the separate answer evaluators. We trained the classifiers to predict whether
+a candidate answer was correct based on the scores produced by the answer evaluators.
 
+Each of the answer evaluators produced at least one numerical for each answer
+candidate; we used these as predictors for the classification algorithms.
+If we thought that some of these predictors might interact, we used their products
+as predictors as well.
+
+For each candidate answer, we checked whether that candidate was a correct answer based on
+the regular expressions. We used the correctness of the answer (correct or incorrect)
+as the response. We were thus able to predict whether an answer was correct
+based on the scores from the answer evaluators.
+
+The classifiers that we used were
+\begin{itemize}
+\item support vector machines (SVM),
+\item Fisher Discriminant Analysis (FDA),
+\item Spectral Regression Discriminant Analysis (SRDA) and
+\item Penalized Discriminant Analysis (PDA)
+\end{itemize}
+%We tried these classifiers separately rather than 
 \section{Results}
 
 % we need:
