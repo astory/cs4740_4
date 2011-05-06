@@ -86,27 +86,20 @@ until we run out of space.
   \begin{tikzpicture}[node distance=2.5cm, auto, >=stealth]
    % nodes
    \node[data] (Q)                                      {Question};
-   \node[process] (pd) [below left of=Q]                {POS Determiner};
-   \node[process] (na) [below right of=Q]               {Named Entity Extractor};
-   \node[data] (docs) [below right of=na]               {Documents};
-   \node[process] (ex) [below of=na, node distance=4cm] {Sentence Extractor};
-   \node[process] (sf) [below left of=ex]               {Sentence Filter};
-   \node[process] (a2) [below of=sf]                    {Answer Evaluator};
+   \node[process] (ch) [below of=Q]                     {Chunker};
+   \node[data] (docs) [right of=ch]                     {Documents};
+   \node[process] (a2) [below of=ch]                    {Answer Evaluator};
    \node[process] (a1) [left of=a2]                     {Answer Evaluator};
    \node[process] (a3) [right of=a2]                    {Answer Evaluator};
    \node[machine] (as) [below of=a2]                    {Confidence aggregator};
    \node[data] (A) [below of=as]                        {Answer};
    
    % edges
-   	\draw[->] (Q) to (pd);
-   	\draw[->] (Q) to (na);
-   	\draw[->] (na) to (ex);
-	\draw (docs.west) to [out=160, in=90] (ex);
-	\draw[->] (pd.south) to [out=270, in=90] (sf);
-	\draw (ex.west) to [out=180, in=90] (sf);
-	\draw[->] (sf.south) to [out=270, in=90] (a1);
-	\draw[->] (sf.south) to [out=270, in=90] (a2);
-	\draw[->] (sf.south) to [out=270, in=90] (a3);
+   	\draw[->] (Q) to (ch);
+	\draw[->] (docs) to (ch);
+	\draw[->] (ch.south) to [out=270, in=90] (a1);
+	\draw[->] (ch.south) to [out=270, in=90] (a2);
+	\draw[->] (ch.south) to [out=270, in=90] (a3);
 	\draw[->] (Q.west) to [out=180, in=180] (a1);
 	\draw[->] (Q.west) to [out=180, in=180] (a2);
 	\draw[->] (Q.west) to [out=180, in=180] (a3);
@@ -168,14 +161,21 @@ until we run out of space.
 
 \subsubsection{Punctuation Filter}
 % Ansu
-    The punctuation location filter returns true if the candidate answer is immmediately followed
-    by a comma, period, quotation marks, semicolon, or exclamation mark. The candidate answer is 
-    located in the document using a word_index provided in the candidate tuple. This is a good 
-    heuristic to rank candidate answers since it retrieves a property from the context where the
-    answer appears in the document.
+	The punctuation location filter returns true if the candidate answer is
+	immmediately followed by a comma, period, quotation marks, semicolon, or
+	exclamation mark. The candidate answer is located in the document using a
+	word\_index provided in the candidate tuple. This is a good heuristic to
+	rank candidate answers since it retrieves a property from the context where
+	the answer appears in the document.
 
 \subsubsection{Apposition Filter}
 % Alec
+
+	Because we thought it would be difficult to analyze complete parse
+	information for questions, we decided to tackle apposition by a simple
+	heuristic:  does "question, answer," align better than "question answer"?
+	If it does, then the answer is likely to be in apposition.  We also applied
+	this to re-written questions.
 
 \subsubsection{Preceding and Proceeding N-grams Filter}
 % Tom
