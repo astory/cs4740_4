@@ -212,10 +212,12 @@ matter much.
 \subsubsection{Part of Speech Matching}
 % Craig
 The chunker module assigns one of four part of speech tags to each answer candidate
-phrase. We discard the answer candidate if the tag is either PP (Prepositional Phrase) 
+phrase. We discard (assign 0 to) the answer candidate if the tag is either PP (Prepositional Phrase) 
 or S (simple declarative clause). If the answer candidate is NP (Noun Phrase) we 
 assign it a probability of 1 (most likely). If the answer candidate is VP (Verb Phrase
-we assign it a probability of 0.1 (not very likely).
+we assign it a probability of 0.1 (not very likely). It is possible that a higher score would be
+obtained if we also discarded verb phrases entirely, since the short question format typically
+will point to a noun phrase.
 
 \subsection{Score Aggregation}
 We used supervised classification algorithms to aggregate the scores produced
@@ -256,6 +258,9 @@ The classifiers that we used were
    % we also need to submit this file
 
 \subsection{Baseline Results}
+Our baseline system simply takes the first answer of the training data and repeats
+that as the answer to all following questions. It is included as zero.py, and its
+mean reciprocal rank over 197 questions is 0.048.
 
 \subsection{Graphical Methods}
 
