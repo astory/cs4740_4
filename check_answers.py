@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import re
 
 def get_patterns():
@@ -644,13 +646,27 @@ def get_patterns():
 			patternDict[pattern[0]]=[pattern[1]]
 	return patternDict
 
-def check_answer(candidate):
+#Take True or False and return 1 or -1
+def boolto1(boolean):
+	if boolean==True:
+		return 1
+	elif boolean==False:
+		return -1
+	else:
+		return None
+
+def check_answer(q_id,candidate):
+	if q_id in patterns.keys():
+		pass
+	else:
+		print 'Invalid question number'
+		return False
 	def check_one_pattern(one_pattern):
 		return re.match(one_pattern,candidate[0])!=None
-	return reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[candidate[2]],False)
+	return boolto1(reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[q_id],False))
 
 patterns=get_patterns()
 
 if __name__ == '__main__':
-	candidate=('California','top_docs.208',208,'NNP')
-	print check_answer(candidate)
+	candidate=('California','taoseutasoetuh08',1438,'NNP')
+	print check_answer(3208,candidate)
