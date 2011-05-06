@@ -10,17 +10,6 @@ class UnigramChunker(nltk.ChunkParserI):
                       for sent in train_sents]
         self.tagger = nltk.UnigramTagger(train_data) 
 
-    def parse1(self, sentence): 
-        pos_tags = [pos for (word,pos) in sentence]
-        tagged_pos_tags = self.tagger.tag(pos_tags)
-        chunktags = [chunktag for (pos, chunktag) in tagged_pos_tags]
-        #conlltags = [(word, pos, chunktag) for ((word,pos),chunktag)
-         #            in zip(sentence, chunktags)]
-        #return nltk.chunk.conlltags2tree(conlltags)
-        conlltags = [(word +' '+ pos +' '+ chunktag) for ((word,pos),chunktag)
-                     in zip(sentence, chunktags)]
-        return conlltags
-
     def parse2(self, tokens):
         # split words and part of speech tags
         (words, tags) = zip(*tokens)
