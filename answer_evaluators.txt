@@ -1,4 +1,5 @@
-Input for all features FileName.FunctionName(question, (answer, doc_num, index, features))
+Input for all features must be the same
+    FileName.FunctionName(question, (answer, doc_num, index, features))
 
 FileName                FunctionName        Output
 
