@@ -5,7 +5,7 @@ import chunker
 
 #returns 1 if the character following the answer in the document is one of <, . " : !>
 #and returns 0 otherwise
-def punc_loc(question, (answer, doc_num, index, features)):
+def punc_loc(question, (answer, doc_num, index, features,q_id)):
     doc = chunker.clean_punctuation(init.get_doc(doc_num))
     
     answer = chunker.clean_punctuation(answer)

@@ -2,7 +2,7 @@ from align import sw_align
 from question_rewrite import rewriteQuestion
 import init
 
-def question_apposition(question, (answer, doc_num, index, features)):
+def question_apposition(question, (answer, doc_num, index, features,q_id)):
     doc = init.get_doc(doc_num)
     apposition = question + ", " + answer + ","
     plain = question + " " + answer
