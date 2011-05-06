@@ -33,6 +33,13 @@ class UnigramChunker(nltk.ChunkParserI):
         # create tree from conll formatted chunk lines
         return nltk.chunk.conllstr2tree('\n'.join(lines))
 
+def clean_punctuation(text):
+    text = text.replace("."," .")
+    text = text.replace(","," ,")
+    text = text.replace("!"," !")
+    text = text.replace(":"," :")
+    text = text.replace("\""," \"")
+    return text
 
 def run(q_id):
     train_sents = conll2000.chunked_sents('train.txt')
@@ -48,11 +55,7 @@ def run(q_id):
         doc_text = topdoc[key]
         docnum= key
         #print docnum
-        doc_text = doc_text.replace("."," .")
-        doc_text = doc_text.replace(","," ,")
-        doc_text = doc_text.replace("!"," !")
-        doc_text = doc_text.replace(":"," :")
-        doc_text = doc_text.replace("\""," \"")
+        doc_text = clean_punctuation(doc_text)
         #print doc_text
         doc_text= doc_text.split()
         tagged=pos_tag(doc_text)
