@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 from combine import *
+import chunker
 import mlpy
 
 def question_candidates(q_id):
 #Incomplete
 	'''Select some useful subset of the candidates for a particular question.
-	Return them in a list. Saving the question id number would be nice.
+	Return them in a list.
 	'''
-	return [('sling', 'AP881126-0094', 58, 'PP'), ('Tropical Storm Keith', 'AP881126-0094', 59, 'NP'), (',', 'AP881126-0094', 62, 'S')]
+	all_chunks = chunker.run(q_id)
+	return all_chunks[:40] # need better way to filter
 
 def all_candidates(first = 201, last = 399):
 	# make sure the parameters are good

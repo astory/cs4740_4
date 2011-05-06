@@ -3,29 +3,28 @@
 
 def pack(data, length, pack=False):
 	"""
-	Pack data (which is some ordered grouping of strings, with arbitrary
-	nesting, into length bytes.
+	Pack data (a sorted list of (score, candidate) into length bytes.
 
 	If pack = True, will continue to look for smaller words to fit in until
 	there is no space or no more words.  If pack = False, stops at the first
 	word to go over.
 	"""
-	flat = flatten(data)
 	used_values = []
 	output = ""
-	for x in flat:
-		if len(x) > length:
+	for x in data:
+		_,s = x
+		if len(s) > length:
 			if pack:
 				pass
 			else:
 				break
 		else:
 			used_values.append(x)
-			output += " " + x
-			length -= len(x) + 1
+			output += " " + s
+			length -= len(s) + 1
 	for value in used_values:
-		flat.remove(value)
-	return output[1:],flat # trim off leading space
+		data.remove(value)
+	return output[1:],data # trim off leading space
 
 def flatten(data):
 	"""
