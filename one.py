@@ -2,81 +2,59 @@
 from combine import *
 import chunker
 import mlpy
+import check_answers
+from packer import pack
 
 def question_candidates(q_id):
 #Incomplete
 	'''Select some useful subset of the candidates for a particular question.
 	Return them in a list.
 	'''
-	all_chunks = chunker.run(q_id)
-	return all_chunks[:40] # need better way to filter
+	return [ ('sling', 'AP881126-0094', 55, 'VP'), ('farther', 'AP881126-0094', 56, 'NP'), ('away', 'AP881126-0094', 57, 'S')]
 
-def all_candidates(first = 201, last = 399):
-	# make sure the parameters are good
-	if first > last: last, first = first, last
-	# list of question id numbers
-	q_ids=range(first,last+1)
-	return reduce(lambda a,b: a+question_candidates(b),q_ids,[])
+def question_learning_data(evaluators,first=204,last=204):
+	x=[]
+	y=[]
+	for q_id in range(first,last+1):
+		cand=question_candidates(q_id)
+		x=x+run_evaluators(cand,evaluators)
+		y=y+map(lambda a:check_answers.check_answer(q_id,a),cand)
+	return y,x
 
-def check_candidates(candidates,q_id=204):
-	#Put q_id in the candidates storage thingy
-	return map(lambda a: check_answers.check_answer(q_id,a),candidates)
+def question_prediction_data(q_id,candidate,evaluators):
+	x=run_evaluators([candidate],evaluators)
+	return x[0],candidate
 
-def run_validation():
-	candidates_train=all_candidates(first = 201, last = 359)
-	y_train=check_candidates(candidates_train)
-	
-	candidates_validation=all_candidates(first = 360, last = 399)
-	y_validation=check_candidates(candidates_validation)
+def run_question_predictions(evaluators,trained_model,first=205,last=206):
+	answers=[]
+	for q_id in range(first,last+1):
+		y_hat=[]
+		for candidate in question_candidates(q_id):
+			x_test,candidate= question_prediction_data(q_id,candidate,evaluators)
+			y_hat.append( ( test(trained_model,x_test) , candidate ) )
+		y_hat = sorted(y_hat, key=lambda (s,_): s,reverse=True)
+		y_hat = map(lambda a:(a[0],a[1][0]),y_hat)
+		for i in range(0,5):
+			answers.append((q_id,pack(y_hat, 50)[0]))
+	return answers
 
-	evaluator_combinations=[
-	[dummy_evaluator],
-	[dummy_evaluator2],
-	[dummy_evaluator,dummy_evaluator2]
-	]
+def answerLine(answer):
+        return str(answer[0])+' OVER9000 '+answer[1]
 
-	validation_runs=[]
-	for combination in evaluator_combinations:
-		x_train=run_evaluators(candidates_train,combination)
-		x_validation=run_evaluators(candidates_validation,combination)
+def answerFile(answers):
+        return "\n".join(map(answerLine,answers))
 
-		#Vary parameters here
-		for model in [mlpy.Svm,mlpy.Fda]:
-		#Incomplete
-			model_trained=train(model,y_train,x_train)
-			#Return a list of scores and corresponding candidates
-			#It would be nice to sort this by question
-			print map(lambda a:[test(model_trained,a),a],x_validation)
-			#Then select the best answers and send to the scorer
-			#And then get the score
-			score = 0.72
-			#Then return the overall score of the validation run
-			validation_runs.append((score,model_trained,model,combination))
-	return validation_runs
-
-def select_parameter_combination(validation_runs):
-#Incomplete
-	#Select the best parameter combination from the validation runs
-	#This currently picks just the first combination.
-	return validation_runs[0][1]
-
-def run_test(model_trained):
-	#Run the model on the test data
-	candidates_test=all_candidates(first = 10000, last = 10035)
-	x_test=run_evaluators(candidates_test)
-	y_test=check_candidates(candidates_test)
-	#Check the score
-	score=0.68
-	return score
+def writeAnswers(stuff,filename='tmp-answers.txt'):
+        answersHandle=open(filename,'w')
+        answersHandle.write(stuff)
+        answersHandle.close()
 
 def main():
-	runs=run_validation()
-	#Save runs to a file so we can write about it
-	out=open('validation_runs','w')
-	out.write(str(runs))
-	out.close()
-	#Then select the best run and use it to run the test
-	print run_test(select_parameter_combination(runs))
-
+	evaluator_combinations=[[dummy_evaluator],[dummy_evaluator2]]
+	for evaluators in evaluator_combinations:
+		y_train,x_train = question_learning_data(evaluators)
+		trained=train(mlpy.Svm,y_train,x_train)
+		writeAnswers(answerFile(run_question_predictions(evaluators,trained)),'results/'+str(evaluators))
+	
 if __name__ == '__main__':
 	main()

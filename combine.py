@@ -24,7 +24,7 @@ def check_answer(candidate):
 	#Return 1 for correct and -1 for incorrect
 	return int(1-2*round(random.random()))
 
-def run_evaluators(candidates,evaluators = [dummy_evaluator2,dummy_evaluator,dummy_evaluator2]):
+def run_evaluators(candidates,evaluators):
 	#candidate = list of the question-candidate indexes
 	confidence = []
 	for candidate in candidates:
@@ -61,19 +61,7 @@ def test(fit,features):
 	xts = np.array(features) # test point
 	# predict SVM on test corpus answer
 	fit.predict(xts)
-	out=[]
-	if fit.predict(xts)==-1:
-		out.append(False)
-	elif fit.predict(xts)==1:
-		out.append(True)
-	try:
-		out.append(fit.realpred)
-		# "real-valued prediction"
-		# I think it's something like confidence
-	except:
-		pass
-	return out
-
+	return fit.realpred
 
 def demo():
 	candidates_train=[
