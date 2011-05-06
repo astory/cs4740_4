@@ -50,6 +50,9 @@ def run(q_id):
         #print docnum
         doc_text = doc_text.replace("."," .")
         doc_text = doc_text.replace(","," ,")
+        doc_text = doc_text.replace("!"," !")
+        doc_text = doc_text.replace(":"," :")
+        doc_text = doc_text.replace("\""," \"")
         #print doc_text
         doc_text= doc_text.split()
         tagged=pos_tag(doc_text)
