@@ -25,8 +25,9 @@ def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-009
 	return x[0],q_id,candidate
 
 def main():
-	print question_learning_data()
-	print question_prediction_data()
+	y_train,x_train = question_learning_data()
+	x_test,q_id,candidate= question_prediction_data()
+	return train(mlpy.Svm,y_train,x_train)
 	
 if __name__ == '__main__':
 	main()
