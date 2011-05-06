@@ -34,12 +34,6 @@ Whitney Foster\\
 % include justification of why you think that the particular approach
 % will be effective
 
-\section{The QA Baseline}
-% delete this if you don't think it's necessary
-Our baseline system simply takes the first answer of the training data and
-repeats that as the answer to all following questions.  It is included as
-\verb+zero.py+, and its mean reciprocal rank over 197 questions is 0.048.
-
 \section{The QA System}
 % we need:
 % a detailed walkthrough of what our system did to handle one question
@@ -98,9 +92,7 @@ From this ranked output we choose our final answers.
 \end{figure}
 
 \subsection{Parsing the Corpus Documents}
-% Talk about Whitney's Shredder module here?
-
-\subsection{The Classifier}
+% Talk about Whitney's Shredder module here
 
 \subsection{Question Evaluators}
 
@@ -137,11 +129,11 @@ From this ranked output we choose our final answers.
 	We locate what we best believe to be the question via these two methods, and
 	then evaluate how far away from that segment of the document the answer is.
 	If it is fairly close, that is a good indicator that it is highly related to
-	the question, but if it is far, it is likely to be unrelated.  We feed that
-	distance, and either the length of the na\"ive alignment or the score that
-	Smith-Waterman produces (higher is better for both) because very short or
-	very poor alignments are less likely to reflect an actual representation of
-	the question.
+	the question, but if it is far, it is likely to be unrelated.  We output
+	that distance, and either the length of the na\"ive alignment or the score
+	that Smith-Waterman produces (higher is better for both) because very short
+	or very poor alignments are less likely to reflect an actual representation
+	of the question.
 
 \subsubsection{Punctuation}
 
