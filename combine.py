@@ -6,31 +6,11 @@
 import numpy as np
 import mlpy
 
-def train(model):
-	'''
-	Train a model for classifying answers as correct or not
-	based on the confidence measures from various QA methods.
-	This should support paramaters at some point.
-	'''
 
-	#Here are some answers. We probably won't use them at all.
-	answers=[
-	'Alaska, Canada, Greenland and Soviet Union',
-	'rare medabolic disorder',
-	'about 100,000 light years',
-	'saguaro, (evens giganteius)',
-	'an eating disorder',
-	'Nina, Pinta and Santa Maria',
-	'Chester A. Arthur',
-	'Braintree , now Quincy, Mass.',
-	'an Aztec god',
-	'South American Indian mythical god',
-	'connects the two spheres of the brain'
-	]
-
+def run_evaluators():
 	#Whether each of these answerse is correct
 	#correct=[True,False,False,True,False,False,False,True,False,True,False]
-	correct=[1,-1,-1,1,-1,-1,-1]
+	correctness=[1,-1,-1,1,-1,-1,-1]
 	#Confidence measures from each of the three answer extraction methods for seven questions
 	confidence1=[0.978183359280229,0.275786651414819,0.48928187857382]
 	confidence2=[0.154237459995784,0.196210152702406,0.376024881959893]
@@ -39,10 +19,17 @@ def train(model):
 	confidence5=[0.64096049607421,0.557334918684016,0.315573251030097]
 	confidence6=[0.389133446694662,0.245313317359736,0.278548790918042]
 	confidence7=[0.0664477733274301,0.588468289934099,0.476068765856326]
+	return correctness,[confidence1,confidence2,confidence3,confidence4,confidence5,confidence6,confidence7]
 
+def train(model,correctness,features):
+	'''
+	Train a model for classifying answers as correct or not
+	based on the confidence measures from various QA methods.
+	This should support paramaters at some point.
+	'''
 	#Format them for the classification model https://mlpy.fbk.eu/data/doc/classification.html
-	xtr = np.array([confidence1,confidence2,confidence3,confidence4,confidence5,confidence6,confidence7])
-	ytr = np.array(correct)
+	xtr = np.array(features)
+	ytr = np.array(correctness)
 	if model==mlpy.Knn:
 		fit=model(k=1)
 	else:
@@ -80,6 +67,7 @@ def test(fit):
 
 
 def demo():
+	y,x=run_evaluators()
 #	print '----------------------------------------------'
 	print ''
 	print 'Predictions as to whether an answer is correct'
@@ -87,12 +75,12 @@ def demo():
 	print '----------------------------------------------'
         print 'Model Result Confidence? ("Real value")'
 	print '----- ------ ---------------------------------'
-        print ' SVM  '+str(test(train(mlpy.Svm)))
-	print ' KNN  '+str(test(train(mlpy.Knn)))
-	print ' FDA  '+str(test(train(mlpy.Fda)))
-	print 'SRDA  '+str(test(train(mlpy.Srda)))
-	print ' PDA  '+str(test(train(mlpy.Pda)))
-	print 'DLDA  '+str(test(train(mlpy.Dlda)))
+        print ' SVM  '+str(test(train(mlpy.Svm,y,x)))
+	print ' KNN  '+str(test(train(mlpy.Knn,y,x)))
+	print ' FDA  '+str(test(train(mlpy.Fda,y,x)))
+	print 'SRDA  '+str(test(train(mlpy.Srda,y,x)))
+	print ' PDA  '+str(test(train(mlpy.Pda,y,x)))
+	print 'DLDA  '+str(test(train(mlpy.Dlda,y,x)))
 	print '----------------------------------------------'
 
 if __name__ == "__main__":
