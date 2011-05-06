@@ -694,7 +694,7 @@ def boolto1(boolean):
 		return None
 
 def check_answer(q_id,candidate):
-	if q_id in patterns.keys():
+	if q_id not in patterns.keys():
 		pass
 	else:
 		print 'Invalid question number'
