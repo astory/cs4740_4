@@ -7,6 +7,12 @@
 from BeautifulSoup import BeautifulStoneSoup 
 import os 
 import glob
+
+global_doc_dict = {}
+
+def get_doc(doc_num):
+    print global_doc_dict[doc_num]
+    return global_doc_dict[doc_num]
   
 def get_corpus(qNum=0):  
     path = 'train'
@@ -31,7 +37,11 @@ def get_corpus(qNum=0):
             # because file 372 has a <doc> and <docnum> without any <text> (the last one)
             if dT != None:
                 docText = dT.renderContents().strip()
+                docText = " ".join(docText.split("\n"))
                 dict[docNum] = docText
+                global_doc_dict[docNum] = docText
 
     return dict
 
+if __name__ == "__main__":
+    get_corpus(qNum=204)
