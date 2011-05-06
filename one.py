@@ -25,9 +25,13 @@ def question_candidates(q_id):
 	Return them in a list.
 	'''
 	foo=cache_file(q_id)
-	bar=cache_chunkers.uncache_chunks(open(foo))[q_id]
-	print len(bar)
-	return bar[:2000]
+	candidate = cache_chunkers.uncache_chunks(open(foo))[q_id]
+        new_l = []
+        for c in candidate:
+          if c[3] == "NP":
+             new_l.append(c)
+        print len(new_l)
+        return new_l[:2000]
 
 def question_learning_data(evaluators,first,last):
 	x=[]
@@ -90,5 +94,5 @@ def main():
 		evaluatorCombinationID=evaluatorCombinationID+1
 	
 if __name__ == '__main__':
-	main()
-#	print cache_file(243)
+#	main()
+	question_candidates (243)
