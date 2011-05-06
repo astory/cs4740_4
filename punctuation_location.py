@@ -20,9 +20,9 @@ def punc_loc(question, (answer, doc_num, index, features,q_id)):
     
     #check if that lastcharacter is a punctuation
     if punc_word == ',' or punc_word == '.' or punc_word == '"'  or punc_word == ':' or punc_word == '!':
-        return 1
+        return [1]
     else: 
-        return 0
+        return [0]
     
 #test case below was modified to work with specified doc instead of the actual doc to work with a known index
 def test():

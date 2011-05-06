@@ -11,7 +11,7 @@ def question_apposition(question, (answer, doc_num, index, features,q_id)):
     (app_score, app, doc_app, starts, ends) = sw_align(apposition, doc)
     (plain_score, pl, doc_pl, starts, ends) = sw_align(plain, doc)
 
-    return max(0, app_score - plain_score)
+    return [max(0, app_score - plain_score)]
 
 def rewrite_apposition(question, candidate):
     return question_apposition(rewriteQuestion(question), candidate)
