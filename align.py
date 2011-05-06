@@ -19,12 +19,14 @@ INS_POINT = 3
 cache = {}
 
 def load_cache(filename="align_cache.pickle"):
+    print "loading cache"
     path = os.path.relpath(filename)
     f = open(path, 'r')
-    cache = pickle.load(f)
+    cache.update(pickle.load(f))
     f.close()
 
 def save_cache(filename="align_cache.pickle"):
+    print "saving cache"
     path = os.path.relpath(filename)
     f = open(path, 'w')
     pickle.dump(cache, f)
