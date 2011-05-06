@@ -21,7 +21,7 @@ def question_learning_data(first=204,last=204):
 		y=y+map(lambda a:check_answers.check_answer(q_id,a),cand)
 	return y,x
 
-def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-0094', 57, 'S')):
+def question_prediction_data(q_id,candidate):
 	x=run_evaluators([candidate])
 	return x[0],candidate
 
@@ -36,12 +36,12 @@ def run_question_predictions(trained_model,first=205,last=206):
 		y_hat = map(lambda a:(a[0],a[1][0]),y_hat)
 		for i in range(0,2):
 			answers.append((q_id,pack(y_hat, 50)[0]))
-	print answers
+	return answers
 
 def main():
 	y_train,x_train = question_learning_data()
 	trained=train(mlpy.Svm,y_train,x_train)
-	run_question_predictions(trained)
+	print run_question_predictions(trained)
 	
 if __name__ == '__main__':
 	main()
