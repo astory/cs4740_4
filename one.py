@@ -25,10 +25,13 @@ def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-009
 	return x[0],candidate
 
 def run_question_predictions(trained_model,first=205,last=205):
+	y_hat=[]
 	for q_id in range(first,last+1):
 		for candidate in question_candidates(q_id):
 			x_test,candidate= question_prediction_data(q_id,candidate)
-			print test(trained_model,x_test)
+			y_hat.append( ( test(trained_model,x_test) , candidate ) )
+	print y_hat
+			
 
 def main():
 	y_train,x_train = question_learning_data()
