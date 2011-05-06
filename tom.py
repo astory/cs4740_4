@@ -47,7 +47,7 @@ def interactions(predictors,rmax=None):
   if rmax==None:
     rmax=len(predictors)
   beta=[]
-  for r in range(2,rmax+1):
+  for r in range(1,int(rmax)+1):
     for combination in list(itertools.combinations(predictors,r=r)):
       beta.append(reduce(operator.mul, combination))
   return beta
@@ -56,5 +56,3 @@ def interactions(predictors,rmax=None):
 def main():
 #  return map(measurement_unit,['about 570','saguaro,','Guglielmo Marconi','Africa','$1.5883'])
   return interactions(range(2,5),45)
-
-print(main())

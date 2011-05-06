@@ -6,12 +6,16 @@ import chunker
 import numpy as np
 import mlpy
 import random #Just for generating fake data
+import tom
 
 def dummy_evaluator(candidate):
 	#Do magic
 	#print 'Doing magic'
 	#Return a number
-	return random.random()
+	return [random.random()]
+
+def dummy_evaluator2(candidate):
+	return tom.interactions(random.random(),random.random())
 
 def check_answer(candidate):
 	#Check whether the answer is correct
@@ -21,12 +25,12 @@ def check_answer(candidate):
 
 def run_evaluators(candidates):
 	#candidate = list of the question-candidate indexes
-	evaluators = [dummy_evaluator,dummy_evaluator,dummy_evaluator] #List of evaluator functions
+	evaluators = [dummy_evaluator,dummy_evaluator2] #List of evaluator functions
 	confidence = []
 	for candidate in candidates:
 		candidateConfidence=[]
 		for evaluator in evaluators:
-			candidateConfidence.append(evaluator(candidate))
+			candidateConfidence=candidateConfidence+evaluator(candidate)
 		confidence.append(candidateConfidence)
 	return confidence
 
@@ -72,8 +76,8 @@ def test(fit,features):
 
 
 def demo():
-#	candidates=range(1,50)
-	candidates=chunker.run(333)[0:55]
+	candidates=range(1,50)
+#	candidates=chunker.run(333)[0:55]
 	candidates_train=candidates[0:40]
 	candidates_test =candidates[45:55]
 	x_train=run_evaluators(candidates_train)
