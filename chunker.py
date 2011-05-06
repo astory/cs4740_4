@@ -12,14 +12,17 @@ class UnigramChunker(nltk.ChunkParserI):
 
     def parse2(self, tokens):
         # split words and part of speech tags
-        (words, tags) = zip(*tokens)
-        # get IOB chunk tags
-        chunks = self.tagger.tag(tags)
-        # join words with chunk tags
-        wtc = itertools.izip(words, chunks)
-        # w = word, t = part-of-speech tag, c = chunk tag
-        lines = [' '.join([w, t, c]) for (w, (t, c)) in wtc if c]
-        # create tree from conll formatted chunk lines
+        if len(tokens) > 0:
+           (words, tags) = zip(*tokens)
+           # get IOB chunk tags
+           chunks = self.tagger.tag(tags)
+           # join words with chunk tags
+           wtc = itertools.izip(words, chunks)
+           # w = word, t = part-of-speech tag, c = chunk tag
+           lines = [' '.join([w, t, c]) for (w, (t, c)) in wtc if c]
+           # create tree from conll formatted chunk lines
+        else:
+           lines = []
         return nltk.chunk.conllstr2tree('\n'.join(lines))
 
 def clean_punctuation(text):

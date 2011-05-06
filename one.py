@@ -4,13 +4,20 @@ import chunker
 import mlpy
 import check_answers
 from packer import pack
+from sequence_length import       seq_length  
+from punctuation_location import  punc_loc            
+from apposition import question_apposition, rewrite_apposition  
+from pos import                   pos_test
+from bag_of_words import   vector_bag,  bag_of_words        
+from novelty_factor import novelty_bool, novelty_count       
+
 
 def question_candidates(q_id):
 #Incomplete
 	'''Select some useful subset of the candidates for a particular question.
 	Return them in a list.
 	'''
-	return [ ('sling', 'AP881126-0094', 55, 'VP'), ('farther', 'AP881126-0094', 56, 'NP'), ('away', 'AP881126-0094', 57, 'S')]
+	return [ ('sling', 'AP881126-0094', 55, 'VP',q_id), ('farther', 'AP881126-0094', 56, 'NP',q_id), ('away', 'AP881126-0094', 57, 'S',q_id)]
 
 def question_learning_data(evaluators,first=204,last=204):
 	x=[]
@@ -50,7 +57,11 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
-	evaluator_combinations=[[dummy_evaluator],[dummy_evaluator2]]
+	evaluator_combinations=[
+	[seq_length]
+#	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool,novelty_count]
+#	[novelty_count]
+	]
 	for evaluators in evaluator_combinations:
 		y_train,x_train = question_learning_data(evaluators)
 		trained=train(mlpy.Svm,y_train,x_train)

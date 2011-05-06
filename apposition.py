@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from align import sw_align
 from question_rewrite import rewriteQuestion
 import init
@@ -20,4 +21,4 @@ if __name__ == "__main__":
     question = "Who is the inventor of the phonograph?"
     doc = "SJMN91-06010225"
     print question_apposition(question, ("joe smith", doc, 700, {}))
-#    print rewrite_apposition(question, ("joe smith", doc, 700, {}))
+    print rewrite_apposition(question, ("joe smith", doc, 700, {}))
