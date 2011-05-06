@@ -41,7 +41,7 @@ def run_validation():
 		#And then get the score
 		score = 0.72
 		#Then return the overall score of the validation run
-		validation_runs.append((score,model_trained))
+		validation_runs.append((score,model_trained,model))
 	return validation_runs
 
 def select_parameter_combination(validation_runs):
@@ -62,10 +62,11 @@ def run_test(model_trained):
 def main():
 	runs=run_validation()
 	#Save runs to a file so we can write about it
-	print runs
-
+	out=open('validation_runs','w')
+	out.write(str(runs))
+	out.close()
 	#Then select the best run and use it to run the test
 	print run_test(select_parameter_combination(runs))
 
-#if __name__ == '__main__':
-#	main()
+if __name__ == '__main__':
+	main()
