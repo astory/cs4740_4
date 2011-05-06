@@ -72,11 +72,13 @@ def test(fit,features):
 
 
 def demo():
-#	candidates=chunker.run(333)[1:50]
-	candidates=range(1,50)
-	x_train=run_evaluators(candidates)
-	y_train=map(check_answer,candidates)
-	x_test =run_evaluators(['foo','bar'])
+#	candidates=range(1,50)
+	candidates=chunker.run(333)[0:55]
+	candidates_train=candidates[0:40]
+	candidates_test =candidates[45:55]
+	x_train=run_evaluators(candidates_train)
+	y_train=map(check_answer,candidates_train)
+	x_test =run_evaluators(candidates_test)
 	#Run the predictions for just one of these test question candidates
 	x_test=x_test[0]
 	#The predictions fail if all of the correctness values are the same	
