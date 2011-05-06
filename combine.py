@@ -5,9 +5,9 @@
 
 import numpy as np
 import mlpy
+import random #Just for generating fake data
 
-
-def run_evaluators():
+def run_evaluators0():
 	#Whether each of these answerse is correct
 	#correct=[True,False,False,True,False,False,False,True,False,True,False]
 	correctness=[1,-1,-1,1,-1,-1,-1]
@@ -20,6 +20,26 @@ def run_evaluators():
 	confidence6=[0.389133446694662,0.245313317359736,0.278548790918042]
 	confidence7=[0.0664477733274301,0.588468289934099,0.476068765856326]
 	return correctness,[confidence1,confidence2,confidence3,confidence4,confidence5,confidence6,confidence7]
+
+def dummy_evaluator(x):
+	return random.random()
+
+def run_evaluators(candidates):
+	#candidate = list of the question-candidate indexes
+	evaluators = [dummy_evaluator,dummy_evaluator,dummy_evaluator] #List of evaluator functions
+	confidence = []
+	for candidate in candidates:
+		candidateConfidence=[]
+		for evaluator in evaluators:
+			candidateConfidence.append(evaluator(candidate))
+		confidence.append(candidateConfidence)
+	return confidence
+
+def check_answer(candidate):
+	return int(1-2*round(random.random()))
+
+def correct(candidates):
+	return map(check_answer,candidates)
 
 def train(model,correctness,features):
 	'''
@@ -67,20 +87,23 @@ def test(fit):
 
 
 def demo():
-	y,x=run_evaluators()
-#	print '----------------------------------------------'
+#	y,x=run_evaluators0()
+	candidates=range(0,7)
+	x=run_evaluators(candidates)
+	y=correct(candidates)
+	#The predictions fail if all of the correctness values are the same	
 	print ''
 	print 'Predictions as to whether an answer is correct'
 	print 'for random data from various models'
 	print '----------------------------------------------'
         print 'Model Result Confidence? ("Real value")'
 	print '----- ------ ---------------------------------'
-        print ' SVM  '+str(test(train(mlpy.Svm,y,x)))
+	print ' SVM  '+str(test(train(mlpy.Svm,y,x)))
 	print ' KNN  '+str(test(train(mlpy.Knn,y,x)))
 	print ' FDA  '+str(test(train(mlpy.Fda,y,x)))
 	print 'SRDA  '+str(test(train(mlpy.Srda,y,x)))
 	print ' PDA  '+str(test(train(mlpy.Pda,y,x)))
-	print 'DLDA  '+str(test(train(mlpy.Dlda,y,x)))
+#	print 'DLDA  '+str(test(train(mlpy.Dlda,y,x)))
 	print '----------------------------------------------'
 
 if __name__ == "__main__":
