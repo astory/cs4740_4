@@ -7,7 +7,7 @@ from BeautifulSoup import BeautifulStoneSoup
 import os 
 import glob
   
-path = 'train'
+path = 'corpus'
 #path = ''
 dict = {}
 
