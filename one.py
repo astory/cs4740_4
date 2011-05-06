@@ -25,19 +25,18 @@ def question_prediction_data(q_id=202,candidate=('400 micrograms', 'AP881126-009
 	x=run_evaluators([candidate])
 	return x[0],candidate
 
-def run_question_predictions(trained_model,first=205,last=205):
+def run_question_predictions(trained_model,first=205,last=206):
+	answers=[]
 	for q_id in range(first,last+1):
 		y_hat=[]
 		for candidate in question_candidates(q_id):
 			x_test,candidate= question_prediction_data(q_id,candidate)
 			y_hat.append( ( test(trained_model,x_test) , candidate ) )
 		y_hat = sorted(y_hat, key=lambda (s,_): s,reverse=True)
-		y_hat = map(lambda a:(a[0],a[1][1]),y_hat)
-		answers=[]
-		print y_hat
+		y_hat = map(lambda a:(a[0],a[1][0]),y_hat)
 		for i in range(0,2):
-			answer,y_hat = pack(y_hat, 50)
-	print answer
+			answers.append((q_id,pack(y_hat, 50)[0]))
+	print answers
 
 def main():
 	y_train,x_train = question_learning_data()
