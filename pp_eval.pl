@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/env perl
 # NOTE: this has only been tested on solaris machines.  In particular
 # there is an imbedded sort that may not work on other machines.
 
