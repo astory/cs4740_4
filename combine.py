@@ -36,7 +36,7 @@ def run_evaluators(candidates,evaluators):
 			print evaluator
 			print candidate
 			print candidate[4]
-			candidateConfidence=candidateConfidence+evaluator(questionDict[str(candidate[4])],candidate) #candidate[4] is the q_id
+			candidateConfidence=candidateConfidence+list(evaluator(questionDict[str(candidate[4])],candidate)) #candidate[4] is the q_id
 		confidence.append(candidateConfidence)
 	return confidence
 
