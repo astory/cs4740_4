@@ -27,7 +27,7 @@ def question_candidates(q_id):
 	foo=cache_file(q_id)
 	return cache_chunkers.uncache_chunks(open(foo))[q_id]
 
-def question_learning_data(evaluators,first=204,last=204):
+def question_learning_data(evaluators,first,last):
 	x=[]
 	y=[]
 	for q_id in range(first,last+1):
@@ -40,7 +40,7 @@ def question_prediction_data(q_id,candidate,evaluators):
 	x=run_evaluators([candidate],evaluators)
 	return x[0],candidate
 
-def run_question_predictions(evaluators,trained_model,first=205,last=206):
+def run_question_predictions(evaluators,trained_model,first,last):
 	answers=[]
 	for q_id in range(first,last+1):
 		y_hat=[]
@@ -65,17 +65,22 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
+	trainIDs=[335,335]
+	validationIDs=[336,336]
+	testIDs=[338,338]
 	evaluator_combinations=[
-	[seq_length],
+#	[seq_length],
 #	[punc_loc],
 	[pos_test]
 #	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #	[novelty_count]
 	]
 	for evaluators in evaluator_combinations:
-		y_train,x_train = question_learning_data(evaluators)
+		y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
+#		print y_train
 		trained=train(mlpy.Svm,y_train,x_train)
-		writeAnswers(answerFile(run_question_predictions(evaluators,trained)),'results/'+str(evaluators))
+		results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
+		writeAnswers(answerFile(results),'results/'+str(evaluators))
 	
 if __name__ == '__main__':
 	main()

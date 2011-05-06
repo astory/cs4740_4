@@ -12,31 +12,14 @@ import read_questions
 
 questionDict=dict(read_questions.read_questions_no_answers())
 
-def dummy_evaluator(candidate):
-	#Do magic
-	#print 'Doing magic'
-	#Return a number
-	return [random.random()]
-
-def dummy_evaluator2(candidate):
-	return tom.interactions([random.random(),random.random()])
-
-def check_answer(candidate):
-	#Check whether the answer is correct
-	#print 'Checking whether the answer is correct'
-	#Return 1 for correct and -1 for incorrect
-	return int(1-2*round(random.random()))
-
 def run_evaluators(candidates,evaluators):
 	#candidate = list of the question-candidate indexes
 	confidence = []
 	for candidate in candidates:
+#		print candidate[0]
 		candidateConfidence=[]
 		for evaluator in evaluators:
-#			print evaluator
-#			print (questionDict[str(candidate[4])],candidate)
 			foo=evaluator(questionDict[str(candidate[4])],candidate)
-			print foo
 			candidateConfidence=candidateConfidence+list(foo)
 		confidence.append(candidateConfidence)
 	return confidence
@@ -55,7 +38,6 @@ def train(model,correctness,features):
 	else:
 		fit=model()  # initialize Svm class
 	fit.compute(xtr, ytr)  # compute SVM
-	#print svm.weights(xtr,ytr) #Weights/coefficients
 	return fit
 
 def test(fit,features):
@@ -109,7 +91,7 @@ def demo():
 	y_train=map(lambda a: check_answers.check_answer(q_id,a),candidates_train)
 	y_train[4]=1
 	x_test =run_evaluators(candidate_test)[0]
-	print x_test
+#	print x_test
 	#Run the predictions for just one of these test question candidates
 	#The predictions fail if all of the correctness values are the same	
 	print ''
