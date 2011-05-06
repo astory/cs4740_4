@@ -58,9 +58,9 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
 
 def main():
 	evaluator_combinations=[
-	[seq_length],
+	[seq_length]
 #	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool,novelty_count]
-	[novelty_count]
+#	[novelty_count]
 	]
 	for evaluators in evaluator_combinations:
 		y_train,x_train = question_learning_data(evaluators)

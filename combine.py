@@ -33,10 +33,10 @@ def run_evaluators(candidates,evaluators):
 	for candidate in candidates:
 		candidateConfidence=[]
 		for evaluator in evaluators:
-			print evaluator
-			print candidate
-			print candidate[4]
-			candidateConfidence=candidateConfidence+list(evaluator(questionDict[str(candidate[4])],candidate)) #candidate[4] is the q_id
+#			print evaluator
+#			print (questionDict[str(candidate[4])],candidate)
+			foo=evaluator(questionDict[str(candidate[4])],candidate)
+			candidateConfidence=candidateConfidence+list(foo)
 		confidence.append(candidateConfidence)
 	return confidence
 
