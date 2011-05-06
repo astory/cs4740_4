@@ -8,8 +8,7 @@ def question_candidates(q_id):
 	'''Select some useful subset of the candidates for a particular question.
 	Return them in a list.
 	'''
-	all_chunks = chunker.run(q_id)
-	return all_chunks[:40] # need better way to filter
+	return [ ('400 micrograms', 'AP881126-0094', 55, 'VP'), ('farther', 'AP881126-0094', 56, 'NP'), ('away', 'AP881126-0094', 57, 'S')]
 
 def all_candidates(first = 201, last = 399):
 	# make sure the parameters are good
