@@ -24,9 +24,8 @@ def check_answer(candidate):
 	#Return 1 for correct and -1 for incorrect
 	return int(1-2*round(random.random()))
 
-def run_evaluators(candidates):
+def run_evaluators(candidates,evaluators = [dummy_evaluator2,dummy_evaluator,dummy_evaluator2]):
 	#candidate = list of the question-candidate indexes
-	evaluators = [dummy_evaluator2,dummy_evaluator,dummy_evaluator2] #List of evaluator functions
 	confidence = []
 	for candidate in candidates:
 		candidateConfidence=[]

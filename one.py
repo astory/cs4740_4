@@ -22,26 +22,34 @@ def check_candidates(candidates,q_id=204):
 
 def run_validation():
 	candidates_train=all_candidates(first = 201, last = 359)
-	x_train=run_evaluators(candidates_train)
 	y_train=check_candidates(candidates_train)
 	
 	candidates_validation=all_candidates(first = 360, last = 399)
-	x_validation=run_evaluators(candidates_validation)
 	y_validation=check_candidates(candidates_validation)
 
+	evaluator_combinations=[
+	[dummy_evaluator],
+	[dummy_evaluator2],
+	[dummy_evaluator,dummy_evaluator2]
+	]
+
 	validation_runs=[]
-	#Vary parameters here
-	for model in [mlpy.Svm,mlpy.Fda]:
-#Incomplete
-		model_trained=train(model,y_train,x_train)
-		#Return a list of scores and corresponding candidates
-		#It would be nice to sort this by question
-		print map(lambda a:[test(model_trained,a),a],x_validation)
-		#Then select the best answers and send to the scorer
-		#And then get the score
-		score = 0.72
-		#Then return the overall score of the validation run
-		validation_runs.append((score,model_trained,model))
+	for combination in evaluator_combinations:
+		x_train=run_evaluators(candidates_train,combination)
+		x_validation=run_evaluators(candidates_validation,combination)
+
+		#Vary parameters here
+		for model in [mlpy.Svm,mlpy.Fda]:
+		#Incomplete
+			model_trained=train(model,y_train,x_train)
+			#Return a list of scores and corresponding candidates
+			#It would be nice to sort this by question
+			print map(lambda a:[test(model_trained,a),a],x_validation)
+			#Then select the best answers and send to the scorer
+			#And then get the score
+			score = 0.72
+			#Then return the overall score of the validation run
+			validation_runs.append((score,model_trained,model,combination))
 	return validation_runs
 
 def select_parameter_combination(validation_runs):
