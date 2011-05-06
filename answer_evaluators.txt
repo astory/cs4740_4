@@ -1,0 +1,16 @@
+Input for all features FileName.FunctionName(question, (answer, doc_num, index, features))
+
+FileName                FunctionName        Output
+
+sequence_length.py      seq_length          [int,int] ---> more specifically [max_seq_len, max_seq_len_rewrite]
+punctuation_location.py punc_loc            int --> 1 or 0
+apposition.py           question_apposition int --> alignment score
+apposition.py           rewrite_apposition  int --> alignment score but rewritten question must be passed in
+pos.py                  pos_test            int ---> 1 for NP and 0 for VP
+bag_of_words.py         vector_bag          double ---> qvector dot avector
+bag_of_words.py         bag_of_words        double --> % value of (num words in ques / num words in answer)
+novelty_factor.py       novelty_bool        int --> 1 if found new word, 0 otherwise
+novelty_factor.py       novelty_count       double --> % value of num. of words found
+
+Number and Quantity Answer Type Filters
+Measurement Units or Matching Type Filter
