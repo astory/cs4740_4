@@ -57,28 +57,12 @@ variety of techniques to select answers from documents, and to use a machine
 learning system to choose the appropriate one.  See figure \ref{diagram} for
 a graphical overview.
 
-We will first analyze the question (using a parser or hand-written rules) to
-determine the parts of speech a valid answer could comprise, so, for example,
-``who'' questions always result in a noun phrase, and ``how'' questions usually
-result in verb phrases or adverbial phrases.  We will also extract named entities
-from the question.
+We first shred the documents for each question into all of the component verb
+and noun phrases.  We pass these candidates into a battery of evaluators that
+assign a confidence value to each of them, and pass these confidences into a
+machine learning algorithm that combines them to produce a ranked output.
 
-After retrieving the documents, we search for the named entities from the
-question in the documents, and return the sentences that match those entities.
-These are tagged with their parts of speech, and chunked to produce all the
-phrases of the appropriate type determined by analyzing the question.
-
-These are our answer candidates.  They, and their sentence contexts, are passed
-into our set of answer evaluators, which associate with them a confidence in
-their accuracy.  Simple evaluators include word vector model matching against
-the question, and more complex ones might include parsing, or other
-sophisticated evaluation techniques.
-
-We will then train a supervised classification algorithm to predict whether
-answers are correct based on the confidence measures from the various answer
-evaluation techniques. This will produce aggregate confidence measures for
-each answer. Finally, we will pack the most confident answers into the 50 bytes
-until we run out of space.
+From this ranked output we choose our final answers.
 
 \begin{figure}
  \label{diagram}
