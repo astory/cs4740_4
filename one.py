@@ -25,7 +25,13 @@ def question_candidates(q_id):
 	Return them in a list.
 	'''
 	foo=cache_file(q_id)
-	return cache_chunkers.uncache_chunks(open(foo))[q_id]
+	candidate = cache_chunkers.uncache_chunks(open(foo))[q_id]
+        new_l = []
+        for c in candidate:
+          if c[3] == "NP":
+             new_l.append(c)
+        #print new_l
+        return new_l    
 
 def question_learning_data(evaluators,first,last):
 	x=[]
@@ -83,5 +89,5 @@ def main():
 		writeAnswers(answerFile(results),'results/'+str(evaluators))
 	
 if __name__ == '__main__':
-	main()
-#	print cache_file(243)
+#	main()
+	question_candidates (243)
