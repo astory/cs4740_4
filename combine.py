@@ -8,6 +8,9 @@ import mlpy
 import random #Just for generating fake data
 import tom
 import check_answers
+import read_questions
+
+questionDict=dict(read_questions.read_questions_no_answers())
 
 def dummy_evaluator(candidate):
 	#Do magic
@@ -30,7 +33,10 @@ def run_evaluators(candidates,evaluators):
 	for candidate in candidates:
 		candidateConfidence=[]
 		for evaluator in evaluators:
-			candidateConfidence=candidateConfidence+evaluator(candidate)
+#			print evaluator
+#			print (questionDict[str(candidate[4])],candidate)
+			foo=evaluator(questionDict[str(candidate[4])],candidate)
+			candidateConfidence=candidateConfidence+list(foo)
 		confidence.append(candidateConfidence)
 	return confidence
 
