@@ -25,7 +25,9 @@ def question_candidates(q_id):
 	Return them in a list.
 	'''
 	foo=cache_file(q_id)
-	return cache_chunkers.uncache_chunks(open(foo))[q_id]
+	bar=cache_chunkers.uncache_chunks(open(foo))[q_id]
+	print len(bar)
+	return bar[:2000]
 
 def question_learning_data(evaluators,first,last):
 	x=[]
@@ -65,14 +67,16 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
-	trainIDs=[335,335]
-	validationIDs=[336,336]
+	trainIDs=[334,338]
+	validationIDs=[339,339]
 	testIDs=[338,338]
 	evaluator_combinations=[
-	[],
-	[seq_length],
-	[punc_loc],
-#	[pos_test]
+#	[],
+#	[seq_length],
+#	[punc_loc]
+#	[bag_of_words],
+#	[novelty_bool],
+	[pos_test]
 #	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #	[novelty_count]
 	]
@@ -80,7 +84,7 @@ def main():
 	for evaluators in evaluator_combinations:
 		y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
 #		print y_train
-		trained=train(mlpy.Svm,y_train,x_train)
+		trained=train(mlpy.Srda,y_train,x_train)
 		results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
 		writeAnswers(answerFile(results),'results/combination'+str(evaluatorCombinationID)+'.txt')
 		evaluatorCombinationID=evaluatorCombinationID+1
