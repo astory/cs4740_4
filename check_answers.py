@@ -694,17 +694,17 @@ def boolto1(boolean):
 		return None
 
 def check_answer(q_id,candidate):
-	if q_id in patterns.keys():
-		pass
-	else:
-		print 'Invalid question number'
-		return False
 	def check_one_pattern(one_pattern):
 		return re.match(one_pattern,candidate[0])!=None
-	return boolto1(reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[q_id],False))
+	if q_id in patterns.keys():
+#		print 'Valid question number'
+		return boolto1(reduce(lambda a,b: ( a or check_one_pattern(b) ) , patterns[q_id],False))
+	else:
+		print 'Invalid question number'
+		return boolto1(False)
 
 patterns=get_patterns()
 
 if __name__ == '__main__':
 	candidate=('California','taoseutasoetuh08',1438,'NNP')
-	print check_answer(10008,candidate)
+	print check_answer(333,candidate)

@@ -10,16 +10,24 @@ from apposition import question_apposition, rewrite_apposition
 from pos import                   pos_test
 from bag_of_words import   vector_bag,  bag_of_words        
 from novelty_factor import novelty_bool, novelty_count       
+import cache_chunkers
+from math import floor
 
+def cache_file(q_id):
+	base=int(10*floor(q_id/10))
+	low=base+1
+	high=base+10
+	name='chunks/'+str(low)+'-'+str(high)+'.txt'
+	return name
 
 def question_candidates(q_id):
-#Incomplete
 	'''Select some useful subset of the candidates for a particular question.
 	Return them in a list.
 	'''
-	return [ ('sling', 'AP881126-0094', 55, 'VP',q_id), ('farther', 'AP881126-0094', 56, 'NP',q_id), ('away', 'AP881126-0094', 57, 'S',q_id)]
+	foo=cache_file(q_id)
+	return cache_chunkers.uncache_chunks(open(foo))[q_id]
 
-def question_learning_data(evaluators,first=204,last=204):
+def question_learning_data(evaluators,first,last):
 	x=[]
 	y=[]
 	for q_id in range(first,last+1):
@@ -32,7 +40,7 @@ def question_prediction_data(q_id,candidate,evaluators):
 	x=run_evaluators([candidate],evaluators)
 	return x[0],candidate
 
-def run_question_predictions(evaluators,trained_model,first=205,last=206):
+def run_question_predictions(evaluators,trained_model,first,last):
 	answers=[]
 	for q_id in range(first,last+1):
 		y_hat=[]
@@ -57,15 +65,23 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
+	trainIDs=[335,335]
+	validationIDs=[336,336]
+	testIDs=[338,338]
 	evaluator_combinations=[
-	[seq_length]
-#	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool,novelty_count]
+#	[seq_length],
+#	[punc_loc],
+	[pos_test]
+#	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #	[novelty_count]
 	]
 	for evaluators in evaluator_combinations:
-		y_train,x_train = question_learning_data(evaluators)
+		y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
+#		print y_train
 		trained=train(mlpy.Svm,y_train,x_train)
-		writeAnswers(answerFile(run_question_predictions(evaluators,trained)),'results/'+str(evaluators))
+		results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
+		writeAnswers(answerFile(results),'results/'+str(evaluators))
 	
 if __name__ == '__main__':
 	main()
+#	print cache_file(243)

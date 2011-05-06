@@ -13,7 +13,7 @@ def pos_test(question, (answer, doc_num, index, features,q_id)):
     if features == "VP":
         result = 0.1    
 
-    return result
+    return [result]
 
 
 if __name__ == "__main__":
