@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import read_questions
 import re
 import operator
@@ -38,7 +39,6 @@ def measurement_unit(answer):
 def find_units(q_id):
   pass
 
-
 def interactions(predictors,rmax=None):
   ''' Given a list of main effects, return a list of the interactions
       of order up to rmax. If rmax is not given, all orders of
@@ -52,7 +52,9 @@ def interactions(predictors,rmax=None):
       beta.append(reduce(operator.mul, combination))
   return beta
 
-
 def main():
 #  return map(measurement_unit,['about 570','saguaro,','Guglielmo Marconi','Africa','$1.5883'])
-  return interactions(range(2,5),45)
+  print interactions(range(2,5))
+
+if __name__=='__main__':
+	main()
