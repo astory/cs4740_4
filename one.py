@@ -10,14 +10,22 @@ from apposition import question_apposition, rewrite_apposition
 from pos import                   pos_test
 from bag_of_words import   vector_bag,  bag_of_words        
 from novelty_factor import novelty_bool, novelty_count       
+import cache_chunkers
+from math import floor
 
+def cache_file(q_id):
+	base=int(10*floor(q_id/10))
+	low=base+1
+	high=base+10
+	name='chunks/'+str(low)+'-'+str(high)+'.txt'
+	return name
 
 def question_candidates(q_id):
-#Incomplete
 	'''Select some useful subset of the candidates for a particular question.
 	Return them in a list.
 	'''
-	return [ ('sling', 'AP881126-0094', 55, 'VP',q_id), ('farther', 'AP881126-0094', 56, 'NP',q_id), ('away', 'AP881126-0094', 57, 'S',q_id)]
+	foo=cache_file(q_id)
+	return cache_chunkers.uncache_chunks(open(foo))[q_id]
 
 def question_learning_data(evaluators,first=204,last=204):
 	x=[]
@@ -71,3 +79,4 @@ def main():
 	
 if __name__ == '__main__':
 	main()
+#	print cache_file(243)
