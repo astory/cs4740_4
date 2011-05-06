@@ -9,7 +9,7 @@ import os
 import glob
   
 def get_corpus(qNum=0):  
-    path = 'corpus'
+    path = 'train'
     dict = {}
     
     # if no question # is passed will loop through the entire corpus

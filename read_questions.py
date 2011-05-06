@@ -5,7 +5,7 @@
 #of two things.  The first item in this list is the question number
 #and the second is the actual text which is a continuous string
 def read_questions_no_answers():
-  f = open('corpus/questions.txt', 'r')
+  f = open('train/questions.txt', 'r')
   top_flag = 0
   question_list = []
   question = []
@@ -36,7 +36,7 @@ def read_questions_no_answers():
 #format of my list will become clear
 
 def read_questions_answers():
-  f = open('corpus/answers.txt', 'r')
+  f = open('train/answers.txt', 'r')
   count = 0
   question_list = []
   question = []
