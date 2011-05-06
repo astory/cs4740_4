@@ -36,6 +36,7 @@ def run_evaluators(candidates,evaluators):
 #			print evaluator
 #			print (questionDict[str(candidate[4])],candidate)
 			foo=evaluator(questionDict[str(candidate[4])],candidate)
+			print foo
 			candidateConfidence=candidateConfidence+list(foo)
 		confidence.append(candidateConfidence)
 	return confidence
