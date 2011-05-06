@@ -7,22 +7,11 @@ import numpy as np
 import mlpy
 import random #Just for generating fake data
 
-def run_evaluators0():
-	#Whether each of these answerse is correct
-	#correct=[True,False,False,True,False,False,False,True,False,True,False]
-	correctness=[1,-1,-1,1,-1,-1,-1]
-	#Confidence measures from each of the three answer extraction methods for seven questions
-	confidence1=[0.978183359280229,0.275786651414819,0.48928187857382]
-	confidence2=[0.154237459995784,0.196210152702406,0.376024881959893]
-	confidence3=[0.230388485593721,0.108338781050406,0.160494192386977]
-	confidence4=[0.001228122622706,0.0764752259710804,0.328412672388367]
-	confidence5=[0.64096049607421,0.557334918684016,0.315573251030097]
-	confidence6=[0.389133446694662,0.245313317359736,0.278548790918042]
-	confidence7=[0.0664477733274301,0.588468289934099,0.476068765856326]
-	return correctness,[confidence1,confidence2,confidence3,confidence4,confidence5,confidence6,confidence7]
-
 def dummy_evaluator(x):
 	return random.random()
+
+def check_answer(candidate):
+	return int(1-2*round(random.random()))
 
 def run_evaluators(candidates):
 	#candidate = list of the question-candidate indexes
@@ -34,12 +23,6 @@ def run_evaluators(candidates):
 			candidateConfidence.append(evaluator(candidate))
 		confidence.append(candidateConfidence)
 	return confidence
-
-def check_answer(candidate):
-	return int(1-2*round(random.random()))
-
-def correct(candidates):
-	return map(check_answer,candidates)
 
 def train(model,correctness,features):
 	'''
@@ -90,7 +73,7 @@ def demo():
 #	y,x=run_evaluators0()
 	candidates=range(0,7)
 	x=run_evaluators(candidates)
-	y=correct(candidates)
+	y=map(check_answer,candidates)
 	#The predictions fail if all of the correctness values are the same	
 	print ''
 	print 'Predictions as to whether an answer is correct'
