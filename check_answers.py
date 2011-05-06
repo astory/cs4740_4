@@ -707,4 +707,4 @@ patterns=get_patterns()
 
 if __name__ == '__main__':
 	candidate=('California','taoseutasoetuh08',1438,'NNP')
-	print check_answer(10008,candidate)
+	print check_answer(333,candidate)
