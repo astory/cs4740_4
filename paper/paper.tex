@@ -159,14 +159,12 @@ until we run out of space.
 	very poor alignments are less likely to reflect an actual representation of
 	the question.
 
-\subsubsection{Punctuation Filter}
-% Ansu
-	The punctuation location filter returns true if the candidate answer is
-	immmediately followed by a comma, period, quotation marks, semicolon, or
-	exclamation mark. The candidate answer is located in the document using a
-	word\_index provided in the candidate tuple. This is a good heuristic to
-	rank candidate answers since it retrieves a property from the context where
-	the answer appears in the document.
+\subsubsection{Punctuation}
+
+	1 if the candidate answer is immmediately followed by a comma, period,
+	quotation marks, semicolon, or exclamation mark, and 0 otherwise. This is a
+	good heuristic by which to rank candidate answers since it retrieves a
+	property from the context where the answer appears in the document.
 
 \subsubsection{Apposition Filter}
 % Alec
@@ -189,16 +187,27 @@ until we run out of space.
 \subsubsection{Sequence Length}
 % Mike
 
-\subsubsection{Word Vector (Feature?)}
-This feature will take the in question and the candidate answer and remove all of the stop words (identifyed by the stopwords corpus in nltk.corpus).  Then the remaining words of the question will be put into a vector in an n-dimensional space (where n is the amount of distinct words in the question and candidate answer).  Each value in the first vector represents the number of times each word occurs in the question.  Then the candidate answer vector will contain the number of times each word appears in the candidate answer. Then we will take the vector dot product of the two vectors and normalize it by the length of the vectors and return a value between zero and one (this is because longer candidate answers will lead to larger values unless they are normalized).
+\subsubsection{Word Vector Comparison}
+
+This evaluation measures the angle difference between the word vector of the
+question and the answer, after removing stop words, and scaled to [0,1].
 
 \subsubsection{Bag of Words Filter}
-This will simply take in the question and potential answer and count how many times a question word appears in the potential answer.  Stop words are also removed in both the question and the answer.  The value returned will be normalized by the size of the potential answer, thus returning the percentage of words of the potential answer that occur in the question.
+
+Simply how many times the words in the question (without stop words) appear in
+the answer, a simpler but less precise metric than the word vector.
 
 \subsubsection{Novelty Factor}
-There are two features that involve the novelty factor.  This factor determines how different the question and the candidate answer are.  The central idea behind this is that if the candidate phrase contains only words from the question then it contains no new information and therefore cannot contain the answer.  The first feature takes in the question and candidate answer and returns a 0 if all of the words in the candidate answer are contained in the question and returns a 1 if there is a word in the candidate answer that does not occur in the question.
 
-The second feature takes in the question and candidate answer and returns the percentage of words in the candidate words that are novel.  This could be useful because there may be an optimal percentage of words that match and this feature would help the machine learning algorithm determine this. 
+Novelty is whether at least one non-stop word in the answer that is not found in
+the question.  This is intuitive because an answer that is completely non-novel
+is unlikely to be interesting.
+
+We implemented this in two slightly different ways:  one, that just reports the
+presence or absence of novel words, and one that counts the number of novel
+words in the answer.  We split them this way to make it clear to the learning
+algorithm that any novelty is very important, but extra novelty probably doesn't
+matter much.
 
 \subsubsection{Part of Speech Matching}
 % Craig
