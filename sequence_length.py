@@ -16,7 +16,7 @@ def seq_length (question, (answer, doc_num, index, features,q_id)):
     """
     ans = (seq_length_literal (question, (answer, doc_num, index, features,q_id)),
            seq_length_rewrite (question, (answer, doc_num, index, features,q_id)))
-    return ans
+    return [ans]
 
 def seq_length_literal (question, (answer, doc_num, index, features,q_id)):
     """Takes a question and calculates the maximum sequence length
@@ -49,7 +49,7 @@ def seq_length_literal (question, (answer, doc_num, index, features,q_id)):
                     C[i][j] = C[i-1][j-1] + 1
                 else:
                     C[i][j] = max(C[i][j-1], C[i-1][j])
-        return C[i][j]
+        return [C[i][j]]
 
 def seq_length_rewrite (question, (answer, doc_num, index, features,q_id)):
     """Rewrites the supplied question and calculates the maximum
@@ -58,4 +58,4 @@ def seq_length_rewrite (question, (answer, doc_num, index, features,q_id)):
        returns max_seq_len_rewrite (int)
     """
     question = question_rewrite.rewriteQuestion(question)
-    return seq_length_literal(question, (answer, doc_num, index, features,q_id))
+    return [seq_length_literal(question, (answer, doc_num, index, features,q_id))]
