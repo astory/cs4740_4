@@ -93,6 +93,19 @@ From this ranked output we choose our final answers.
 
 \subsection{Parsing the Corpus Documents}
 % Talk about Whitney's Shredder module here
+	To get candidate answers we took in the question number, parsed the documents
+	associated with it by chunking it into syntactically correlated parts of words 
+	(noun phrases, verb phrase, etc), and outputted a list of tuple candidate answers. 
+	These were in the format (string of candidate answer, document number, word index 
+	in the document, the phrase tag, question number). 
+
+	To chunk the documents for the question, we prepared them by separating out the
+	punctuation and the words with a space so that the taggers would work. We then
+	POS tag all the words in the document and then get the IOB chunk tags for all the 
+	words. This data is then run through the conll.2000 chunker 
+	(http://www.clips.ua.ac.be/conll2000/chunking/) that labels what type of phrase
+	the word belongs to (noun phrase, verb phrase, etc). The words in  the same phrase
+	are then combined together to form one long phrase as the candidate answer string.
 
 \subsection{Question Evaluators}
 
