@@ -8,7 +8,7 @@ stopwords = nltk.corpus.stopwords.words('english')
 def remove_stop_words (question_tokens):     
   return [w for w in question_tokens if w.lower() not in stopwords]
 
-def novelty_bool (q_list, (a_list, doc_num, context,d)):
+def novelty_bool (q_list, (a_list, doc_num, context,d,q_id)):
   question_list = remove_stop_words (word_tokenize(q_list))
   answer_list = remove_stop_words(word_tokenize(a_list))
   b = 0  
@@ -23,7 +23,7 @@ def novelty_bool (q_list, (a_list, doc_num, context,d)):
   (b)
 
 #this will return the number of words that are novel divided by the number of words in the answer to give a percent value
-def novelty_count (q_list, (a_list, doc_num, context,d)):
+def novelty_count (q_list, (a_list, doc_num, context,d,q_id)):
   count = 0.0
   question_list = remove_stop_words (word_tokenize(q_list))
   answer_list = remove_stop_words(word_tokenize(a_list))

@@ -17,7 +17,7 @@ import sys
 
 MAX_INT = sys.maxint
 
-def literal_question_distance(question, (answer, doc_num, index, features)):
+def literal_question_distance(question, (answer, doc_num, index, features,q_id)):
     """Evaluates a candidate based on how close it is to the longest fragment of
     the question in the document
 
@@ -39,7 +39,7 @@ def literal_rewrite_distance(question, candidate):
     """
     return literal_question_distance(rewriteQuestion(question), candidate)
 
-def align_question_distance(question, (answer, doc_num, index, features)):
+def align_question_distance(question, (answer, doc_num, index, features,q_id)):
     """Evaluates a candidate based on how close it is to the alignment of the
     question in the document
 

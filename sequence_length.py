@@ -7,18 +7,18 @@
 
 import question_rewrite
 
-def seq_length (question, (answer, doc_num, index, features)):
+def seq_length (question, (answer, doc_num, index, features,q_id)):
     """Takes a question and rewrites it. It then returns a list of
        lengths of maximum sequences between the question/answer and
        rewritten question/answer
        
        returns [max_seq_len, max_seq_len_rewrite] (int list)
     """
-    ans = (seq_length_literal (question, (answer, doc_num, index, features)),
-           seq_length_rewrite (question, (answer, doc_num, index, features)))
+    ans = (seq_length_literal (question, (answer, doc_num, index, features,q_id)),
+           seq_length_rewrite (question, (answer, doc_num, index, features,q_id)))
     return ans
 
-def seq_length_literal (question, (answer, doc_num, index, features)):
+def seq_length_literal (question, (answer, doc_num, index, features,q_id)):
     """Takes a question and calculates the maximum sequence length
        that the question and the answer have in common.
        
@@ -51,11 +51,11 @@ def seq_length_literal (question, (answer, doc_num, index, features)):
                     C[i][j] = max(C[i][j-1], C[i-1][j])
         return C[i][j]
 
-def seq_length_rewrite (question, (answer, doc_num, index, features)):
+def seq_length_rewrite (question, (answer, doc_num, index, features,q_id)):
     """Rewrites the supplied question and calculates the maximum
        sequence length that the question and the answer have in common.
        
        returns max_seq_len_rewrite (int)
     """
     question = question_rewrite.rewriteQuestion(question)
-    return seq_length_literal(question, (answer, doc_num, index, features))
+    return seq_length_literal(question, (answer, doc_num, index, features,q_id))
