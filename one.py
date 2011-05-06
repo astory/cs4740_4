@@ -69,18 +69,21 @@ def main():
 	validationIDs=[336,336]
 	testIDs=[338,338]
 	evaluator_combinations=[
-#	[seq_length],
-#	[punc_loc],
-	[pos_test]
+	[],
+	[seq_length],
+	[punc_loc],
+#	[pos_test]
 #	[seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #	[novelty_count]
 	]
+	evaluatorCombinationID=1
 	for evaluators in evaluator_combinations:
 		y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
 #		print y_train
 		trained=train(mlpy.Svm,y_train,x_train)
 		results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
-		writeAnswers(answerFile(results),'results/'+str(evaluators))
+		writeAnswers(answerFile(results),'results/combination'+str(evaluatorCombinationID)+'.txt')
+		evaluatorCombinationID=evaluatorCombinationID+1
 	
 if __name__ == '__main__':
 	main()
