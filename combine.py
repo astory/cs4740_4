@@ -87,7 +87,7 @@ def demo():
         print 'Model Result Confidence? ("Real value")'
 	print '----- ------ ---------------------------------'
 	print ' SVM  '+str(test(train(mlpy.Svm,y_train,x_train),x_test))
-	print ' KNN  '+str(test(train(mlpy.Knn,y_train,x_train),x_test))
+#	print ' KNN  '+str(test(train(mlpy.Knn,y_train,x_train),x_test))
 	print ' FDA  '+str(test(train(mlpy.Fda,y_train,x_train),x_test))
 	print 'SRDA  '+str(test(train(mlpy.Srda,y_train,x_train),x_test))
 	print ' PDA  '+str(test(train(mlpy.Pda,y_train,x_train),x_test))

@@ -4,8 +4,10 @@ import MultipartPostHandler
 import datetime
 from os import remove
 
+def answerLine(number,answer):
+	return str(number)+' top_docs.'+str(number)+' '+answer
+
 def formatAnswers(numbers,answers):
-	def answerLine(number,answer): return str(number)+' top_docs.'+str(number)+' '+answer
 	return '<s> <s>\n'+"\n".join(map(answerLine,numbers,answers))
 
 def submit(netid,answers):
