@@ -16,7 +16,7 @@ def run_evaluators(candidates,evaluators):
 	#candidate = list of the question-candidate indexes
 	confidence = []
 	for candidate in candidates:
-		print candidate[0]
+#		print candidate[0]
 		candidateConfidence=[]
 		for evaluator in evaluators:
 			foo=evaluator(questionDict[str(candidate[4])],candidate)

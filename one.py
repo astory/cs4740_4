@@ -65,9 +65,9 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
-	trainIDs=[332,335]
-	validationIDs=[336,337]
-	testIDs=[338,339]
+	trainIDs=[335,335]
+	validationIDs=[336,336]
+	testIDs=[338,338]
 	evaluator_combinations=[
 #	[seq_length],
 #	[punc_loc],
@@ -77,7 +77,7 @@ def main():
 	]
 	for evaluators in evaluator_combinations:
 		y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
-		print y_train
+#		print y_train
 		trained=train(mlpy.Svm,y_train,x_train)
 		results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
 		writeAnswers(answerFile(results),'results/'+str(evaluators))
