@@ -7,10 +7,16 @@ import numpy as np
 import mlpy
 import random #Just for generating fake data
 
-def dummy_evaluator(x):
+def dummy_evaluator(candidate):
+	#Do magic
+	#print 'Doing magic'
+	#Return a number
 	return random.random()
 
 def check_answer(candidate):
+	#Check whether the answer is correct
+	#print 'Checking whether the answer is correct'
+	#Return 1 for correct and -1 for incorrect
 	return int(1-2*round(random.random()))
 
 def run_evaluators(candidates):
