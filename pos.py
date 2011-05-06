@@ -6,7 +6,7 @@ import read_questions
 # PP and S get 0 so they will not be part of our answer.
 # Turns out I don't see any questions where a VP is likely, so I made VP = 0.1, 0 might even be better.
 
-def pos_test(question, (answer, doc_num, index, features)):
+def pos_test(question, (answer, doc_num, index, features,q_id)):
     result = 0
     if features == "NP":
         result = 1
