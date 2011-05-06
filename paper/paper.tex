@@ -154,10 +154,23 @@ From this ranked output we choose our final answers.
 
 \subsubsection{Number and Quantity Answer Type Filters}
 % Tom
+We used regular expressions to identify answer candidates that contained digits.
+We classified these candidates as number-type answers or quantity-type answers.
+Answer candidates containing exclusively digits were classified as number-type
+answers, and answer candidates containing digits and other characters were classified
+as quantity-type answers.
 
 \subsubsection{Measurement Units or Matching Type Filters}
 % Tom
+For quantity-type answer candidates, we used simple regular expressions to extract
+the proceeding and preceeding space-delimited phrases. This is quite close to a
+lay definition of ``word''; for the answer candidate ``about 350 km/h'', the
+phrases ``about'' and ``km/h'' would be extracted as units. We extracted the units
+from the training corpus.
 
+For test answers, we searched the context of the answer for colocated units
+matching what we found in the training corpus. We returned a score of 1 if there
+was a unit and a score of 0 if there wasn't.
 \subsubsection{Sequence Length}
 % Mike
 
