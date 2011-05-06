@@ -27,8 +27,16 @@ def punc_loc(question, (answer, doc_num, index, features)):
         return 0
     
 #test case below was modified to work with specified doc instead of the actual doc to work with a known index
-init.get_corpus(qNum=201)
-question = 'What was the name, of the first Russian astronaut to do a spacewalk?'
-doc = 'The name of the first Russian astronaut to do a spacewalk is Aleksei A. Leonov!'
-doc_num = "LA072490-0034"
-print punc_loc(question,('Aleksei A. Leonov',doc_num,12,{}))
+def test():
+	init.get_corpus(qNum=201)
+	question = 'What was the name, of the first Russian astronaut to do a spacewalk?'
+	doc = 'The name of the first Russian astronaut to do a spacewalk is Aleksei A. Leonov!'
+	doc_num = "LA072490-0034"
+	print punc_loc(question,('Aleksei A. Leonov',doc_num,12,{}))
+#	return (question,('Aleksei A. Leonov',doc_num,12,{}))
+
+#if __name__ == "main":
+	#test()
+	#a,b= test()
+	#print ''
+	#print(punc_loc(a,b))

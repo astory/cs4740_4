@@ -2,7 +2,7 @@
 #import sys
 #sys.path.append('./modules')
 #import monte
-
+import chunker
 import numpy as np
 import mlpy
 import random #Just for generating fake data
@@ -47,18 +47,14 @@ def train(model,correctness,features):
 	#print svm.weights(xtr,ytr) #Weights/coefficients
 	return fit
 
-def test(fit):
+def test(fit,features):
 	'''
 	Guess which test corpus answers are correct based on
 	 * The model from the training corpus
 	 * The confidence measures from the test corpus
 	This also needs to take real paramaters at some point.
 	'''
-	#Confidence measures for one particular answer
-	#from all [let's say 3] QA methods
-	confidence=[0.9995270445322,0.378183359280229,0.275786651414819]
-
-	xts = np.array(confidence) # test point
+	xts = np.array(features) # test point
 	# predict SVM on test corpus answer
 	fit.predict(xts)
 	out=[]
@@ -76,10 +72,13 @@ def test(fit):
 
 
 def demo():
-#	y,x=run_evaluators0()
-	candidates=range(0,7)
-	x=run_evaluators(candidates)
-	y=map(check_answer,candidates)
+#	candidates=chunker.run(333)[1:50]
+	candidates=range(1,50)
+	x_train=run_evaluators(candidates)
+	y_train=map(check_answer,candidates)
+	x_test =run_evaluators(['foo','bar'])
+	#Run the predictions for just one of these test question candidates
+	x_test=x_test[0]
 	#The predictions fail if all of the correctness values are the same	
 	print ''
 	print 'Predictions as to whether an answer is correct'
@@ -87,12 +86,12 @@ def demo():
 	print '----------------------------------------------'
         print 'Model Result Confidence? ("Real value")'
 	print '----- ------ ---------------------------------'
-	print ' SVM  '+str(test(train(mlpy.Svm,y,x)))
-	print ' KNN  '+str(test(train(mlpy.Knn,y,x)))
-	print ' FDA  '+str(test(train(mlpy.Fda,y,x)))
-	print 'SRDA  '+str(test(train(mlpy.Srda,y,x)))
-	print ' PDA  '+str(test(train(mlpy.Pda,y,x)))
-#	print 'DLDA  '+str(test(train(mlpy.Dlda,y,x)))
+	print ' SVM  '+str(test(train(mlpy.Svm,y_train,x_train),x_test))
+	print ' KNN  '+str(test(train(mlpy.Knn,y_train,x_train),x_test))
+	print ' FDA  '+str(test(train(mlpy.Fda,y_train,x_train),x_test))
+	print 'SRDA  '+str(test(train(mlpy.Srda,y_train,x_train),x_test))
+	print ' PDA  '+str(test(train(mlpy.Pda,y_train,x_train),x_test))
+#	print 'DLDA  '+str(test(train(mlpy.Dlda,y_train,x_train),x_test))
 	print '----------------------------------------------'
 
 if __name__ == "__main__":
