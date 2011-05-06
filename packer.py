@@ -11,6 +11,7 @@ def pack(data, length, pack=False):
 	word to go over.
 	"""
 	flat = flatten(data)
+	used_values = []
 	output = ""
 	for x in flat:
 		if len(x) > length:
@@ -19,9 +20,12 @@ def pack(data, length, pack=False):
 			else:
 				break
 		else:
+			used_values.append(x)
 			output += " " + x
 			length -= len(x) + 1
-	return output[1:] # trim off leading space
+	for value in used_values:
+		flat.remove(value)
+	return output[1:],flat # trim off leading space
 
 def flatten(data):
 	"""
@@ -40,5 +44,9 @@ if __name__ == "__main__":
 	print flatten(s)
 
 	s = ["a", "bb", "ccc", "dddd", "e"]
-	print ":"+pack(s, 10, pack=False)
-	print ":"+pack(s, 10, pack=True)
+	out,flat = pack(s, 10, pack=False)
+	print ":"+out
+	print flat
+	out,flat = pack(s, 10, pack=True)
+	print ":"+out
+	print flat

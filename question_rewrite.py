@@ -11,6 +11,7 @@
 from align import sw_align
 from difflib import SequenceMatcher as SequenceMatcher
 import init
+import chunker
 import read_questions
 import sys
 
@@ -22,9 +23,7 @@ def literal_question_distance(question, (answer, doc_num, index, features)):
 
     returns (distance, length of fragment)
     """
-    doc = init.get_doc(doc_num)
-    doc = doc.replace("."," .")
-    doc = doc.replace(","," ,")
+    doc = chunker.clean_punctuation(init.get_doc(doc_num))
     (start, _, length) = find_match(question, doc)
     words = doc.split()
     index = len(" ".join(words[0:index+1]))
@@ -46,9 +45,7 @@ def align_question_distance(question, (answer, doc_num, index, features)):
 
     returns (distance, score)
     """
-    doc = init.get_doc(doc_num)
-    doc = doc.replace("."," .")
-    doc = doc.replace(","," ,")
+    doc = chunker.clean_punctuation(init.get_doc(doc_num))
     (score, q, d, (q_start, d_start), (q_end, d_end)) = sw_align(question, doc)
     words = doc.split()
     index = len(" ".join(words[0:index+1]))

@@ -34,12 +34,6 @@ Whitney Foster\\
 % include justification of why you think that the particular approach
 % will be effective
 
-\section{The QA Baseline}
-% delete this if you don't think it's necessary
-Our baseline system simply takes the first answer of the training data and
-repeats that as the answer to all following questions.  It is included as
-\verb+zero.py+, and its mean reciprocal rank over 197 questions is 0.048.
-
 \section{The QA System}
 % we need:
 % a detailed walkthrough of what our system did to handle one question
@@ -57,28 +51,12 @@ variety of techniques to select answers from documents, and to use a machine
 learning system to choose the appropriate one.  See figure \ref{diagram} for
 a graphical overview.
 
-We will first analyze the question (using a parser or hand-written rules) to
-determine the parts of speech a valid answer could comprise, so, for example,
-``who'' questions always result in a noun phrase, and ``how'' questions usually
-result in verb phrases or adverbial phrases.  We will also extract named entities
-from the question.
+We first shred the documents for each question into all of the component verb
+and noun phrases.  We pass these candidates into a battery of evaluators that
+assign a confidence value to each of them, and pass these confidences into a
+machine learning algorithm that combines them to produce a ranked output.
 
-After retrieving the documents, we search for the named entities from the
-question in the documents, and return the sentences that match those entities.
-These are tagged with their parts of speech, and chunked to produce all the
-phrases of the appropriate type determined by analyzing the question.
-
-These are our answer candidates.  They, and their sentence contexts, are passed
-into our set of answer evaluators, which associate with them a confidence in
-their accuracy.  Simple evaluators include word vector model matching against
-the question, and more complex ones might include parsing, or other
-sophisticated evaluation techniques.
-
-We will then train a supervised classification algorithm to predict whether
-answers are correct based on the confidence measures from the various answer
-evaluation techniques. This will produce aggregate confidence measures for
-each answer. Finally, we will pack the most confident answers into the 50 bytes
-until we run out of space.
+From this ranked output we choose our final answers.
 
 \begin{figure}
  \label{diagram}
@@ -86,27 +64,20 @@ until we run out of space.
   \begin{tikzpicture}[node distance=2.5cm, auto, >=stealth]
    % nodes
    \node[data] (Q)                                      {Question};
-   \node[process] (pd) [below left of=Q]                {POS Determiner};
-   \node[process] (na) [below right of=Q]               {Named Entity Extractor};
-   \node[data] (docs) [below right of=na]               {Documents};
-   \node[process] (ex) [below of=na, node distance=4cm] {Sentence Extractor};
-   \node[process] (sf) [below left of=ex]               {Sentence Filter};
-   \node[process] (a2) [below of=sf]                    {Answer Evaluator};
+   \node[process] (ch) [below of=Q]                     {Chunker};
+   \node[data] (docs) [right of=ch]                     {Documents};
+   \node[process] (a2) [below of=ch]                    {Answer Evaluator};
    \node[process] (a1) [left of=a2]                     {Answer Evaluator};
    \node[process] (a3) [right of=a2]                    {Answer Evaluator};
    \node[machine] (as) [below of=a2]                    {Confidence aggregator};
    \node[data] (A) [below of=as]                        {Answer};
    
    % edges
-   	\draw[->] (Q) to (pd);
-   	\draw[->] (Q) to (na);
-   	\draw[->] (na) to (ex);
-	\draw (docs.west) to [out=160, in=90] (ex);
-	\draw[->] (pd.south) to [out=270, in=90] (sf);
-	\draw (ex.west) to [out=180, in=90] (sf);
-	\draw[->] (sf.south) to [out=270, in=90] (a1);
-	\draw[->] (sf.south) to [out=270, in=90] (a2);
-	\draw[->] (sf.south) to [out=270, in=90] (a3);
+   	\draw[->] (Q) to (ch);
+	\draw[->] (docs) to (ch);
+	\draw[->] (ch.south) to [out=270, in=90] (a1);
+	\draw[->] (ch.south) to [out=270, in=90] (a2);
+	\draw[->] (ch.south) to [out=270, in=90] (a3);
 	\draw[->] (Q.west) to [out=180, in=180] (a1);
 	\draw[->] (Q.west) to [out=180, in=180] (a2);
 	\draw[->] (Q.west) to [out=180, in=180] (a3);
@@ -121,9 +92,7 @@ until we run out of space.
 \end{figure}
 
 \subsection{Parsing the Corpus Documents}
-% Talk about Whitney's Shredder module here?
-
-\subsection{The Classifier}
+% Talk about Whitney's Shredder module here
 
 \subsection{Question Evaluators}
 
@@ -160,22 +129,27 @@ until we run out of space.
 	We locate what we best believe to be the question via these two methods, and
 	then evaluate how far away from that segment of the document the answer is.
 	If it is fairly close, that is a good indicator that it is highly related to
-	the question, but if it is far, it is likely to be unrelated.  We feed that
-	distance, and either the length of the na\"ive alignment or the score that
-	Smith-Waterman produces (higher is better for both) because very short or
-	very poor alignments are less likely to reflect an actual representation of
-	the question.
+	the question, but if it is far, it is likely to be unrelated.  We output
+	that distance, and either the length of the na\"ive alignment or the score
+	that Smith-Waterman produces (higher is better for both) because very short
+	or very poor alignments are less likely to reflect an actual representation
+	of the question.
 
-\subsubsection{Punctuation Filter}
-% Ansu
-    The punctuation location filter returns true if the candidate answer is immmediately followed
-    by a comma, period, quotation marks, semicolon, or exclamation mark. The candidate answer is 
-    located in the document using a word_index provided in the candidate tuple. This is a good 
-    heuristic to rank candidate answers since it retrieves a property from the context where the
-    answer appears in the document.
+\subsubsection{Punctuation}
+
+	1 if the candidate answer is immmediately followed by a comma, period,
+	quotation marks, semicolon, or exclamation mark, and 0 otherwise. This is a
+	good heuristic by which to rank candidate answers since it retrieves a
+	property from the context where the answer appears in the document.
 
 \subsubsection{Apposition Filter}
 % Alec
+
+	Because we thought it would be difficult to analyze complete parse
+	information for questions, we decided to tackle apposition by a simple
+	heuristic:  does "question, answer," align better than "question answer"?
+	If it does, then the answer is likely to be in apposition.  We also applied
+	this to re-written questions.
 
 \subsubsection{Preceding and Proceeding N-grams Filter}
 % Tom
@@ -189,16 +163,27 @@ until we run out of space.
 \subsubsection{Sequence Length}
 % Mike
 
-\subsubsection{Word Vector (Feature?)}
-This feature will take the in question and the candidate answer and remove all of the stop words (identifyed by the stopwords corpus in nltk.corpus).  Then the remaining words of the question will be put into a vector in an n-dimensional space (where n is the amount of distinct words in the question and candidate answer).  Each value in the first vector represents the number of times each word occurs in the question.  Then the candidate answer vector will contain the number of times each word appears in the candidate answer. Then we will take the vector dot product of the two vectors and normalize it by the length of the vectors and return a value between zero and one (this is because longer candidate answers will lead to larger values unless they are normalized).
+\subsubsection{Word Vector Comparison}
+
+This evaluation measures the angle difference between the word vector of the
+question and the answer, after removing stop words, and scaled to [0,1].
 
 \subsubsection{Bag of Words Filter}
-This will simply take in the question and potential answer and count how many times a question word appears in the potential answer.  Stop words are also removed in both the question and the answer.  The value returned will be normalized by the size of the potential answer, thus returning the percentage of words of the potential answer that occur in the question.
+
+Simply how many times the words in the question (without stop words) appear in
+the answer, a simpler but less precise metric than the word vector.
 
 \subsubsection{Novelty Factor}
-There are two features that involve the novelty factor.  This factor determines how different the question and the candidate answer are.  The central idea behind this is that if the candidate phrase contains only words from the question then it contains no new information and therefore cannot contain the answer.  The first feature takes in the question and candidate answer and returns a 0 if all of the words in the candidate answer are contained in the question and returns a 1 if there is a word in the candidate answer that does not occur in the question.
 
-The second feature takes in the question and candidate answer and returns the percentage of words in the candidate words that are novel.  This could be useful because there may be an optimal percentage of words that match and this feature would help the machine learning algorithm determine this. 
+Novelty is whether at least one non-stop word in the answer that is not found in
+the question.  This is intuitive because an answer that is completely non-novel
+is unlikely to be interesting.
+
+We implemented this in two slightly different ways:  one, that just reports the
+presence or absence of novel words, and one that counts the number of novel
+words in the answer.  We split them this way to make it clear to the learning
+algorithm that any novelty is very important, but extra novelty probably doesn't
+matter much.
 
 \subsubsection{Part of Speech Matching}
 % Craig

@@ -15,7 +15,7 @@ def get_doc(doc_num):
     return global_doc_dict[doc_num]
   
 def get_corpus(qNum=0):  
-    path = 'corpus'
+    path = 'train'
     dict = {}
     
     # if no question # is passed will loop through the entire corpus
