@@ -34,14 +34,25 @@ def run_question_predictions(trained_model,first=205,last=206):
 			y_hat.append( ( test(trained_model,x_test) , candidate ) )
 		y_hat = sorted(y_hat, key=lambda (s,_): s,reverse=True)
 		y_hat = map(lambda a:(a[0],a[1][0]),y_hat)
-		for i in range(0,2):
+		for i in range(0,5):
 			answers.append((q_id,pack(y_hat, 50)[0]))
 	return answers
+
+def answerLine(answer):
+        return str(answer[0])+' OVER9000 '+answer[1]
+
+def answerFile(answers):
+        return "\n".join(map(answerLine,answers))
+
+def writeAnswers(stuff,filename='tmp-answers.txt'):
+        answersHandle=open(filename,'w')
+        answersHandle.write(stuff)
+        answersHandle.close()
 
 def main():
 	y_train,x_train = question_learning_data()
 	trained=train(mlpy.Svm,y_train,x_train)
-	print run_question_predictions(trained)
+	writeAnswers(answerFile(run_question_predictions(trained)))
 	
 if __name__ == '__main__':
 	main()
