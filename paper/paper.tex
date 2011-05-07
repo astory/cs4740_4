@@ -66,7 +66,8 @@ From this ranked output we choose our final answers.
    \node[data] (Q)                                      {Question};
    \node[process] (ch) [below of=Q]                     {Chunker};
    \node[data] (docs) [right of=ch]                     {Documents};
-   \node[process] (a2) [below of=ch]                    {Answer Evaluator};
+   \node[process] (fil) [below of=ch]                     {Filter};
+   \node[process] (a2) [below of=fil]                    {Answer Evaluator};
    \node[process] (a1) [left of=a2]                     {Answer Evaluator};
    \node[process] (a3) [right of=a2]                    {Answer Evaluator};
    \node[machine] (as) [below of=a2]                    {Score aggregator};
@@ -75,9 +76,10 @@ From this ranked output we choose our final answers.
    % edges
    	\draw[->] (Q) to (ch);
 	\draw[->] (docs) to (ch);
-	\draw[->] (ch.south) to [out=270, in=90] (a1);
-	\draw[->] (ch.south) to [out=270, in=90] (a2);
-	\draw[->] (ch.south) to [out=270, in=90] (a3);
+	\draw[->] (ch) to (fil);
+	\draw[->] (fil.south) to [out=270, in=90] (a1);
+	\draw[->] (fil.south) to [out=270, in=90] (a2);
+	\draw[->] (fil.south) to [out=270, in=90] (a3);
 	\draw[->] (Q.west) to [out=180, in=180] (a1);
 	\draw[->] (Q.west) to [out=180, in=180] (a2);
 	\draw[->] (Q.west) to [out=180, in=180] (a3);
@@ -93,19 +95,21 @@ From this ranked output we choose our final answers.
 
 \subsection{Parsing the Corpus Documents}
 % Talk about Whitney's Shredder module here
-	To get candidate answers we took in the question number, parsed the documents
-	associated with it by chunking it into syntactically correlated parts of words 
-	(noun phrases, verb phrase, etc), and outputted a list of tuple candidate answers. 
-	These were in the format (string of candidate answer, document number, word index 
-	in the document, the phrase tag, question number). 
+	To get candidate answers we took in the question number, parsed the
+	documents associated with it by chunking it into syntactically correlated
+	parts of words (noun phrases, verb phrase, etc), and outputted a list of
+	tuple candidate answers.  These were in the format (string of candidate
+	answer, document number, word index in the document, the phrase tag,
+	question number). 
 
-	To chunk the documents for the question, we prepared them by separating out the
-	punctuation and the words with a space so that the taggers would work. We then
-	POS tag all the words in the document and then get the IOB chunk tags for all the 
-	words. This data is then run through the conll.2000 chunker 
-	(http://www.clips.ua.ac.be/conll2000/chunking/) that labels what type of phrase
-	the word belongs to (noun phrase, verb phrase, etc). The words in  the same phrase
-	are then combined together to form one long phrase as the candidate answer string.
+	To chunk the documents for the question, we prepared them by separating out
+	the punctuation and the words with a space so that the taggers would work.
+	We then POS tag all the words in the document and then get the IOB chunk
+	tags for all the words. This data is then run through the conll.2000 chunker
+	(http://www.clips.ua.ac.be/conll2000/chunking/) that labels what type of
+	phrase the word belongs to (noun phrase, verb phrase, etc). The words in
+	the same phrase are then combined together to form one long phrase as the
+	candidate answer string.
 
 \subsection{Question Evaluators}
 
@@ -241,6 +245,27 @@ The classifiers that we used were
 \item Spectral Regression Discriminant Analysis (SRDA) and
 \item Penalized Discriminant Analysis (PDA)
 \end{itemize}
+
+\subsection{Candidate Thinning}
+
+Our chunker generates over 20,000 candidate answers per question.  This is too
+many to efficiently process, so we require the following to be true before we
+even attempt to process it:
+\begin{itemize}
+\item the candidate must be a noun phrase.  Other types of answers were
+exceedingly rare in the training data.
+\item the answer must be within 50 bytes of the aligned question in the
+document.  This is already a feature we train on, but this reduces the volume of
+work to process.
+\end{itemize}
+
+\subsection{Caching}
+
+Many of our subsystems took a significant amount of time to compute.  In order
+to mitigate this, we implemented aggressive caching systems, but they did not
+reduce the time to compute too dramatically, and ultimately, the time constraint
+was a very serious one.
+
 %We tried these classifiers separately rather than 
 \section{Results}
 
@@ -258,9 +283,12 @@ The classifiers that we used were
    % we also need to submit this file
 
 \subsection{Baseline Results}
-Our baseline system simply takes the first answer of the training data and repeats
-that as the answer to all following questions. It is included as zero.py, and its
-mean reciprocal rank over 197 questions is 0.048.
+Our baseline system simply takes the first answer of the training data and
+repeats that as the answer to all following questions. It is included as
+zero.py, and its mean reciprocal rank over 197 questions is 0.048.  
+
+This represent a total bare-bones approach with essentially no hope of getting a
+question right.
 
 \subsection{Graphical Methods}
 
@@ -268,4 +296,4 @@ mean reciprocal rank over 197 questions is 0.048.
 
 \section{Conclusion}
 
-\end{document}tk.
+\end{document}
