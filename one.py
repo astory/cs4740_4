@@ -31,7 +31,7 @@ def question_candidates(q_id):
           if c[3] == "NP":
              new_l.append(c)
         print len(new_l)
-        return new_l[:2000]
+        return new_l[:200]
 
 def question_learning_data(evaluators,first,last):
 	x=[]
@@ -94,5 +94,5 @@ def main():
 		evaluatorCombinationID=evaluatorCombinationID+1
 	
 if __name__ == '__main__':
-#	main()
-	question_candidates (243)
+	main()
+#	question_candidates (243)
