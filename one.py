@@ -85,6 +85,7 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
         answersHandle.close()
 
 def main():
+    align.load_cache()
     trainIDs=[334,338]
     validationIDs=[339,339]
     testIDs=[338,338]
@@ -106,10 +107,9 @@ def main():
         results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
         writeAnswers(answerFile(results),'results/combination'+str(evaluatorCombinationID)+'.txt')
         evaluatorCombinationID=evaluatorCombinationID+1
-    
-if __name__ == '__main__':
-    align.load_cache()
-    main()
     align.load_cache()
     align.save_cache()
+    
+if __name__ == '__main__':
+    main()
     question_candidates (243)
