@@ -15,6 +15,7 @@ from bag_of_words import   vector_bag,  bag_of_words
 from novelty_factor import novelty_bool, novelty_count       
 import cache_chunkers
 from math import floor
+import question_type
 
 question_dict = dict(read_questions.read_questions_no_answers())
 def get_question(q_id):
@@ -45,12 +46,12 @@ def question_candidates(q_id):
                 new_l.append(c)
     align.save_cache()
     print len(new_l)
-    return new_l[:2000]
+    return new_l
 
-def question_learning_data(evaluators,first,last):
+def question_learning_data(evaluators,q_ids):
     x=[]
     y=[]
-    for q_id in range(first,last+1):
+    for q_id in q_ids:
         cand=question_candidates(q_id)
         x=x+run_evaluators(cand,evaluators)
         y=y+map(lambda a:check_answers.check_answer(q_id,a),cand)
@@ -60,9 +61,9 @@ def question_prediction_data(q_id,candidate,evaluators):
     x=run_evaluators([candidate],evaluators)
     return x[0],candidate
 
-def run_question_predictions(evaluators,trained_model,first,last):
+def run_question_predictions(evaluators,trained_model,q_ids):
     answers=[]
-    for q_id in range(first,last+1):
+    for q_id in q_ids:
         y_hat=[]
         for candidate in question_candidates(q_id):
             x_test,candidate= question_prediction_data(q_id,candidate,evaluators)
@@ -86,25 +87,29 @@ def writeAnswers(stuff,filename='tmp-answers.txt'):
 
 def main():
     align.load_cache()
-    trainIDs=[334,338]
-    validationIDs=[339,339]
-    testIDs=[338,338]
+    foo=map(int,question_type.classify_questions(1)['Where'])
+    trainIDs=foo[:-3]
+    validationIDs=foo[-3:]
+#    print trainIDs
+#    trainIDs=range(201,220)
+#    validationIDs=range(339,339)
+#    testIDs=range(338,338)
     evaluator_combinations=[
 #    [],
-#    [seq_length],
-#    [punc_loc]
-#    [bag_of_words],
-#    [novelty_bool],
-    [pos_test]
+#     [seq_length,
+    [punc_loc]
+#     bag_of_words,
+#     novelty_bool]
+#    [pos_test]
 #    [seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #    [novelty_count]
     ]
     evaluatorCombinationID=1
     for evaluators in evaluator_combinations:
-        y_train,x_train = question_learning_data(evaluators,trainIDs[0],trainIDs[1])
+        y_train,x_train = question_learning_data(evaluators,trainIDs)
 #        print y_train
         trained=train(mlpy.Srda,y_train,x_train)
-        results=run_question_predictions(evaluators,trained,validationIDs[0],validationIDs[1])
+        results=run_question_predictions(evaluators,trained,validationIDs)
         writeAnswers(answerFile(results),'results/combination'+str(evaluatorCombinationID)+'.txt')
         evaluatorCombinationID=evaluatorCombinationID+1
     align.load_cache()

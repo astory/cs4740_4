@@ -238,9 +238,9 @@ the regular expressions. We used the correctness of the answer (correct or incor
 as the response. We were thus able to predict whether an answer was correct
 based on the scores from the answer evaluators.
 
-The classifiers that we used were
+The classifiers that we attempted were
 \begin{itemize}
-\item support vector machines (SVM),
+\item Support Vector Machines (SVM),
 \item Fisher Discriminant Analysis (FDA),
 \item Spectral Regression Discriminant Analysis (SRDA) and
 \item Penalized Discriminant Analysis (PDA)
@@ -267,6 +267,16 @@ reduce the time to compute too dramatically, and ultimately, the time constraint
 was a very serious one.
 
 %We tried these classifiers separately rather than 
+%We ended using just the SRDA classifier since the others were throwing memory errors.
+The implementation of these classifiers in mlpy required too much memory for
+us to run the models on the all of the candidate answers. We used two main approaches
+to solve these problems.
+\begin{itemize}
+\item We used SRDA because it seemed to handle the largest sample size.
+\item We created a decision list from some of our answer evaluators. We ran the anwers
+through this decision list before sending them to the SRDA learning algorithm.
+\end{itemize}
+
 \section{Results}
 
 % we need:
