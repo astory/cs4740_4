@@ -1,0 +1,1801 @@
+(dp0
+(S'|What is the wingspa'
+p1
+S'|Two eggs laid by ca'
+p2
+tp3
+(cnumpy.core.multiarray
+scalar
+p4
+(cnumpy
+dtype
+p5
+(S'f8'
+p6
+I0
+I1
+tp7
+Rp8
+(I3
+S'<'
+p9
+NNNI-1
+I-1
+I0
+tp10
+bS'\x00\x00\x00\x00\x00\x003@'
+p11
+tp12
+Rp13
+S'at is |the| ||||wing|span of a| '
+p14
+S"ate's other breeding station at "
+p15
+(I2
+I338
+tp16
+(I26
+I370
+tp17
+tp18
+s(S'|What is the wingspa'
+p19
+S'|An egg laid in capt'
+p20
+tp21
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p22
+tp23
+Rp24
+S' the wingspan of ||a| condor'
+p25
+S" the |||||park's lead condor"
+p26
+(I7
+I196
+tp27
+(I32
+I219
+tp28
+tp29
+s(S'|What is the wingspa'
+p30
+S'|A decision on the h'
+p31
+tp32
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x006@'
+p33
+tp34
+Rp35
+S'hat is the|| wing||s|pa'
+p36
+S'h|t |, their wings sepa'
+p37
+(I1
+I3108
+tp38
+(I19
+I3129
+tp39
+tp40
+s(S'|What is the wingspa'
+p41
+S'|Removing the egg fr'
+p42
+tp43
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00:@'
+p44
+tp45
+Rp46
+S' the wingspan of a condor'
+p47
+S' the wi||||ld |, a condor'
+p48
+(I7
+I118
+tp49
+(I32
+I138
+tp50
+tp51
+s(S'|How old is the sun?'
+p52
+S'|Both companies see '
+p53
+tp54
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p55
+tp56
+Rp57
+S' is the '
+p58
+S' is the '
+p59
+(I7
+I531
+tp60
+(I15
+I539
+tp61
+tp62
+s(S'|How old is the sun?'
+p63
+S'|Sun said its net in'
+p64
+tp65
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00,@'
+p66
+tp67
+Rp68
+S' is the su'
+p69
+S' in the qu'
+p70
+(I7
+I422
+tp71
+(I17
+I432
+tp72
+tp73
+s(S'|What is the wingspa'
+p74
+S'|Molloko , the Calif'
+p75
+tp76
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p77
+tp78
+Rp79
+S'is|| the wingspa|n o|f a condor'
+p80
+S'ised the |||||California condor'
+p81
+(I5
+I911
+tp82
+(I32
+I937
+tp83
+tp84
+s(S'|How old is the sun?'
+p85
+S'|The upstart company'
+p86
+tp87
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p88
+tp89
+Rp90
+S' |old |i||s the s'
+p91
+S' four times the s'
+p92
+(I3
+I2659
+tp93
+(I16
+I2676
+tp94
+tp95
+s(S'|How old is the sun?'
+p96
+S'|COMPUTER workstatio'
+p97
+tp98
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p99
+tp100
+Rp101
+S' is the '
+p102
+S' is the '
+p103
+(I7
+I1957
+tp104
+(I15
+I1965
+tp105
+tp106
+s(S'|What is the wingspa'
+p107
+S'|Condor keepers hobb'
+p108
+tp109
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x007@'
+p110
+tp111
+Rp112
+S'is|| the |||wingspa|n o|f a condor'
+p113
+S'ised the know|n| California condor'
+p114
+(I5
+I1974
+tp115
+(I32
+I2006
+tp116
+tp117
+s(S'|How old is the sun?'
+p118
+S'|At the same time , '
+p119
+tp120
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p121
+tp122
+Rp123
+S' o|ld is the '
+p124
+S' only in the '
+p125
+(I3
+I5940
+tp126
+(I15
+I5953
+tp127
+tp128
+s(S'|What is the wingspa'
+p129
+S'|Four Andean condors'
+p130
+tp131
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x009@'
+p132
+tp133
+Rp134
+S'at|| |is th|e wingspan '
+p135
+S'ater wi||th a wingspan '
+p136
+(I2
+I512
+tp137
+(I21
+I533
+tp138
+tp139
+s(S'|What is the wingspa'
+p140
+S'|A fist-sized bundle'
+p141
+tp142
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00=@'
+p143
+tp144
+Rp145
+S'hat is the wingspan of |a co'
+p146
+S'ha|||s ||a wingspan of up to'
+p147
+(I1
+I1758
+tp148
+(I28
+I1781
+tp149
+tp150
+s(S'|How old is the sun?'
+p151
+S'| "This is the first'
+p152
+tp153
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p154
+tp155
+Rp156
+S' is the '
+p157
+S' is the '
+p158
+(I7
+I6
+tp159
+(I15
+I14
+tp160
+tp161
+s(S'|What is the wingspa'
+p162
+S'|<p> Wildlife offici'
+p163
+tp164
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00>@'
+p165
+tp166
+Rp167
+S't |is the wings||pa|n of a condor'
+p168
+S't was the fi|rst laid by a condor'
+p169
+(I3
+I193
+tp170
+(I32
+I225
+tp171
+tp172
+s(S'|albacore'
+p173
+S'|bacon'
+p174
+tp175
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00 @'
+p176
+tp177
+Rp178
+S'baco'
+p179
+S'baco'
+p180
+(I2
+I0
+tp181
+(I6
+I4
+tp182
+tp183
+s(S'|How old is the sun?'
+p184
+S'|But now a new breed'
+p185
+tp186
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p187
+tp188
+Rp189
+S' is th|e'
+p190
+S' is thre'
+p191
+(I7
+I33
+tp192
+(I14
+I41
+tp193
+tp194
+s(S'|albacore'
+p195
+S'|baecon'
+p196
+tp197
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00\x1c@'
+p198
+tp199
+Rp200
+S'ba|co'
+p201
+S'baeco'
+p202
+(I2
+I0
+tp203
+(I6
+I5
+tp204
+tp205
+s(S'|How old is the sun?'
+p206
+S'|The software is par'
+p207
+tp208
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p209
+tp210
+Rp211
+S' is the '
+p212
+S' in the '
+p213
+(I7
+I983
+tp214
+(I15
+I991
+tp215
+tp216
+s(S'|What is the wingspa'
+p217
+S'|<p> The laying of a'
+p218
+tp219
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x009@'
+p220
+tp221
+Rp222
+S' the ||||wing|spa||n|| ||||of a condor'
+p223
+S' the breeding season , citing a condor'
+p224
+(I7
+I2534
+tp225
+(I32
+I2572
+tp226
+tp227
+s(S'|How old is the sun?'
+p228
+S'|Hewlett-Packard , S'
+p229
+tp230
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p231
+tp232
+Rp233
+S' |old is ||the |s'
+p234
+S' hold as much| as'
+p235
+(I3
+I1153
+tp236
+(I16
+I1169
+tp237
+tp238
+s(S'|What is the wingspa'
+p239
+S'|<p> Three Californi'
+p240
+tp241
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p242
+tp243
+Rp244
+S'pa|n of a condor'
+p245
+S'pair of|| condor'
+p246
+(I17
+I1046
+tp247
+(I32
+I1060
+tp248
+tp249
+s(S'|What is the wingspa'
+p250
+S'|The first Californi'
+p251
+tp252
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00>@'
+p253
+tp254
+Rp255
+S't i|s the ||wingspan of a c'
+p256
+S'tains the makings||| of a c'
+p257
+(I3
+I79
+tp258
+(I27
+I103
+tp259
+tp260
+s(S'|How old is the sun?'
+p261
+S"|Sun has the world's"
+p262
+tp263
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p264
+tp265
+Rp266
+S' is the '
+p267
+S' is the '
+p268
+(I7
+I532
+tp269
+(I15
+I540
+tp270
+tp271
+s(S'|How old is the sun?'
+p272
+S'|DIGITAL Equipment ('
+p273
+tp274
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p275
+tp276
+Rp277
+S' is |the '
+p278
+S" is 'the "
+p279
+(I7
+I2467
+tp280
+(I15
+I2476
+tp281
+tp282
+s(S'|What is the wingspa'
+p283
+S'|Stress is believed '
+p284
+tp285
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x007@'
+p286
+tp287
+Rp288
+S' |the| |wingsp|an||| |of a| condor'
+p289
+S' other tran|splanted Andean condor'
+p290
+(I7
+I191
+tp291
+(I32
+I224
+tp292
+tp293
+s(S'|How old is the sun?'
+p294
+S"|Sun's new decree , "
+p295
+tp296
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p297
+tp298
+Rp299
+S' is the '
+p300
+S' as the '
+p301
+(I7
+I542
+tp302
+(I15
+I550
+tp303
+tp304
+s(S'|What is the wingspa'
+p305
+S'|<p> The California '
+p306
+tp307
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x005@'
+p308
+tp309
+Rp310
+S' the wings|||pa|n o|f a condor'
+p311
+S' the fi|rst  California condor'
+p312
+(I7
+I1291
+tp313
+(I32
+I1320
+tp314
+tp315
+s(S'|What is the wingspa'
+p316
+S'|Love is in the air '
+p317
+tp318
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x008@'
+p319
+tp320
+Rp321
+S' wingspan|||||| |of ||||a| condor'
+p322
+S' wingspans .    The Andean condor'
+p323
+(I11
+I2679
+tp324
+(I32
+I2712
+tp325
+tp326
+s(S'|What is the wingspa'
+p327
+S'|A tiny California c'
+p328
+tp329
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00=@'
+p330
+tp331
+Rp332
+S' |is th|e wing|span of |a co'
+p333
+S' wi||th a wing span of up to'
+p334
+(I4
+I1416
+tp335
+(I28
+I1442
+tp336
+tp337
+s(S'|What is the wingspa'
+p338
+S'|<p> Biologists tryi'
+p339
+tp340
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x003@'
+p341
+tp342
+Rp343
+S' wingspan| '
+p344
+S' wingspans '
+p345
+(I11
+I318
+tp346
+(I21
+I329
+tp347
+tp348
+s(S'|How old is the sun?'
+p349
+S'|SUN Microsystems ai'
+p350
+tp351
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p352
+tp353
+Rp354
+S'd is the '
+p355
+S'd in the '
+p356
+(I6
+I667
+tp357
+(I15
+I676
+tp358
+tp359
+s(S'|How old is the sun?'
+p360
+S"|Lockheed Corp .'s C"
+p361
+tp362
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p363
+tp364
+Rp365
+S' old i|s the su'
+p366
+S' o|f its two su'
+p367
+(I3
+I794
+tp368
+(I17
+I808
+tp369
+tp370
+s(S'|What is the wingspa'
+p371
+S'|The first egg produ'
+p372
+tp373
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00=@'
+p374
+tp375
+Rp376
+S' th||e|| wingspan of a'
+p377
+S' |have a wingspan of a'
+p378
+(I7
+I1269
+tp379
+(I25
+I1290
+tp380
+tp381
+s(S'|How old is the sun?'
+p382
+S'|Nevertheless ,  "Th'
+p383
+tp384
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p385
+tp386
+Rp387
+S' is the '
+p388
+S' in the '
+p389
+(I7
+I624
+tp390
+(I15
+I632
+tp391
+tp392
+s(S'|How old is the sun?'
+p393
+S'|If it succeeds , th'
+p394
+tp395
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p396
+tp397
+Rp398
+S' is the '
+p399
+S' is the '
+p400
+(I7
+I1217
+tp401
+(I15
+I1225
+tp402
+tp403
+s(S'|How old is the sun?'
+p404
+S'|Silicon Graphics Co'
+p405
+tp406
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00,@'
+p407
+tp408
+Rp409
+S' |ol|d i||||s||| the s'
+p410
+S' color images on the s'
+p411
+(I3
+I475
+tp412
+(I16
+I497
+tp413
+tp414
+s(S'|What is the wingspa'
+p415
+S'|A California condor'
+p416
+tp417
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x005@'
+p418
+tp419
+Rp420
+S' the w||ings|pa|n o|f a condor'
+p421
+S" the world's California condor"
+p422
+(I7
+I1344
+tp423
+(I32
+I1374
+tp424
+tp425
+s(S'|What is the wingspa'
+p426
+S'| "Next year we\'re h'
+p427
+tp428
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p429
+tp430
+Rp431
+S' the wi||||ngspan of|||| ||||a condor'
+p432
+S' the wildernes||s of the Sespe Condor'
+p433
+(I7
+I1358
+tp434
+(I32
+I1393
+tp435
+tp436
+s(S'|How old is the sun?'
+p437
+S'|Revenue for the fou'
+p438
+tp439
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00,@'
+p440
+tp441
+Rp442
+S' |old i|s '
+p443
+S' sold its '
+p444
+(I3
+I653
+tp445
+(I11
+I663
+tp446
+tp447
+s(S'|What is the wingspa'
+p448
+S'|Four young Andean c'
+p449
+tp450
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p451
+tp452
+Rp453
+S' the wingspan of a condor'
+p454
+S' the |An|dean||||| condor'
+p455
+(I7
+I287
+tp456
+(I32
+I305
+tp457
+tp458
+s(S'|What is the wingspa'
+p459
+S'|The release of Hoin'
+p460
+tp461
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x003@'
+p462
+tp463
+Rp464
+S's| the wingspa|n o|f a condor'
+p465
+S'se the |||||California condor'
+p466
+(I6
+I789
+tp467
+(I32
+I813
+tp468
+tp469
+s(S'|What is the wingspa'
+p470
+S'| "You could tell ou'
+p471
+tp472
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p473
+tp474
+Rp475
+S' wingspan '
+p476
+S' wingspan '
+p477
+(I11
+I1406
+tp478
+(I21
+I1416
+tp479
+tp480
+s(S'|How old is the sun?'
+p481
+S'|Price cuts on older'
+p482
+tp483
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p484
+tp485
+Rp486
+S'ow |old is the '
+p487
+S'o| follows the '
+p488
+(I1
+I462
+tp489
+(I15
+I476
+tp490
+tp491
+s(S'|How old is the sun?'
+p492
+S'|Sun is fortunate Mr'
+p493
+tp494
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x003@'
+p495
+tp496
+Rp497
+S' |old |is the '
+p498
+S' told him the '
+p499
+(I3
+I4038
+tp500
+(I15
+I4052
+tp501
+tp502
+s(S'|What is the wingspa'
+p503
+S"|It's a big bird . A"
+p504
+tp505
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x009@'
+p506
+tp507
+Rp508
+S'hat| is the wingspan of a '
+p509
+S'h|ts on the wings||| |, a '
+p510
+(I1
+I216
+tp511
+(I26
+I237
+tp512
+tp513
+s(S'|What is the wingspa'
+p514
+S'|After weeks of amor'
+p515
+tp516
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x003@'
+p517
+tp518
+Rp519
+S' wingspan| '
+p520
+S' wingspans '
+p521
+(I11
+I1262
+tp522
+(I21
+I1273
+tp523
+tp524
+s(S'|What is the wingspa'
+p525
+S'|The first of two he'
+p526
+tp527
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p528
+tp529
+Rp530
+S' the wingspa|n of ||a| |c'
+p531
+S' the vang|uard of what sc'
+p532
+(I7
+I1139
+tp533
+(I27
+I1163
+tp534
+tp535
+s(S'|How old is the sun?'
+p536
+S'|IBM unveiled a line'
+p537
+tp538
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p539
+tp540
+Rp541
+S' is the su'
+p542
+S' in the su'
+p543
+(I7
+I2407
+tp544
+(I17
+I2417
+tp545
+tp546
+s(S'|How old is the sun?'
+p547
+S'|Apollo Computer Inc'
+p548
+tp549
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p550
+tp551
+Rp552
+S'o|l|d |is the '
+p553
+S'ollo  "is the '
+p554
+(I4
+I667
+tp555
+(I15
+I681
+tp556
+tp557
+s(S'|How old is the sun?'
+p558
+S'|Computers , except '
+p559
+tp560
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p561
+tp562
+Rp563
+S'l|d is the '
+p564
+S'led as the '
+p565
+(I5
+I1644
+tp566
+(I15
+I1655
+tp567
+tp568
+s(S'|How old is the sun?'
+p569
+S"|Sun's machine , exp"
+p570
+tp571
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p572
+tp573
+Rp574
+S' |old is the '
+p575
+S' no|w is the '
+p576
+(I3
+I2615
+tp577
+(I15
+I2627
+tp578
+tp579
+s(S'|How old is the sun?'
+p580
+S'|Sun also is expecte'
+p581
+tp582
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p583
+tp584
+Rp585
+S' is the s'
+p586
+S' in the s'
+p587
+(I7
+I466
+tp588
+(I16
+I475
+tp589
+tp590
+s(S'|How old is the sun?'
+p591
+S'|Compaq Computer Cor'
+p592
+tp593
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x000@'
+p594
+tp595
+Rp596
+S' is the '
+p597
+S' is the '
+p598
+(I7
+I1351
+tp599
+(I15
+I1359
+tp600
+tp601
+s(S'|How old is the sun?'
+p602
+S'|The competition amo'
+p603
+tp604
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x002@'
+p605
+tp606
+Rp607
+S'd is the '
+p608
+S'd is the '
+p609
+(I6
+I2883
+tp610
+(I15
+I2892
+tp611
+tp612
+s(S'|What is the wingspa'
+p613
+S'|The Philadelphia Zo'
+p614
+tp615
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00=@'
+p616
+tp617
+Rp618
+S'hat is the wingspan of |a co'
+p619
+S'ha|||s ||a wingspan of up to'
+p620
+(I1
+I2115
+tp621
+(I28
+I2138
+tp622
+tp623
+s(S'|What is the wingspa'
+p624
+S'|One of four Andean '
+p625
+tp626
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x003@'
+p627
+tp628
+Rp629
+S'at||| is the wingspa|n o|f a condor'
+p630
+S'ative to the |||||California condor'
+p631
+(I2
+I788
+tp632
+(I32
+I818
+tp633
+tp634
+s(S'|How old is the sun?'
+p635
+S'| "This makes it dif'
+p636
+tp637
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p638
+tp639
+Rp640
+S' |old|| is||| the '
+p641
+S' to|day is on the '
+p642
+(I3
+I788
+tp643
+(I15
+I805
+tp644
+tp645
+s(S'|What is the wingspa'
+p646
+S'|A tiny , pale aqua '
+p647
+tp648
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00:@'
+p649
+tp650
+Rp651
+S' is the win|gspa|n o|f a condor'
+p652
+S' is the |only California condor'
+p653
+(I4
+I1162
+tp654
+(I32
+I1192
+tp655
+tp656
+s(S'|How old is the sun?'
+p657
+S'|A Sun spokeswoman a'
+p658
+tp659
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00*@'
+p660
+tp661
+Rp662
+S' is the '
+p663
+S' as the '
+p664
+(I7
+I2006
+tp665
+(I15
+I2014
+tp666
+tp667
+s(S'|What is the wingspa'
+p668
+S'|The hatchings of tw'
+p669
+tp670
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00;@'
+p671
+tp672
+Rp673
+S' th||e|| wingspan of '
+p674
+S' |have a wingspan of '
+p675
+(I7
+I1176
+tp676
+(I24
+I1196
+tp677
+tp678
+s(S'|What is the wingspa'
+p679
+S'|<p> Mandan , the se'
+p680
+tp681
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x006@'
+p682
+tp683
+Rp684
+S' is the |||wingspan of '
+p685
+S' is the sibling|||| of '
+p686
+(I4
+I2819
+tp687
+(I24
+I2838
+tp688
+tp689
+s(S'|How old is the sun?'
+p690
+S'|The other new subsi'
+p691
+tp692
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00,@'
+p693
+tp694
+Rp695
+S'ld is the sun'
+p696
+S'll be the |un'
+p697
+(I5
+I266
+tp698
+(I18
+I278
+tp699
+tp700
+s(S'|What is the wingspa'
+p701
+S'|A hungry bundle of '
+p702
+tp703
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00=@'
+p704
+tp705
+Rp706
+S'hat is the wingspan of |a co'
+p707
+S'ha|||s ||a wingspan of up to'
+p708
+(I1
+I3113
+tp709
+(I28
+I3136
+tp710
+tp711
+s(S'|What is the wingspa'
+p712
+S'|<p> Zookeepers kept'
+p713
+tp714
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00>@'
+p715
+tp716
+Rp717
+S' is the wingspan ||of a condor'
+p718
+S' is the fi|rs||t time a condor'
+p719
+(I4
+I750
+tp720
+(I32
+I777
+tp721
+tp722
+s(S'|What is the wingspa'
+p723
+S'|<p> A California co'
+p724
+tp725
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x008@'
+p726
+tp727
+Rp728
+S'at is| ||t|he wing||s|pa|n of a c'
+p729
+S'at|est hatch|||ing is part of a c'
+p730
+(I2
+I524
+tp731
+(I27
+I553
+tp732
+tp733
+s(S'|What is the wingspa'
+p734
+S'|A Boy Scout who cra'
+p735
+tp736
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x008@'
+p737
+tp738
+Rp739
+S'ingspan of|| ||a| condor'
+p740
+S'ings||| of a real condor'
+p741
+(I13
+I2584
+tp742
+(I32
+I2605
+tp743
+tp744
+s(S'|How old is the sun?'
+p745
+S'|Sun Microsystems In'
+p746
+tp747
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p748
+tp749
+Rp750
+S' |old i|s |the '
+p751
+S' sold its line '
+p752
+(I3
+I41
+tp753
+(I15
+I56
+tp754
+tp755
+s(S'|How old is the sun?'
+p756
+S'|Says executive vice'
+p757
+tp758
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p759
+tp760
+Rp761
+S' |old is the '
+p762
+S' no|w is the '
+p763
+(I3
+I4563
+tp764
+(I15
+I4575
+tp765
+tp766
+s(S'|What is the wingspa'
+p767
+S'|Wildlife officials '
+p768
+tp769
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x009@'
+p770
+tp771
+Rp772
+S' |i||s ||the wingspan| '
+p773
+S' birds with| wingspans '
+p774
+(I4
+I698
+tp775
+(I21
+I720
+tp776
+tp777
+s(S'|What is the wingspa'
+p778
+S'|One zoo-hatched And'
+p779
+tp780
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x004@'
+p781
+tp782
+Rp783
+S' the wingspan of a condor'
+p784
+S' the |An|dean||||| condor'
+p785
+(I7
+I1188
+tp786
+(I32
+I1206
+tp787
+tp788
+s(S'|How old is the sun?'
+p789
+S'|Matsushita Electric'
+p790
+tp791
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p792
+tp793
+Rp794
+S'ow |old is the '
+p795
+S'on sale in the '
+p796
+(I1
+I1582
+tp797
+(I15
+I1597
+tp798
+tp799
+s(S'|What is the wingspa'
+p800
+S'|Six Andean condors '
+p801
+tp802
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x006@'
+p803
+tp804
+Rp805
+S'hat is the '
+p806
+S'hat is the '
+p807
+(I1
+I3264
+tp808
+(I12
+I3275
+tp809
+tp810
+s(S'|How old is the sun?'
+p811
+S"|While Sun's new wor"
+p812
+tp813
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00.@'
+p814
+tp815
+Rp816
+S' |o|ld is|||| the '
+p817
+S' could |stall the '
+p818
+(I3
+I3038
+tp819
+(I15
+I3055
+tp820
+tp821
+s(S'|What is the wingspa'
+p822
+S'|A newborn Californi'
+p823
+tp824
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00A@'
+p825
+tp826
+Rp827
+S't is the wingsp|an| of|||| |a|| condor'
+p828
+S't is the |offspring of the same condor'
+p829
+(I3
+I1004
+tp830
+(I32
+I1041
+tp831
+tp832
+s(S'|How old is the sun?'
+p833
+S'|In early June , Sun'
+p834
+tp835
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p836
+tp837
+Rp838
+S'w| |old is the s'
+p839
+S'we told||| the s'
+p840
+(I2
+I2451
+tp841
+(I16
+I2464
+tp842
+tp843
+s(S'|How old is the sun?'
+p844
+S'|Analysts said Apple'
+p845
+tp846
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p847
+tp848
+Rp849
+S'd is the s'
+p850
+S'd in the s'
+p851
+(I6
+I1112
+tp852
+(I16
+I1122
+tp853
+tp854
+s(S'|How old is the sun?'
+p855
+S'|Digital Equipment C'
+p856
+tp857
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x001@'
+p858
+tp859
+Rp860
+S'ow o|ld is the s'
+p861
+S'owdowns in the s'
+p862
+(I1
+I3540
+tp863
+(I16
+I3556
+tp864
+tp865
+s(S'|How old is the sun?'
+p866
+S'|The Ventura agreeme'
+p867
+tp868
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00(@'
+p869
+tp870
+Rp871
+S'ow ||old is the |s'
+p872
+S'o| broad|en the us'
+p873
+(I1
+I59
+tp874
+(I16
+I75
+tp875
+tp876
+s(S'|What is the wingspa'
+p877
+S'|An excited young An'
+p878
+tp879
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x007@'
+p880
+tp881
+Rp882
+S' the| wingspan| ||of ||a con'
+p883
+S' |her wings and took off |on'
+p884
+(I7
+I38
+tp885
+(I29
+I64
+tp886
+tp887
+s(S'|What is the wingspa'
+p888
+S'|<p> An egg laid Sun'
+p889
+tp890
+(g4
+(g8
+S'\x00\x00\x00\x00\x00\x00;@'
+p891
+tp892
+Rp893
+S'at| is the wingspa||n|| |of a condor'
+p894
+S'ate in the ||||season , so|me condor'
+p895
+(I2
+I1446
+tp896
+(I32
+I1477
+tp897
+tp898
+s.
