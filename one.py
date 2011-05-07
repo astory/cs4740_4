@@ -95,11 +95,11 @@ def main():
 #    testIDs=range(338,338)
     evaluator_combinations=[
 #    [],
-#    [seq_length],
-#    [punc_loc]
-#    [bag_of_words],
-#    [novelty_bool],
-    [pos_test]
+#     [seq_length,
+    [punc_loc]
+#     bag_of_words,
+#     novelty_bool]
+#    [pos_test]
 #    [seq_length,punc_loc,question_apposition,rewrite_apposition,pos_test,vector_bag,bag_of_words,novelty_bool] #,novelty_count]
 #    [novelty_count]
     ]
