@@ -49,8 +49,6 @@ def align_question_distance(question, (answer, doc_num, index, features,q_id)):
     (score, q, d, (q_start, d_start), (q_end, d_end)) = sw_align(question, doc)
     words = doc.split()
     index = len(" ".join(words[0:index+1]))
-    print q
-    print d
     return (min( abs(d_start - index),
         abs(d_end - index),
         0 if d_start <= index <= d_end else MAX_INT), score)

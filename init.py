@@ -11,7 +11,6 @@ import glob
 global_doc_dict = {}
 
 def get_doc(doc_num):
-    print global_doc_dict[doc_num]
     return global_doc_dict[doc_num]
   
 def get_corpus(qNum=0):  
@@ -39,6 +38,7 @@ def get_corpus(qNum=0):
                 docText = dT.renderContents().strip()
                 docText = " ".join(docText.split("\n"))
                 dict[docNum] = docText
+
                 global_doc_dict[docNum] = docText
 
     return dict

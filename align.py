@@ -19,18 +19,20 @@ INS_POINT = 3
 cache = {}
 
 def load_cache(filename="align_cache.pickle"):
-    print "loading cache"
+    print "loading cache...",
     path = os.path.relpath(filename)
     f = open(path, 'r')
     cache.update(pickle.load(f))
     f.close()
+    print "done."
 
 def save_cache(filename="align_cache.pickle"):
-    print "saving cache"
+    print "saving cache...",
     path = os.path.relpath(filename)
     f = open(path, 'w')
     pickle.dump(cache, f)
     f.close()
+    print "done."
 
 def weight(a_i, b_j):
     if a_i == b_j:
@@ -52,6 +54,8 @@ def sw_align(a, b):
     returns: (score, aligned-a, aligned-b, (a start index, b start index), (a
     end index, b end index))
     """
+    a = GAP + a
+    b = GAP + b
     if abbreviate(a,b) in cache:
         pass
     else:
@@ -64,8 +68,6 @@ def sw_align(a, b):
         # a suffix of b[1..j]
         # w(c,d), c,d in alphabet and '-', '-' is the gap-scoring scheme
         # H(i,0) = 0, 0 <= i <= m
-        a = GAP + a
-        b = GAP + b
         m = len(a)
         n = len(b)
         H = numpy.zeros((m,n))
