@@ -18,8 +18,8 @@ def classify_questions(n=1):
 	questions={}
 	for t in get_question_types(n):
 		questions[t]=[]
-	for question in read_questions.read_questions_no_answers()
-		questions[firstGram(question[1])].append(question[0])
+	for question in read_questions.read_questions_no_answers():
+		questions[firstGram(question[1],n)].append(question[0])
 	return questions
 
 def question_type(questions,n=2): #Unigrams by default
@@ -33,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
   print get_question_types()
+  print classify_questions()
